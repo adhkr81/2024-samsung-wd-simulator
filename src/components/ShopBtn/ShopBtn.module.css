@@ -1,0 +1,57 @@
+.shop-btn-container {
+  display: inline-block;
+  position: relative;
+  animation: fadeIn 350ms ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.btn {
+  border: none;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(136.74deg, #075fb7 0%, #0b278f 103.22%);
+  font-family: "SamsungSharpSans";
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.url {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  transition: all 350ms ease-in, background-color 200ms ease;
+  background-color: #2189ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.url:hover {
+  background-color: #68aeff;
+}
+.url p {
+  white-space: nowrap;
+  color: #fff;
+  font-size: 14px;
+  font-family: "SamsungOne";
+  font-weight: 700;
+  line-height: 1;
+}
+
+.url svg {
+  margin-bottom: 4px;
+  margin-left: 9px;
+}

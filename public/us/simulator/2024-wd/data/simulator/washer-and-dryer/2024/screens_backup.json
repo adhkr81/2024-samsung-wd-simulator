@@ -1,0 +1,5095 @@
+{
+  "homescreen": {
+    "img_filename": "homescreen",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 31, "height": 272, "x": 4, "y": 47, "target": "menu_home" }
+    ],
+    "back_button": { "target": "" }
+  },
+  "settings-1": {
+    "img_filename": "settings-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 68, "height": 68, "x": 38, "y": 270, "target": "picture" },
+      {
+        "width": 24,
+        "height": 32,
+        "x": 2,
+        "y": 287,
+        "target": "menu_settings"
+      },
+      { "width": 24, "height": 32, "x": 632, "y": 287, "target": "settings-2" },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 195,
+        "y": 270,
+        "target": "settings_brightnes"
+      },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 514,
+        "y": 270,
+        "target": "settings_bluetooth"
+      }
+    ],
+    "back_button": { "target": "menu_settings" }
+  },
+  "picture": {
+    "img_filename": "picture",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 188,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 227,
+        "target": "gp_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 266,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "connection": {
+    "img_filename": "connection",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 188,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 265,
+        "target": "support_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 226,
+        "target": "gp_long_background"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "menu_settings": {
+    "img_filename": "menu_settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 28, "x": -1, "y": 294, "target": "settings-1" },
+      { "width": 123, "height": 28, "x": -1, "y": 145, "target": "daily" },
+      { "width": 123, "height": 28, "x": -1, "y": 211, "target": "homescreen" },
+      { "width": 123, "height": 28, "x": -1, "y": 178, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 113, "target": "ambient" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 268,
+        "target": "connected-devices"
+      }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "connection_network": {
+    "img_filename": "connection_network",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 286,
+        "height": 26,
+        "x": 155,
+        "y": 182,
+        "target": "connection_network_expert-settings"
+      },
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 286,
+        "height": 28,
+        "x": 155,
+        "y": 98,
+        "target": "connection_network_network-status"
+      },
+      {
+        "width": 286,
+        "height": 27,
+        "x": 155,
+        "y": 127,
+        "target": "connection_network_open-network-settings"
+      },
+      {
+        "width": 286,
+        "height": 26,
+        "x": 155,
+        "y": 155,
+        "target": "connection_network_reset-network"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "connection_device-name": {
+    "img_filename": "connection_device-name",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 127,
+        "target": "connection_network"
+      },
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 292,
+        "height": 28,
+        "x": 149,
+        "y": 98,
+        "target": "connection_device-name-65"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 154,
+        "target": "connection_bluetooth-devices"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 181,
+        "target": "connection_external-device-manager"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 237,
+        "target": "connection_airplay-settings"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 209,
+        "target": "game-mode-settings_Game-Mode_ON"
+      }
+    ],
+    "back_button": { "target": "connection" }
+  },
+  "picture_expert-settings_long_background": {
+    "img_filename": "picture_expert-settings_long_background",
+    "preset": "preset3",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" }
+    ],
+    "back_button": { "target": "picture_picture-mode" },
+    "scroll_area": {
+      "img_filename": "picture_expert-settings_long",
+      "buttons": [
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 1,
+          "target": "picture-expert-settings_brightness"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 31,
+          "target": "picture-expert-settings_contrast"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 61,
+          "target": "picture-expert-settings_sharpness"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 91,
+          "target": "picture-expert-settings_color"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 121,
+          "target": "picture-expert-settings_tint"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 182,
+          "target": "picture-expert-settings_picture-clarity"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 212,
+          "target": "picture-expert-settings_local-dimming"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 242,
+          "target": "picture-expert-settings_contrast-enhancer"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 361,
+          "target": "picture-expert-settings_color-tone"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 391,
+          "target": "picture-expert-settings_white-balance"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 482,
+          "target": "picture-expert-settings_shadow-detail"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 512,
+          "target": "picture-expert-settings_color-space"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 542,
+          "target": "picture-expert-settings_color-booster"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 572,
+          "target": "picture-expert-settings_smart-calibration"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 602,
+          "target": "picture-expert-settings_reset-picture"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 151,
+          "target": "picture-expert-settings_apply-picture"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 421,
+          "target": "picture-expert-settings_gamma"
+        }
+      ]
+    }
+  },
+  "sound_expert-settings_long_background": {
+    "img_filename": "sound_expert-settings_long_background",
+    "preset": "preset3",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "sound" }
+    ],
+    "back_button": { "target": "sound_sound-output" },
+    "scroll_area": {
+      "img_filename": "sound_expert-settings_long",
+      "buttons": [
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 1,
+          "target": "sound_expert-settings_balance"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 31,
+          "target": "sound_expert-settings_equalizer"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 121,
+          "target": "sound_expert-settings_digital-output-audio-delay"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 271,
+          "target": "sound_expert-settings_auracast"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 301,
+          "target": "sound_expert-settings_reset-sound"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 61,
+          "target": "sound_expert-settings_hdmi-earc"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 91,
+          "target": "sound_expert-settings_digital-output-audio-format"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 211,
+          "target": "sound_expert-settings_sound-feedback"
+        }
+      ]
+    }
+  },
+  "gp_tp_long_background": {
+    "img_filename": "gp_tp_long_background",
+    "preset": "preset3",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_long_background" },
+    "scroll_area": { "img_filename": "gp_tp_long", "buttons": [] }
+  },
+  "settings-2": {
+    "img_filename": "settings-2",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 24, "height": 32, "x": 632, "y": 287, "target": "settings-3" },
+      { "width": 24, "height": 32, "x": 2, "y": 287, "target": "settings-1" },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 152,
+        "y": 270,
+        "target": "the-multiview"
+      }
+    ],
+    "back_button": { "target": "menu_settings" }
+  },
+  "connected-devices": {
+    "img_filename": "connected-devices",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 24,
+        "height": 32,
+        "x": 3,
+        "y": 286,
+        "target": "menu_connected-devices"
+      },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 38,
+        "y": 267,
+        "target": "connected_devices-smarthings"
+      },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 437,
+        "y": 267,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 515,
+        "y": 267,
+        "target": "universal-remote-setup"
+      }
+    ],
+    "back_button": { "target": "menu_connected-devices" }
+  },
+  "broadcasting": {
+    "img_filename": "broadcasting",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 188,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 227,
+        "target": "gp_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 265,
+        "target": "support_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "menu_daily": {
+    "img_filename": "menu_daily",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 28, "x": -1, "y": 110, "target": "ambient" },
+      { "width": 123, "height": 34, "x": -1, "y": 142, "target": "daily" },
+      { "width": 123, "height": 28, "x": -1, "y": 179, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 211, "target": "homescreen" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 268,
+        "target": "connected-devices"
+      },
+      { "width": 123, "height": 28, "x": -1, "y": 294, "target": "settings-1" }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "broadcasting_auto-program": {
+    "img_filename": "broadcasting_auto-program",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 32,
+        "height": 227,
+        "x": 104,
+        "y": 71,
+        "target": "broadcasting"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 209,
+        "target": "broadcasting_service-provider-info"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 156,
+        "target": "broadcasting_audio-options"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 128,
+        "target": "broadcasting_data-service"
+      },
+      {
+        "width": 292,
+        "height": 28,
+        "x": 149,
+        "y": 98,
+        "target": "broadcasting_auto-program_start"
+      }
+    ],
+    "back_button": { "target": "broadcasting" }
+  },
+  "menu_game": {
+    "img_filename": "menu_game",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 28, "x": -1, "y": 111, "target": "ambient" },
+      { "width": 123, "height": 28, "x": -1, "y": 143, "target": "daily" },
+      { "width": 123, "height": 35, "x": -1, "y": 174, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 211, "target": "homescreen" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 269,
+        "target": "connected-devices"
+      },
+      { "width": 123, "height": 28, "x": -1, "y": 295, "target": "settings-1" }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "daily": {
+    "img_filename": "daily",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 31, "height": 272, "x": 4, "y": 47, "target": "menu_daily" }
+    ],
+    "back_button": { "target": "menu_daily" }
+  },
+  "ambient": {
+    "img_filename": "ambient",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 31, "height": 272, "x": 4, "y": 47, "target": "menu_ambient" }
+    ],
+    "back_button": { "target": "menu_ambient" }
+  },
+  "support": {
+    "img_filename": "support",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 188,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 226,
+        "target": "gp_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 265,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "gp": {
+    "img_filename": "gp",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 187,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 226,
+        "target": "gp_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 265,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "support_software-update": {
+    "img_filename": "support_software-update",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "support" },        
+      {
+        "width": 283,
+        "height": 28,
+        "x": 157,
+        "y": 99,
+        "target": "support_software-update_update-now"
+      }
+    ],
+    "back_button": { "target": "support" }
+  },
+  "picture_picture-mode": {
+    "img_filename": "picture_picture-mode",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" },
+      {
+        "width": 292,
+        "height": 29,
+        "x": 149,
+        "y": 98,
+        "target": "picture_picturemode_eco"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 128,
+        "target": "picture_picture-size-settings"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 157,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture" }
+  },
+  "picture_picture-size-settings": {
+    "img_filename": "picture_picture-size-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" },
+      {
+        "width": 284,
+        "height": 29,
+        "x": 156,
+        "y": 98,
+        "target": "picture_picture-size-settings_169"
+      },
+      {
+        "width": 284,
+        "height": 27,
+        "x": 156,
+        "y": 128,
+        "target": "picture_picture-size-settings_fit-to-screen"
+      }
+    ],
+    "back_button": { "target": "picture_picture-mode" }
+  },
+  "sound": {
+    "img_filename": "sound",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 71,
+        "target": "picture_picture-mode"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 110,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 149,
+        "target": "connection_device-name"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 188,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 265,
+        "target": "support_long_background"
+      },
+      {
+        "width": 158,
+        "height": 32,
+        "x": 98,
+        "y": 226,
+        "target": "gp_long_background"
+      }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "settings-3": {
+    "img_filename": "settings-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 24, "height": 32, "x": 2, "y": 287, "target": "settings-2" },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 268,
+        "y": 270,
+        "target": "gp_power-and-energy_long_background"
+      },
+      {
+        "width": 68,
+        "height": 68,
+        "x": 429,
+        "y": 270,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "menu_settings" }
+  },
+  "menu_connected-devices": {
+    "img_filename": "menu_connected-devices",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 28, "x": -1, "y": 111, "target": "ambient" },
+      { "width": 123, "height": 28, "x": -1, "y": 144, "target": "daily" },
+      { "width": 123, "height": 28, "x": -1, "y": 178, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 211, "target": "homescreen" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 269,
+        "target": "connected-devices"
+      },
+      { "width": 123, "height": 28, "x": -1, "y": 295, "target": "settings-1" }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "gp_accessibility": {
+    "img_filename": "gp_accessibility",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp" }
+  },
+  "sound_sound-output": {
+    "img_filename": "sound_sound-output",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "sound" },
+      {
+        "width": 292,
+        "height": 29,
+        "x": 149,
+        "y": 98,
+        "target": "sound_sound-output_tv-speaker"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 128,
+        "target": "sound_sound-mode"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 149,
+        "y": 155,
+        "target": "sound_Sound-output_Qsymphony-setup_"
+      },
+      {
+        "width": 292,
+        "height": 27,
+        "x": 150,
+        "y": 183,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound" }
+  },
+  "game": {
+    "img_filename": "game",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 31, "height": 272, "x": 4, "y": 47, "target": "menu_game" }
+    ],
+    "back_button": { "target": "menu_game" }
+  },
+  "menu_home": {
+    "img_filename": "menu_home",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 35, "x": -1, "y": 207, "target": "homescreen" },
+      { "width": 123, "height": 28, "x": -1, "y": 177, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 144, "target": "daily" },
+      { "width": 123, "height": 28, "x": -1, "y": 111, "target": "ambient" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 269,
+        "target": "connected-devices"
+      },
+      { "width": 123, "height": 28, "x": -1, "y": 295, "target": "settings-1" }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "menu_ambient": {
+    "img_filename": "menu_ambient",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 123, "height": 35, "x": -1, "y": 108, "target": "ambient" },
+      { "width": 123, "height": 28, "x": -1, "y": 146, "target": "daily" },
+      { "width": 123, "height": 28, "x": -1, "y": 178, "target": "game" },
+      { "width": 123, "height": 28, "x": -1, "y": 211, "target": "homescreen" },
+      {
+        "width": 123,
+        "height": 28,
+        "x": -1,
+        "y": 268,
+        "target": "connected-devices"
+      },
+      { "width": 123, "height": 28, "x": -1, "y": 294, "target": "settings-1" }
+    ],
+    "back_button": { "target": "homescreen" }
+  },
+  "picture-expert-settings_bt1886": {
+    "img_filename": "picture-expert-settings_bt1886",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture_picturemode_eco": {
+    "img_filename": "picture_picturemode_eco",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 128,
+        "height": 29,
+        "x": 343,
+        "y": 248,
+        "target": "picture_picture-mode"
+      }
+    ],
+    "back_button": { "target": "picture_picture-mode" }
+  },
+  "picture_picture-size-settings_169": {
+    "img_filename": "picture_picture-size-settings_169",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 128,
+        "height": 28,
+        "x": 343,
+        "y": 277,
+        "target": "picture_picture-size-settings"
+      }
+    ],
+    "back_button": { "target": "picture_picture-size-settings" }
+  },
+  "picture_picture-size-settings_fit-to-screen": {
+    "img_filename": "picture_picture-size-settings_fit-to-screen",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 28,
+        "x": 310,
+        "y": 154,
+        "target": "picture_picture-size-settings"
+      }
+    ],
+    "back_button": { "target": "picture_picture-size-settings" }
+  },
+  "picture-expert-settings_contrast": {
+    "img_filename": "picture-expert-settings_contrast",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_sharpness": {
+    "img_filename": "picture-expert-settings_sharpness",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_gamma": {
+    "img_filename": "picture-expert-settings_gamma",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 31,
+        "x": 309,
+        "y": 215,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_white-balance": {
+    "img_filename": "picture-expert-settings_white-balance",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_color": {
+    "img_filename": "picture-expert-settings_color",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_color-space": {
+    "img_filename": "picture-expert-settings_color-space",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_apply-picture": {
+    "img_filename": "picture-expert-settings_apply-picture",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 309,
+        "y": 235,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_local-dimming": {
+    "img_filename": "picture-expert-settings_local-dimming",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 31,
+        "x": 343,
+        "y": 274,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_brightness": {
+    "img_filename": "picture-expert-settings_brightness",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_reset-picture": {
+    "img_filename": "picture-expert-settings_reset-picture",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 115,
+        "height": 31,
+        "x": 326,
+        "y": 197,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_tint": {
+    "img_filename": "picture-expert-settings_tint",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_smart-calibration": {
+    "img_filename": "picture-expert-settings_smart-calibration",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_shadow-detail": {
+    "img_filename": "picture-expert-settings_shadow-detail",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_picture-clarity": {
+    "img_filename": "picture-expert-settings_picture-clarity",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "picture" }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_color-booster": {
+    "img_filename": "picture-expert-settings_color-booster",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 344,
+        "y": 247,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_contrast-enhancer": {
+    "img_filename": "picture-expert-settings_contrast-enhancer",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 344,
+        "y": 302,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "picture-expert-settings_color-tone": {
+    "img_filename": "picture-expert-settings_color-tone",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 344,
+        "y": 247,
+        "target": "picture_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "picture_expert-settings_long_background" }
+  },
+  "sound_expert-settings_equalizer": {
+    "img_filename": "sound_expert-settings_equalizer",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 124,
+        "height": 29,
+        "x": 423,
+        "y": 204,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_sound-mode": {
+    "img_filename": "sound_sound-mode",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 125,
+        "height": 30,
+        "x": 310,
+        "y": 125,
+        "target": "sound_sound-output"
+      }
+    ],
+    "back_button": { "target": "sound_sound-output" }
+  },
+  "sound_expert-settings_digital-output-audio-format": {
+    "img_filename": "sound_expert-settings_digital-output-audio-format",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 29,
+        "x": 310,
+        "y": 208,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_expert-settings_reset-sound": {
+    "img_filename": "sound_expert-settings_reset-sound",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 114,
+        "height": 31,
+        "x": 327,
+        "y": 197,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_expert-settings_hdmi-earc": {
+    "img_filename": "sound_expert-settings_hdmi-earc",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 29,
+        "x": 310,
+        "y": 152,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_expert-settings_sound-feedback": {
+    "img_filename": "sound_expert-settings_sound-feedback",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 29,
+        "x": 310,
+        "y": 215,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_expert-settings_balance": {
+    "img_filename": "sound_expert-settings_balance",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 105,
+        "height": 31,
+        "x": 331,
+        "y": 270,
+        "target": "sound_expert-settings_long_background"
+      }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_expert-settings_digital-output-audio-delay": {
+    "img_filename": "sound_expert-settings_digital-output-audio-delay",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "sound_q-symphony": {
+    "img_filename": "sound_q-symphony",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 135,
+        "height": 30,
+        "x": 262,
+        "y": 208,
+        "target": "sound_sound-output"
+      }
+    ],
+    "back_button": { "target": "sound_sound-output" }
+  },
+  "sound_sound-output_tv-speaker": {
+    "img_filename": "sound_sound-output_tv-speaker",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 106,
+        "height": 26,
+        "x": 374,
+        "y": 210,
+        "target": "sound_sound-output"
+      }
+    ],
+    "back_button": { "target": "sound_sound-output" }
+  },
+  "connection_external-device-manager_input-signal-plus": {
+    "img_filename": "connection_external-device-manager_input-signal-plus",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 122,
+        "height": 29,
+        "x": 418,
+        "y": 189,
+        "target": "connection_external-device-manager"
+      }
+    ],
+    "back_button": { "target": "connection_external-device-manager" }
+  },
+  "connection_external-device-manager": {
+    "img_filename": "connection_external-device-manager",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 127,
+        "target": "connection_external-device-manager_input-signal-plus"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 208,
+        "target": "connection_external-device-manager_input-device-manager"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 236,
+        "target": "connection_external-device-manager_device-connect-manager"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "connection_bluetooth-devices": {
+    "img_filename": "connection_bluetooth-devices",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 95,
+        "height": 27,
+        "x": 406,
+        "y": 200,
+        "target": "connection_device-name"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "connection_airplay-settings_about-airplay": {
+    "img_filename": "connection_airplay-settings_about-airplay",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 272,
+        "height": 27,
+        "x": 357,
+        "y": 73,
+        "target": "connection_airplay-settings"
+      }
+    ],
+    "back_button": { "target": "connection_airplay-settings" }
+  },
+  "connection_airplay-settings_subtitles-and-captioning": {
+    "img_filename": "connection_airplay-settings_subtitles-and-captioning",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 272,
+        "height": 27,
+        "x": 357,
+        "y": 73,
+        "target": "connection_airplay-settings"
+      }
+    ],
+    "back_button": { "target": "connection_airplay-settings" }
+  },
+  "connection_airplay-settings_require-code": {
+    "img_filename": "connection_airplay-settings_require-code",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 272,
+        "height": 27,
+        "x": 357,
+        "y": 73,
+        "target": "connection_airplay-settings"
+      }
+    ],
+    "back_button": { "target": "connection_airplay-settings" }
+  },
+  "connection_airplay-settings": {
+    "img_filename": "connection_airplay-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 264,
+        "height": 26,
+        "x": 362,
+        "y": 117,
+        "target": "connection_airplay-settings_require-code"
+      },
+      {
+        "width": 264,
+        "height": 25,
+        "x": 362,
+        "y": 172,
+        "target": "connection_airplay-settings_about-airplay"
+      },
+      {
+        "width": 264,
+        "height": 25,
+        "x": 362,
+        "y": 145,
+        "target": "connection_airplay-settings_subtitles-and-captioning"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "connection_network_expert-settings": {
+    "img_filename": "connection_network_expert-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 278,
+        "height": 27,
+        "x": 163,
+        "y": 128,
+        "target": "connection_network_expert-settings_ip-remote"
+      },
+      {
+        "width": 278,
+        "height": 27,
+        "x": 163,
+        "y": 156,
+        "target": "connection_network_expert-settings_wifi"
+      }
+    ],
+    "back_button": { "target": "connection_network" }
+  },
+  "connection_network_expert-settings_ip-remote": {
+    "img_filename": "connection_network_expert-settings_ip-remote",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 310,
+        "y": 153,
+        "target": "connection_network_expert-settings"
+      }
+    ],
+    "back_button": { "target": "connection_network_expert-settings" }
+  },
+  "connection_network_expert-settings_wifi": {
+    "img_filename": "connection_network_expert-settings_wifi",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 116,
+        "height": 30,
+        "x": 217,
+        "y": 202,
+        "target": "connection_network_expert-settings"
+      }
+    ],
+    "back_button": { "target": "connection_network_expert-settings" }
+  },
+
+
+
+
+
+  "connection_external-device-manager_input-device-manager": {
+    "img_filename": "connection_external-device-manager_input-device-manager",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 279,
+        "height": 29,
+        "x": 162,
+        "y": 98,
+        "target": "connection_external-device-manager_input-device-manager_keyboard"
+      },
+      {
+        "width": 279,
+        "height": 29,
+        "x": 162,
+        "y": 125,
+        "target": "connection_external-device-manager_input-device-manager_mouse"
+      }
+    ],
+    "back_button": { "target": "connection_external-device-manager" }
+  },
+  "connection_external-device-manager_device-connect-manager": {
+    "img_filename": "connection_external-device-manager_device-connect-manager",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 279,
+        "height": 29,
+        "x": 162,
+        "y": 97,
+        "target": "connection_external-device-manager_device-connect-manager_access-notification"
+      },
+      {
+        "width": 279,
+        "height": 28,
+        "x": 162,
+        "y": 127,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list"
+      }
+    ],
+    "back_button": { "target": "connection_external-device-manager" }
+  },
+  "connection_network_open-network-settings": {
+    "img_filename": "connection_network_open-network-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 304,
+        "height": 30,
+        "x": 28,
+        "y": 170,
+        "target": "connection_network"
+      }
+    ],
+    "back_button": { "target": "connection_network" }
+  },
+  "connection_network_network-status": {
+    "img_filename": "connection_network_network-status",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 108,
+        "height": 32,
+        "x": 429,
+        "y": 272,
+        "target": "connection_network"
+      }
+    ],
+    "back_button": { "target": "connection_network" }
+  },
+  "connection_network_reset-network": {
+    "img_filename": "connection_network_reset-network",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 115,
+        "height": 32,
+        "x": 326,
+        "y": 197,
+        "target": "connection_network"
+      }
+    ],
+    "back_button": { "target": "connection_network" }
+  },
+  "connection_device-name-65": {
+    "img_filename": "connection_device-name-65",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 29,
+        "x": 310,
+        "y": 98,
+        "target": "connection_device-name"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "broadcasting_data-service": {
+    "img_filename": "broadcasting_data-service",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 32,
+        "height": 227,
+        "x": 104,
+        "y": 71,
+        "target": "broadcasting"
+      },
+      {
+        "width": 277,
+        "height": 29,
+        "x": 160,
+        "y": 180,
+        "target": "broadcasting_data-service_delete-browing-data"
+      }
+    ],
+    "back_button": { "target": "broadcasting_auto-program" }
+  },
+  "broadcasting_audio-options": {
+    "img_filename": "broadcasting_audio-options",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 32,
+        "height": 227,
+        "x": 104,
+        "y": 71,
+        "target": "broadcasting"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 127,
+        "target": "broadcasting_audio-options_multi-track-sound"
+      }
+    ],
+    "back_button": { "target": "broadcasting_auto-program" }
+  },
+  "broadcasting_audio-options_multi-track-sound": {
+    "img_filename": "broadcasting_audio-options_multi-track-sound",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 310,
+        "y": 152,
+        "target": "broadcasting_audio-options"
+      }
+    ],
+    "back_button": { "target": "broadcasting_audio-options" }
+  },
+  "broadcasting_service-provider-info": {
+    "img_filename": "broadcasting_service-provider-info",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 115,
+        "height": 30,
+        "x": 327,
+        "y": 198,
+        "target": "broadcasting_auto-program"
+      },
+      {
+        "width": 107,
+        "height": 29,
+        "x": 221,
+        "y": 199,
+        "target": "broadcasting_service-provider-info_setup-again-1"
+      }
+    ],
+    "back_button": { "target": "broadcasting_audio-options" }
+  },
+  "broadcasting_data-service_delete-browing-data": {
+    "img_filename": "broadcasting_data-service_delete-browing-data",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 114,
+        "height": 31,
+        "x": 327,
+        "y": 213,
+        "target": "broadcasting_data-service"
+      }
+    ],
+    "back_button": { "target": "broadcasting_data-service" }
+  },
+  "broadcasting_auto-program_start": {
+    "img_filename": "broadcasting_auto-program_start",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 116,
+        "height": 32,
+        "x": 216,
+        "y": 229,
+        "target": "broadcasting_auto-program"
+      }
+    ],
+    "back_button": { "target": "broadcasting_auto-program" }
+  },
+  "gp_accessibility_multi-output-audio": {
+    "img_filename": "gp_accessibility_multi-output-audio",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 103,
+        "height": 30,
+        "x": 402,
+        "y": 197,
+        "target": "gp_accessibility_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_accessibility_voice-guide-settings": {
+    "img_filename": "gp_accessibility_voice-guide-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_parenta-settings_program-rating-lock-settings": {
+    "img_filename": "gp_parenta-settings_program-rating-lock-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 109,
+        "height": 29,
+        "x": 275,
+        "y": 217,
+        "target": "gp_parenta-settings_"
+      }
+    ],
+    "back_button": { "target": "gp_parenta-settings_" }
+  },
+  "gp_accessibility_long_background": {
+    "img_filename": "gp_accessibility_long_background",
+    "preset": "preset3",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_long_background" },
+    "scroll_area": {
+      "img_filename": "gp_accessibility_long",
+      "buttons": [
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 1,
+          "target": "gp_accessibility_voice-guide-settings"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 122,
+          "target": "gp_accessibility_magnification"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 152,
+          "target": "gp_accessibility_high-contrast"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 182,
+          "target": "gp_accessibility_relumino-mode-settings"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 212,
+          "target": "gp_accessibility_zoom-menu"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 301,
+          "target": "gp_accessibility_seecolors-mode"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 331,
+          "target": "gp_accessibility_learn-tv-remote"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 361,
+          "target": "gp_accessibility_learn-menu-screen"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 391,
+          "target": "gp_accessibility_caption-settings"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 452,
+          "target": "gp_accessibility_sign-language-guide-settings"
+        },
+        {
+          "width": 294,
+          "height": 28,
+          "x": 0,
+          "y": 482,
+          "target": "gp_accessibility_multi-output-audio"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 511,
+          "target": "gp_accessibility_remote-button-repeat-settings"
+        }
+      ]
+    }
+  },
+  "gp_parenta-settings_app-lock": {
+    "img_filename": "gp_parenta-settings_app-lock",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_parenta-settings_" }
+  },
+  "gp_accessibility_learn-tv-remote": {
+    "img_filename": "gp_accessibility_learn-tv-remote",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_system-manager_usage-mode": {
+    "img_filename": "gp_system-manager_usage-mode",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 104,
+        "height": 31,
+        "x": 277,
+        "y": 216,
+        "target": "gp_system-manager"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager" }
+  },
+  "gp_accessibility_sign-language-guide-settings": {
+    "img_filename": "gp_accessibility_sign-language-guide-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_accessibility_long-menu": {
+    "img_filename": "gp_accessibility_long-menu",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_system-manager_samsung-account": {
+    "img_filename": "gp_system-manager_samsung-account",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 87,
+        "height": 115,
+        "x": 204,
+        "y": 186,
+        "target": "gp_system-manager_samsung-account_my-acc"
+      },
+      {
+        "width": 68,
+        "height": 76,
+        "x": 295,
+        "y": 186,
+        "target": "gp_system-manager_samsung-account_remote-control-1"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager" }
+  },
+  "gp_accessibility_learn-menu-screen": {
+    "img_filename": "gp_accessibility_learn-menu-screen",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_factory-data-reset": {
+    "img_filename": "gp_factory-data-reset",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 106,
+        "height": 28,
+        "x": 275,
+        "y": 216,
+        "target": "gp_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_tp_smart-hub-us": {
+    "img_filename": "gp_tp_smart-hub-us",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_requesting-support": {
+    "img_filename": "gp_tp_requesting-support",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_accessibility_seecolors-mode": {
+    "img_filename": "gp_accessibility_seecolors-mode",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 29,
+        "x": 344,
+        "y": 212,
+        "target": "gp_accessibility_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_power-and-energy_auto-power-off": {
+    "img_filename": "gp_power-and-energy_auto-power-off",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 309,
+        "y": 187,
+        "target": "gp_power-and-energy_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_power-and-energy_long_background" }
+  },
+  "gp_parenta-settings_parental-lock": {
+    "img_filename": "gp_parenta-settings_parental-lock",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 107,
+        "height": 28,
+        "x": 275,
+        "y": 216,
+        "target": "gp_parenta-settings_"
+      }
+    ],
+    "back_button": { "target": "gp_parenta-settings_" }
+  },
+  "gp_accessibility_magnification": {
+    "img_filename": "gp_accessibility_magnification",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 314,
+        "height": 32,
+        "x": 171,
+        "y": 228,
+        "target": "gp_accessibility_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_accessibility_zoom-menu": {
+    "img_filename": "gp_accessibility_zoom-menu",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 342,
+        "height": 36,
+        "x": 121,
+        "y": 178,
+        "target": "gp_accessibility_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_accessibility_remote-button-repeat-settings": {
+    "img_filename": "gp_accessibility_remote-button-repeat-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_system-manager_language": {
+    "img_filename": "gp_system-manager_language",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 30,
+        "x": 309,
+        "y": 124,
+        "target": "gp_system-manager"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager" }
+  },
+  "gp_system-manager": {
+    "img_filename": "gp_system-manager",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 286,
+        "height": 28,
+        "x": 155,
+        "y": 98,
+        "target": "gp_system-manager_time"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 127,
+        "target": "gp_system-manager_language"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 154,
+        "target": "gp_system-manager_samsung-account"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 182,
+        "target": "gp_system-manager_change-pin"
+      },
+      {
+        "width": 287,
+        "height": 27,
+        "x": 155,
+        "y": 210,
+        "target": "gp_system-manager_usage-mode"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_power-and-energy_long": {
+    "img_filename": "gp_power-and-energy_long",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_parenta-settings_": {
+    "img_filename": "gp_parenta-settings_",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 286,
+        "height": 27,
+        "x": 155,
+        "y": 127,
+        "target": "gp_parenta-settings_program-rating-lock-settings"
+      },
+      {
+        "width": 286,
+        "height": 27,
+        "x": 155,
+        "y": 99,
+        "target": "gp_parenta-settings_parental-lock"
+      },
+      {
+        "width": 286,
+        "height": 27,
+        "x": 155,
+        "y": 155,
+        "target": "gp_parenta-settings_app-lock"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_system-manager_change-pin": {
+    "img_filename": "gp_system-manager_change-pin",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 107,
+        "height": 30,
+        "x": 276,
+        "y": 216,
+        "target": "gp_system-manager"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager" }
+  },
+  "gp_power-and-energy_minimum-brightness": {
+    "img_filename": "gp_power-and-energy_minimum-brightness",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_power-and-energy_long_background" }
+  },
+  "gp_system-manager_time": {
+    "img_filename": "gp_system-manager_time",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_system-manager" }
+  },
+  "gp_start-screen-options": {
+    "img_filename": "gp_start-screen-options",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_tp_interest-based-advertisements": {
+    "img_filename": "gp_tp_interest-based-advertisements",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_reset-psid": {
+    "img_filename": "gp_tp_reset-psid",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_long": {
+    "img_filename": "gp_long",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_gesture_learn-gesture-functions": {
+    "img_filename": "gp_tp_gesture_learn-gesture-functions",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 112,
+        "height": 29,
+        "x": 331,
+        "y": 321,
+        "target": "gp_tp_gesture"
+      }
+    ],
+    "back_button": { "target": "gp_tp_gesture" }
+  },
+  "gp_tp_viewing-information-services": {
+    "img_filename": "gp_tp_viewing-information-services",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_gesture": {
+    "img_filename": "gp_tp_gesture",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 287,
+        "height": 28,
+        "x": 156,
+        "y": 181,
+        "target": "gp_tp_gesture_learn-gesture-functions"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_accessibility_relumino-mode-settings": {
+    "img_filename": "gp_accessibility_relumino-mode-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_tp_online-remote-management": {
+    "img_filename": "gp_tp_online-remote-management",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_intelligent-mode-settings": {
+    "img_filename": "gp_tp_intelligent-mode-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 285,
+        "height": 28,
+        "x": 155,
+        "y": 99,
+        "target": "gp_tp_intelligent-mode-settings_on"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_tp_terms-and-conditions": {
+    "img_filename": "gp_tp_terms-and-conditions",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_tp_privacy-choices": {
+    "img_filename": "gp_tp_privacy-choices",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "" }
+  },
+  "gp_accessibility_high-contrast": {
+    "img_filename": "gp_accessibility_high-contrast",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 285,
+        "height": 29,
+        "x": 156,
+        "y": 235,
+        "target": "gp_accessibility_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "gp_tp_long": {
+    "img_filename": "gp_tp_long",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_accessibility_caption-settings": {
+    "img_filename": "gp_accessibility_caption-settings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_accessibility_long_background" }
+  },
+  "support_connection-guide_pc": {
+    "img_filename": "support_connection-guide_pc",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_auto-rotating": {
+    "img_filename": "support_connection-guide_remote-control-guide_auto-rotating",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_remote-control-guide": {
+    "img_filename": "support_connection-guide_remote-control-guide",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 112,
+        "height": 29,
+        "x": 187,
+        "y": 167,
+        "target": "support_connection-guide_remote-control-guide_sollarcell"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 191,
+        "y": 259,
+        "target": "support_connection-guide_remote-control-guide_auto-rotating"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 411,
+        "y": 199,
+        "target": "support_connection-guide_remote-control-guide_guide-channel-list"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 300,
+        "y": 169,
+        "target": "support_connection-guide_remote-control-guide_smart-hub"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 191,
+        "y": 229,
+        "target": "support_connection-guide_remote-control-guide_smart-remote-pairing"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 191,
+        "y": 199,
+        "target": "support_connection-guide_remote-control-guide_usb-c"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 300,
+        "y": 199,
+        "target": "support_connection-guide_remote-control-guide_edit-app-list"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 411,
+        "y": 169,
+        "target": "support_connection-guide_remote-control-guide_change-channel"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 523,
+        "y": 199,
+        "target": "support_connection-guide_remote-control-guide_setting123"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 523,
+        "y": 229,
+        "target": "support_connection-guide_remote-control-guide_game-bar"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 523,
+        "y": 259,
+        "target": "support_connection-guide_remote-control-guide_voice"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 411,
+        "y": 259,
+        "target": "support_connection-guide_remote-control-guide_mute"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 523,
+        "y": 169,
+        "target": "support_connection-guide_remote-control-guide_accessibility"
+      },
+      {
+        "width": 102,
+        "height": 26,
+        "x": 411,
+        "y": 229,
+        "target": "support_connection-guide_remote-control-guide_adjust-volume"
+      },
+      {
+        "width": 134,
+        "height": 26,
+        "x": 264,
+        "y": 323,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_device-care_manage-storage": {
+    "img_filename": "support_device-care_manage-storage",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_device-care" }
+  },
+  "support_connection-guide_remote-control-guide_": {
+    "img_filename": "support_connection-guide_remote-control-guide_",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_external-storage": {
+    "img_filename": "support_connection-guide_external-storage",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide": {
+    "img_filename": "support_connection-guide",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "connected-devices_connection-guide": {
+    "img_filename": "connected-devices_connection-guide",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_video-device": {
+    "img_filename": "connected-devices_connection-guide_video-device",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_smartphone": {
+    "img_filename": "connected-devices_connection-guide_smartphone",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_pc": {
+    "img_filename": "connected-devices_connection-guide_pc",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_input-device": {
+    "img_filename": "connected-devices_connection-guide_input-device",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_game-console": {
+    "img_filename": "connected-devices_connection-guide_game-console",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "connected-devices_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "connected-devices_connection-guide_external-storage": {
+    "img_filename": "connected-devices_connection-guide_external-storage",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "connected-devices_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "connected-devices_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "connected-devices_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "connected-devices_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "connected-devices_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "connected-devices_connection-guide_smartphone"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+
+  
+  "support_connection-guide_remote-control-guide_change-channel": {
+    "img_filename": "support_connection-guide_remote-control-guide_change-channel",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_remote-control-guide_guide-channel-list": {
+    "img_filename": "support_connection-guide_remote-control-guide_guide-channel-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_device-care_request-support": {
+    "img_filename": "support_device-care_request-support",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 121,
+        "height": 26,
+        "x": 207,
+        "y": 276,
+        "target": "support_device-care"
+      }
+    ],
+    "back_button": { "target": "support_device-care" }
+  },
+  "support_connection-guide_remote-control-guide_game-bar": {
+    "img_filename": "support_connection-guide_remote-control-guide_game-bar",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_remote-control-guide_accessibility": {
+    "img_filename": "support_connection-guide_remote-control-guide_accessibility",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_remote-control-guide_smart-hub": {
+    "img_filename": "support_connection-guide_remote-control-guide_smart-hub",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_video-device": {
+    "img_filename": "support_connection-guide_video-device",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_adjust-volume": {
+    "img_filename": "support_connection-guide_remote-control-guide_adjust-volume",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_device-care_self-dianosis": {
+    "img_filename": "support_device-care_self-dianosis",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 135,
+        "height": 26,
+        "x": 261,
+        "y": 323,
+        "target": "support_device-care"
+      }
+    ],
+    "back_button": { "target": "support_device-care" }
+  },
+  "support_connection-guide_remote-control-guide_smart-remote-pairing": {
+    "img_filename": "support_connection-guide_remote-control-guide_smart-remote-pairing",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_game-console": {
+    "img_filename": "support_connection-guide_game-console",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_edit-app-list": {
+    "img_filename": "support_connection-guide_remote-control-guide_edit-app-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_remote-control-guide_usb-c": {
+    "img_filename": "support_connection-guide_remote-control-guide_usb-c",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 145,
+        "height": 31,
+        "x": 256,
+        "y": 320,
+        "target": "support_connection-guide_remote-control-guide"
+      }
+    ],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_software-update_update-now": {
+    "img_filename": "support_software-update_update-now",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 146,
+        "height": 29,
+        "x": 256,
+        "y": 322,
+        "target": "support_software-update"
+      }
+    ],
+    "back_button": { "target": "support_software-update" }
+  },
+  "support_device-care_start-device-care": {
+    "img_filename": "support_device-care_start-device-care",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 147,
+        "height": 29,
+        "x": 256,
+        "y": 316,
+        "target": "support_device-care"
+      }
+    ],
+    "back_button": { "target": "support_device-care" }
+  },
+  "support_connection-guide_remote-control-guide_mute": {
+    "img_filename": "support_connection-guide_remote-control-guide_mute",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_long": {
+    "img_filename": "support_long",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support" }
+  },
+  "support_maintenance-mode": {
+    "img_filename": "support_maintenance-mode",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 132,
+        "height": 28,
+        "x": 332,
+        "y": 321,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_input-device": {
+    "img_filename": "support_connection-guide_input-device",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 153,
+        "target": "support_connection-guide_smartphone"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_setting123": {
+    "img_filename": "support_connection-guide_remote-control-guide_setting123",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_connection-guide_smartphone": {
+    "img_filename": "support_connection-guide_smartphone",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 88,
+        "target": "support_connection-guide"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 121,
+        "target": "support_connection-guide_video-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 253,
+        "target": "support_connection-guide_game-console"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 220,
+        "target": "support_connection-guide_input-device"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 286,
+        "target": "support_connection-guide_external-storage"
+      },
+      {
+        "width": 94,
+        "height": 29,
+        "x": 140,
+        "y": 186,
+        "target": "support_connection-guide_pc"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_about-this-tv": {
+    "img_filename": "support_about-this-tv",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 154,
+        "height": 31,
+        "x": 399,
+        "y": 267,
+        "target": "support_long_background"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_sollarcell": {
+    "img_filename": "support_connection-guide_remote-control-guide_sollarcell",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 145,
+        "height": 31,
+        "x": 256,
+        "y": 320,
+        "target": "support_connection-guide_remote-control-guide"
+      }
+    ],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_game-controller-guide": {
+    "img_filename": "support_game-controller-guide",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_open-user-guide": {
+    "img_filename": "support_open-user-guide",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "support_long_background" }
+  },
+  "support_connection-guide_remote-control-guide_voice": {
+    "img_filename": "support_connection-guide_remote-control-guide_voice",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 145,
+        "height": 31,
+        "x": 256,
+        "y": 320,
+        "target": "support_connection-guide_remote-control-guide"
+      }
+    ],
+    "back_button": { "target": "support_connection-guide_remote-control-guide" }
+  },
+  "support_device-care": {
+    "img_filename": "support_device-care",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 146,
+        "height": 29,
+        "x": 257,
+        "y": 246,
+        "target": "support_device-care_start-device-care"
+      },
+      {
+        "width": 132,
+        "height": 25,
+        "x": 126,
+        "y": 324,
+        "target": "support_device-care_manage-storage"
+      },
+      {
+        "width": 132,
+        "height": 25,
+        "x": 267,
+        "y": 324,
+        "target": "support_device-care_self-dianosis"
+      },
+      {
+        "width": 132,
+        "height": 25,
+        "x": 405,
+        "y": 324,
+        "target": "support_device-care_request-support"
+      }
+    ],
+    "back_button": { "target": "support_long_background" }
+  },
+  "sound_expert-settings_auracast": {
+    "img_filename": "sound_expert-settings_auracast",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 34, "height": 229, "x": 104, "y": 71, "target": "sound" }
+    ],
+    "back_button": { "target": "sound_expert-settings_long_background" }
+  },
+  "connected_devices-smarthings": {
+    "img_filename": "connected_devices-smarthings",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "connected-devices" }
+  },
+  "universal-remote-setup": {
+    "img_filename": "universal-remote-setup",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 132,
+        "height": 30,
+        "x": 332,
+        "y": 320,
+        "target": "connected-devices"
+      }
+    ],
+    "back_button": { "target": "connected-devices" }
+  },
+  "the-multiview": {
+    "img_filename": "the-multiview",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "settings-2" }
+  },
+  "settings_brightnes": {
+    "img_filename": "settings_brightnes",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "settings-1" }
+  },
+  "settings_bluetooth": {
+    "img_filename": "settings_bluetooth",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 93, "height": 27, "x": 407, "y": 199, "target": "settings-1" }
+    ],
+    "back_button": { "target": "settings-1" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 286,
+        "height": 29,
+        "x": 155,
+        "y": 98,
+        "target": "gp_voice_voice-assistance-bixbu-or-amazon"
+      },
+      {
+        "width": 286,
+        "height": 29,
+        "x": 155,
+        "y": 207,
+        "target": "gp_Voice_Voice-Hint_option"
+      },
+      {
+        "width": 286,
+        "height": 29,
+        "x": 155,
+        "y": 237,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 83,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 116,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 150,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 183,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 216,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 51,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 116,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 150,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 183,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 216,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 51,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 83,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 150,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 183,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 216,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 51,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 83,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 116,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 183,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 216,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 51,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 83,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 116,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 150,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 216,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+  "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6": {
+    "img_filename": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-6",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 51,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-1"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 83,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-2"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 116,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-3"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 150,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-4"
+      },
+      {
+        "width": 131,
+        "height": 30,
+        "x": 18,
+        "y": 183,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby-5"
+      }
+    ],
+    "back_button": { "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby" }
+  },
+
+
+
+
+
+  "gp_Voice_Voice-Hint_option": {
+    "img_filename": "gp_Voice_Voice-Hint_option",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 126,
+        "height": 30,
+        "x": 310,
+        "y": 235,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+      }
+    ],
+    "back_button": {
+      "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+    }
+  },
+  "bixby-4": {
+    "img_filename": "bixby-4",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "bixby-3" }
+  },
+  "bixby-1": {
+    "img_filename": "bixby-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 176, "height": 29, "x": 159, "y": 332, "target": "bixby-2" },
+      {
+        "width": 158,
+        "height": 29,
+        "x": 334,
+        "y": 332,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+      }
+    ],
+    "back_button": {
+      "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+    }
+  },
+  "bixby-3": {
+    "img_filename": "bixby-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 158,
+        "height": 29,
+        "x": 412,
+        "y": 332,
+        "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+      },
+      { "width": 178, "height": 29, "x": 76, "y": 332, "target": "bixby-4" }
+    ],
+    "back_button": { "target": "bixby-2" }
+  },
+  "bixby-2": {
+    "img_filename": "bixby-2",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 158, "height": 29, "x": 334, "y": 332, "target": "bixby-3" },
+      { "width": 158, "height": 29, "x": 167, "y": 332, "target": "bixby-3" }
+    ],
+    "back_button": { "target": "bixby-1" }
+  },
+  "game-mode-settings_Game-Mode_ON": {
+    "img_filename": "game-mode-settings_Game-Mode_ON",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 287,
+        "height": 29,
+        "x": 155,
+        "y": 207,
+        "target": "game-mode-settings_Game-Motion-Plus-setting_Game-motion-plus_on"
+      },
+      {
+        "width": 287,
+        "height": 29,
+        "x": 155,
+        "y": 236,
+        "target": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming"
+      }
+    ],
+    "back_button": { "target": "connection_device-name" }
+  },
+  "game-mode-settings_Game-Motion-Plus-setting_Game-motion-plus_on": {
+    "img_filename": "game-mode-settings_Game-Motion-Plus-setting_Game-motion-plus_on",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" }
+    ],
+    "back_button": { "target": "game-mode-settings_Game-Mode_ON" }
+  },
+  "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming": {
+    "img_filename": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 279,
+        "height": 29,
+        "x": 162,
+        "y": 98,
+        "target": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming_option_basic"
+      }
+    ],
+    "back_button": { "target": "game-mode-settings_Game-Mode_ON" }
+  },
+  "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming_option_basic": {
+    "img_filename": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming_option_basic",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 125,
+        "height": 30,
+        "x": 310,
+        "y": 125,
+        "target": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming"
+      }
+    ],
+    "back_button": {
+      "target": "game-mode-settings_Game-Picture-Expert_HDR10-Plus-gaming"
+    }
+  },
+  "sound_Sound-output_list": {
+    "img_filename": "sound_Sound-output_list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 134,
+        "height": 28,
+        "x": 199,
+        "y": 310,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 123,
+        "height": 28,
+        "x": 331,
+        "y": 310,
+        "target": "sound_Sound-output_Qsymphony-setup_"
+      }
+    ],
+    "back_button": { "target": "sound_Sound-output_Qsymphony-setup_" }
+  },
+  "sound_Sound-output_Qsymphony-setup_": {
+    "img_filename": "sound_Sound-output_Qsymphony-setup_",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 238,
+        "height": 32,
+        "x": 104,
+        "y": 114,
+        "target": "sound_Sound-output_list"
+      },
+      {
+        "width": 126,
+        "height": 30,
+        "x": 331,
+        "y": 309,
+        "target": "sound_sound-output"
+      }
+    ],
+    "back_button": { "target": "sound_sound-output" }
+  },
+  "sound_Sound-output_Qsymphony-setup_apply": {
+    "img_filename": "sound_Sound-output_Qsymphony-setup_apply",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 30,
+        "x": 331,
+        "y": 309,
+        "target": "sound_sound-output"
+      },
+      {
+        "width": 135,
+        "height": 29,
+        "x": 198,
+        "y": 309,
+        "target": "sound_sound-output"
+      }
+    ],
+    "back_button": { "target": "sound_Sound-output_Qsymphony-setup_" }
+  },
+  "gp_power-and-energy_long_background": {
+    "img_filename": "gp_power-and-energy_long_background",
+    "preset": "preset3",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp_long_background" },
+    "scroll_area": {
+      "img_filename": "gp_power-and-energy_long",
+      "buttons": [
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 31,
+          "target": "gp_power-and-energy_minimum-brightness"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 121,
+          "target": "gp_power-and-energy_auto-power-off"
+        },
+        {
+          "width": 294,
+          "height": 29,
+          "x": 0,
+          "y": 241,
+          "target": "gp_power-energy_available-remote_information"
+        }
+      ]
+    }
+  },
+  "gp_power-energy_available-remote_information": {
+    "img_filename": "gp_power-energy_available-remote_information",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 116,
+        "height": 32,
+        "x": 271,
+        "y": 255,
+        "target": "gp_power-and-energy_long_background"
+      }
+    ],
+    "back_button": { "target": "gp_power-and-energy_long_background" }
+  },
+  "gp_system-manager_samsung-account_my-acc": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 82,
+        "height": 92,
+        "x": 101,
+        "y": 148,
+        "target": "gp_system-manager_samsung-account_my-acc_edit"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 473,
+        "y": 148,
+        "target": "gp_system-manager_samsung-account_my-acc_product-registration"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 380,
+        "y": 148,
+        "target": "gp_system-manager_samsung-account_my-acc_backup"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 287,
+        "y": 148,
+        "target": "gp_system-manager_samsung-account_my-acc_pay"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 194,
+        "y": 148,
+        "target": "gp_system-manager_samsung-account_my-acc_pin"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 101,
+        "y": 248,
+        "target": "gp_system-manager_samsung-account_my-acc_security"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 380,
+        "y": 248,
+        "target": "gp_system-manager_samsung-account_my-acc_remove"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 287,
+        "y": 248,
+        "target": "gp_system-manager_samsung-account_my-acc_about"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 194,
+        "y": 248,
+        "target": "gp_system-manager_samsung-account_my-acc_sync"
+      },
+      {
+        "width": 82,
+        "height": 92,
+        "x": 473,
+        "y": 248,
+        "target": "gp_system-manager_samsung-account_my-acc_sign-out"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account" }
+  },
+  "gp_system-manager_samsung-account_my-acc_edit": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_edit",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 133,
+        "height": 28,
+        "x": 193,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_my-acc"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_pin": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_pin",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_pay": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_pay",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_backup": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_backup",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 145,
+        "height": 29,
+        "x": 256,
+        "y": 332,
+        "target": "gp_system-manager_samsung-account_my-acc"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_product-registration": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_product-registration",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 132,
+        "height": 27,
+        "x": 332,
+        "y": 323,
+        "target": "gp_system-manager_samsung-account_my-acc"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_security": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_security",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_sync": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_sync",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_about": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_about",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 124,
+        "height": 29,
+        "x": 265,
+        "y": 272,
+        "target": "gp_system-manager_samsung-account_my-acc"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_remove": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_remove",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 114,
+        "height": 30,
+        "x": 219,
+        "y": 192,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_my-acc_sign-out": {
+    "img_filename": "gp_system-manager_samsung-account_my-acc_sign-out",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 115,
+        "height": 29,
+        "x": 218,
+        "y": 192,
+        "target": "gp_system-manager_samsung-account"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_my-acc" }
+  },
+  "gp_system-manager_samsung-account_remote-control-1": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 154,
+        "height": 29,
+        "x": 364,
+        "y": 204,
+        "target": "gp_system-manager_samsung-account_remote-control-2"
+      },
+      {
+        "width": 138,
+        "height": 27,
+        "x": 259,
+        "y": 322,
+        "target": "gp_system-manager_samsung-account"
+      },
+      {
+        "width": 141,
+        "height": 28,
+        "x": 371,
+        "y": 232,
+        "target": "gp_system-manager_samsung-account_remote-website"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account" }
+  },
+  "gp_system-manager_samsung-account_remote-control_remove-1": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control_remove-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 154,
+        "height": 29,
+        "x": 364,
+        "y": 204,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-2"
+      },
+      {
+        "width": 138,
+        "height": 27,
+        "x": 259,
+        "y": 322,
+        "target": "gp_system-manager_samsung-account_remote_remove-website_yes"
+      },
+      {
+        "width": 141,
+        "height": 28,
+        "x": 371,
+        "y": 232,
+        "target": "gp_system-manager_samsung-account_remote_remove-website"
+      }
+    ],
+    "back_button": { "target": "gp_system-manager_samsung-account_remote_remove-website_yes" }
+  },
+  "gp_system-manager_samsung-account_remote-control_remove-2": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control_remove-2",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 99,
+        "height": 29,
+        "x": 187,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-3"
+      },
+      {
+        "width": 89,
+        "height": 29,
+        "x": 285,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+    }
+  },
+  "gp_system-manager_samsung-account_remote-control_remove-3": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control_remove-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 148,
+        "height": 30,
+        "x": 255,
+        "y": 321,
+        "target": "gp_system-manager"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control_remove-2"
+    }
+  },
+  "gp_system-manager_samsung-account_remote_remove-website_yes": {
+    "img_filename": "gp_system-manager_samsung-account_remote_remove-website_yes",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 113,
+        "height": 28,
+        "x": 219,
+        "y": 193,
+        "target": "gp_system-manager"
+      },
+      {
+        "width": 105,
+        "height": 28,
+        "x": 331,
+        "y": 193,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager"
+    }
+  },
+  "gp_system-manager_samsung-account_remote_remove-website": {
+    "img_filename": "gp_system-manager_samsung-account_remote_remove-website",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 148,
+        "height": 30,
+        "x": 255,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control_remove-1"
+    }
+  },
+  "gp_system-manager_samsung-account_remote-control-2": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control-2",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 99,
+        "height": 29,
+        "x": 187,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control-3"
+      },
+      {
+        "width": 89,
+        "height": 29,
+        "x": 285,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control-1"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control-1"
+    }
+  },
+  "gp_system-manager_samsung-account_remote-control-3": {
+    "img_filename": "gp_system-manager_samsung-account_remote-control-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 148,
+        "height": 30,
+        "x": 255,
+        "y": 321,
+        "target": "gp_system-manager"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control-2"
+    }
+  },
+  "gp_system-manager_samsung-account_remote-website": {
+    "img_filename": "gp_system-manager_samsung-account_remote-website",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 148,
+        "height": 30,
+        "x": 255,
+        "y": 321,
+        "target": "gp_system-manager_samsung-account_remote-control-1"
+      }
+    ],
+    "back_button": {
+      "target": "gp_system-manager_samsung-account_remote-control-1"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_keyboard": {
+    "img_filename": "connection_external-device-manager_input-device-manager_keyboard",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 272,
+        "height": 29,
+        "x": 169,
+        "y": 98,
+        "target": "connection_external-device-manager_input-device-manager_keyboard_english"
+      },
+      {
+        "width": 272,
+        "height": 29,
+        "x": 169,
+        "y": 127,
+        "target": "connection_external-device-manager_input-device-manager_keyboard_us"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_keyboard_english": {
+    "img_filename": "connection_external-device-manager_input-device-manager_keyboard_english",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 29,
+        "x": 310,
+        "y": 98,
+        "target": "connection_external-device-manager_input-device-manager_keyboard"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager_keyboard"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_keyboard_us": {
+    "img_filename": "connection_external-device-manager_input-device-manager_keyboard_us",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 125,
+        "height": 29,
+        "x": 310,
+        "y": 125,
+        "target": "connection_external-device-manager_input-device-manager_keyboard"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager_keyboard"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_mouse": {
+    "img_filename": "connection_external-device-manager_input-device-manager_mouse",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "connection" },
+      {
+        "width": 272,
+        "height": 28,
+        "x": 169,
+        "y": 98,
+        "target": "connection_external-device-manager_input-device-manager_mouse_mouse-pointer"
+      },
+      {
+        "width": 272,
+        "height": 28,
+        "x": 169,
+        "y": 127,
+        "target": "connection_external-device-manager_input-device-manager_mouse_primary"
+      },
+      {
+        "width": 272,
+        "height": 28,
+        "x": 169,
+        "y": 155,
+        "target": "connection_external-device-manager_input-device-manager_mouse_pointer-speed"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_mouse_mouse-pointer": {
+    "img_filename": "connection_external-device-manager_input-device-manager_mouse_mouse-pointer",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 126,
+        "height": 29,
+        "x": 309,
+        "y": 126,
+        "target": "connection_external-device-manager_input-device-manager_mouse"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager_mouse"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_mouse_primary": {
+    "img_filename": "connection_external-device-manager_input-device-manager_mouse_primary",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 128,
+        "height": 29,
+        "x": 309,
+        "y": 125,
+        "target": "connection_external-device-manager_input-device-manager_mouse"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager_mouse"
+    }
+  },
+  "connection_external-device-manager_input-device-manager_mouse_pointer-speed": {
+    "img_filename": "connection_external-device-manager_input-device-manager_mouse_pointer-speed",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 125,
+        "height": 29,
+        "x": 310,
+        "y": 180,
+        "target": "connection_external-device-manager_input-device-manager_mouse"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_input-device-manager_mouse"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access-notification": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access-notification",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 128,
+        "height": 30,
+        "x": 309,
+        "y": 98,
+        "target": "connection_external-device-manager_device-connect-manager"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access_device-list": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access_device-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 173,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_select"
+      },
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 204,
+        "target": "connection_external-device-manager_device-connect-manager"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access_device-list_select": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access_device-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 173,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_deselect"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager_access_device-list"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access_device-list_deselect": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access_device-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 173,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_select"
+      },
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 204,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_confirm"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager_access_device-list"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access_device-list_confirm": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access_device-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 114,
+        "height": 32,
+        "x": 217,
+        "y": 197,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_empty"
+      },
+      {
+        "width": 107,
+        "height": 32,
+        "x": 330,
+        "y": 197,
+        "target": "connection_external-device-manager_device-connect-manager_access_device-list_deselect"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager_access_device-list_deselect"
+    }
+  },
+  "connection_external-device-manager_device-connect-manager_access_device-list_empty": {
+    "img_filename": "connection_external-device-manager_device-connect-manager_access_device-list",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 111,
+        "height": 32,
+        "x": 421,
+        "y": 204,
+        "target": "connection_external-device-manager_device-connect-manager"
+      }
+    ],
+    "back_button": {
+      "target": "connection_external-device-manager_device-connect-manager"
+    }
+  },
+
+
+
+  "broadcasting_service-provider-info_setup-again-1": {
+    "img_filename": "broadcasting_service-provider-info_setup-again-1",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 176,
+        "height": 33,
+        "x": 241,
+        "y": 329,
+        "target": "broadcasting_service-provider-info_setup-again-3"
+      }
+    ],
+    "back_button": { "target": "broadcasting_auto-program" }
+  },
+  "broadcasting_service-provider-info_setup-again-3": {
+    "img_filename": "broadcasting_service-provider-info_setup-again-3",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 301,
+        "height": 31,
+        "x": 83,
+        "y": 210,
+        "target": "broadcasting_service-provider-info_setup-again-4_antenna"
+      },
+      {
+        "width": 300,
+        "height": 29,
+        "x": 83,
+        "y": 239,
+        "target": "broadcasting_service-provider-info_setup-again-4-no_service"
+      }
+    ],
+    "back_button": {
+      "target": "broadcasting_service-provider-info_setup-again-1"
+    }
+  },
+  "broadcasting_service-provider-info_setup-again-4_antenna": {
+    "img_filename": "broadcasting_service-provider-info_setup-again-4_antenna",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 176,
+        "height": 27,
+        "x": 241,
+        "y": 333,
+        "target": "broadcasting_auto-program"
+      }
+    ],
+    "back_button": {
+      "target": "broadcasting_service-provider-info_setup-again-3"
+    }
+  },
+  "broadcasting_service-provider-info_setup-again-4-no_service": {
+    "img_filename": "broadcasting_service-provider-info_setup-again-4-no_service",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 176,
+        "height": 29,
+        "x": 157,
+        "y": 332,
+        "target": "broadcasting_auto-program"
+      }
+    ],
+    "back_button": {
+      "target": "broadcasting_service-provider-info_setup-again-3"
+    }
+  },
+  "gp_long_background": {
+    "img_filename": "gp_long_background",
+    "preset": "preset2",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" }
+    ],
+    "back_button": { "target": "gp" },
+    "scroll_area": {
+      "img_filename": "gp_long",
+      "buttons": [
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 2,
+          "target": "gp_accessibility_long_background"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 32,
+          "target": "gp_tp_long_background"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 180,
+          "target": "gp_parenta-settings_"
+        },
+        {
+          "width": 298,
+          "height": 28,
+          "x": 1,
+          "y": 151,
+          "target": "gp_system-manager"
+        },
+        {
+          "width": 298,
+          "height": 28,
+          "x": 1,
+          "y": 122,
+          "target": "gp_tp_gesture"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 62,
+          "target": "gp_tp_intelligent-mode-settings"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 210,
+          "target": "gp_power-and-energy_long_background"
+        },
+        {
+          "width": 298,
+          "height": 28,
+          "x": 1,
+          "y": 270,
+          "target": "gp_start-screen-options"
+        },
+        {
+          "width": 298,
+          "height": 28,
+          "x": 1,
+          "y": 299,
+          "target": "gp_factory-data-reset"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 92,
+          "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+        },
+        {
+          "width": 298,
+          "height": 29,
+          "x": 1,
+          "y": 240,
+          "target": "panel-Care_Pixel-Shift_On"
+        }
+      ]
+    }
+  },
+  "support_long_background": {
+    "img_filename": "support_long_background",
+    "preset": "preset2",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "support" }
+    ],
+    "back_button": { "target": "support" },
+    "scroll_area": {
+      "img_filename": "support_long",
+      "buttons": [
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 1,
+          "target": "support_software-update"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 31,
+          "target": "support_device-care"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 61,
+          "target": "support_maintenance-mode"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 91,
+          "target": "support_connection-guide"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 121,
+          "target": "support_connection-guide_remote-control-guide"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 151,
+          "target": "support_game-controller-guide"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 181,
+          "target": "support_open-user-guide"
+        },
+        {
+          "width": 301,
+          "height": 29,
+          "x": 0,
+          "y": 241,
+          "target": "support_about-this-tv"
+        }
+      ]
+    }
+  },
+  "gp_tp_intelligent-mode-settings_on": {
+    "img_filename": "gp_tp_intelligent-mode-settings_on",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 285,
+        "height": 28,
+        "x": 155,
+        "y": 99,
+        "target": "gp_tp_intelligent-mode-settings"
+      },
+      {
+        "width": 285,
+        "height": 27,
+        "x": 155,
+        "y": 128,
+        "target": "gp_tp_intelligent-mode-settings_on_adaptive"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "gp_tp_intelligent-mode-settings_on_adaptive": {
+    "img_filename": "gp_tp_intelligent-mode-settings_on_adaptive",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 125,
+        "height": 29,
+        "x": 310,
+        "y": 153,
+        "target": "gp_tp_intelligent-mode-settings_on"
+      }
+    ],
+    "back_button": { "target": "gp_tp_intelligent-mode-settings_on" }
+  },
+  "gp_voice_voice-assistance-bixbu-or-amazon": {
+    "img_filename": "gp_voice_voice-assistance-bixbu-or-amazon",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 125, "height": 29, "x": 310, "y": 99, "target": "bixby-1" }
+    ],
+    "back_button": {
+      "target": "All-settings_General-and-Privacy_Voice_voice-assistance_Bixby"
+    }
+  },
+  "panel-Care_Pixel-Shift_On": {
+    "img_filename": "panel-Care_Pixel-Shift_On",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      { "width": 32, "height": 227, "x": 104, "y": 71, "target": "gp" },
+      {
+        "width": 285,
+        "height": 28,
+        "x": 156,
+        "y": 126,
+        "target": "panel-Care_Auto-Logo-Brightness_Option"
+      },
+      {
+        "width": 285,
+        "height": 28,
+        "x": 156,
+        "y": 155,
+        "target": "panel-Care_Pixel-Refresh_Start-Now"
+      }
+    ],
+    "back_button": { "target": "gp_long_background" }
+  },
+  "panel-Care_Auto-Logo-Brightness_Option": {
+    "img_filename": "panel-Care_Auto-Logo-Brightness_Option",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 127,
+        "height": 29,
+        "x": 309,
+        "y": 153,
+        "target": "panel-Care_Pixel-Shift_On"
+      }
+    ],
+    "back_button": { "target": "panel-Care_Pixel-Shift_On" }
+  },
+  "panel-Care_Pixel-Refresh_Start-Now": {
+    "img_filename": "panel-Care_Pixel-Refresh_Start-Now",
+    "preset": "preset1",
+    "model": "washer-and-dryer",
+    "buttons": [
+      {
+        "width": 91,
+        "height": 28,
+        "x": 378,
+        "y": 196,
+        "target": "panel-Care_Pixel-Shift_On"
+      }
+    ],
+    "back_button": { "target": "panel-Care_Pixel-Shift_On" }
+  }
+}

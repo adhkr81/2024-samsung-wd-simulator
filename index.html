@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Samsung Simulator</title>
+	<link rel="stylesheet" href="/global.css">
+</head>
+
+
+
+<body>
+	<style>
+		#scroll-div {
+			-ms-overflow-style: none;
+			/* Internet Explorer 10+ */
+			scrollbar-width: none;
+			/* Firefox */
+		}
+
+		@media (min-width: %VITE_BREAKPOINT%px) and (max-height: 750px) {
+			body {
+				overflow-y: scroll !important;
+			}
+		}
+	</style>
+	<div id="root" data-path="%VITE_ASSETS_PATH%"></div>
+	<script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

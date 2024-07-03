@@ -1,0 +1,273 @@
+@import "../../styles/variables.scss";
+
+.section-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $gray-300;
+  border-bottom: 1px solid $gray-300;
+  cursor: pointer;
+  font-weight: 700;
+  color: $gray-900;
+  background-color: $gray-100;
+  padding: 0;
+  min-height: 50px;
+  height: 67px;
+  margin: 0;
+  transition: 0.3s ease;
+  p {
+    padding: 0;
+    padding-left: 1rem;
+    margin: 0;
+    &.active {
+      color: $samsung-skyblue;
+    }
+  }
+
+  .rotate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 83px;
+    border-left: 1px solid $gray-200;
+    background-color: $gray-200;
+    transition: 0.3s ease;
+    &:hover {
+      background-color: $gray-100;
+    }
+    &.active {
+      svg path {
+        stroke: none;
+        fill: black;
+      }
+    }
+  }
+}
+
+.simulator-side-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  &__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    min-height: 40px;
+    margin: 30px 16px;
+
+    @media screen and (max-width: 960px) {
+      margin: 30px 16px;
+    }
+
+    input[type="text"] {
+      flex-grow: 1;
+      height: 100%;
+      background-color: transparent;
+      border: none;
+      padding: 0px 12px 0px 50px;
+      // max-width: calc(100% - 66px);
+      max-width: 100%;
+      color: #1c1c1c;
+      font-family: "SamsungOne", arial, sans-serif;
+      font-weight: 700;
+      border: rgba(88, 87, 87, 0.5) 1px solid;
+
+      &:focus {
+        outline: none;
+        border: 1px solid $samsung-skyblue;
+      }
+    }
+
+    button {
+      width: 50px;
+      height: 50px;
+      border: none;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-family: "SamsungOne";
+      position: absolute;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &-no-result {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      padding: 0 16px;
+    }
+
+    &-title {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 25px;
+      padding: 0 16px;
+    }
+
+    &-suggestions {
+      padding: 0 16px;
+    }
+
+    &--preview-item {
+      font-family: "SamsungOne";
+      margin: 4px 2px;
+      padding: 7px 15px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #fff;
+      border: 1px solid $gray-900;
+      border-radius: 16px;
+      background-color: $gray-900;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $black;
+      }
+    }
+
+    &-result {
+      &--list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      &--item {
+        font-size: 14px;
+
+        &:hover {
+          background-color: $gray-100;
+          color: $samsung-skyblue;
+          cursor: pointer;
+        }
+
+        padding: 16px 24px;
+        width: 100%;
+        color: $black;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 150ms ease-in;
+
+        &:hover {
+          background-color: $gray-100;
+          color: $samsung-skyblue;
+        }
+      }
+    }
+  }
+}
+
+.mobile-nav-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 20px 16px -10px 16px;
+  gap: 4px;
+}
+
+.mobile-section-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: 8px;
+  background-color: #e8e8e8;
+  border: none;
+}
+
+.mobile-section-button[data-active="true"] {
+  color: $samsung-skyblue;
+}
+
+.mobile-section-button[data-active="true"] {
+  svg path {
+    stroke: $samsung-skyblue;
+  }
+}
+
+.mobile-section-button svg {
+  margin-top: 2px;
+  width: 17px;
+}
+
+.mobile-section-button p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.mobile-section-button .Emulator{
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.mobile-section-button .Emulator svg{
+  width: 30px;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  aspect-ratio: 1 / 1;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.simulator-menu__accordion-list {
+  overflow-y: auto;
+  height: calc(100% - 110px);
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      cursor: pointer;
+      padding: 0.75rem 1rem 0.75rem 2rem;
+      font-family: "SamsungOne", sans-serif;
+
+      &:hover {
+        background-color: $gray-100;
+      }
+
+      &.active {
+        color: $samsung-skyblue;
+        font-weight: 700;
+      }
+    }
+  }
+}
+div[data-layout="landscape"] {
+  .simulator-menu__accordion-list {
+    display: flex;
+
+    // height: calc(100% - 50px);
+  }
+}
+div[data-layout="portrait"] {
+  .simulator-menu__accordion-list {
+    display: flex;
+    // height: calc(100% - 179px);
+  }
+}
+@media screen and (max-width: $desktop-lg) {
+  .simulator-menu__accordion-list {
+    max-width: 100%;
+    height: auto;
+  }
+}

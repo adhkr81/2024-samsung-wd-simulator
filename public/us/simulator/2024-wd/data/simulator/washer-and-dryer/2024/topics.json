@@ -1,0 +1,3760 @@
+{
+  "about-device": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 360,
+          "top": 339,
+          "width": 299
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-2",
+        "text": "<p>Swipe to and tap <strong>About device</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 33,
+          "left": 414,
+          "top": 207,
+          "width": 57
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-3",
+        "text": "<p>Tap <strong>Edit</strong> to rename your device.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 521,
+          "top": 335,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-4",
+        "text": "<p>Enter the new name, and then tap <strong>Done</strong> when you're finished.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 231,
+          "top": 314,
+          "width": 428
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-5",
+        "text": "<p>Tap <strong>Status information</strong> to view your Wi-Fi MAC address, Bluetooth address, or Serial number.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 207,
+          "top": 129,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-6",
+        "text": "<p>Tap <strong>Back</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 45,
+          "left": 233,
+          "top": 351,
+          "width": 428
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-7",
+        "text": "<p>Tap <strong>Legal information</strong> to view the AI Hub Privacy Notice, Terms of Service for AI Hub, or Open source licenses.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "28-8",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "About Device",
+    "topic_note": "You can check the Laundry Combo's details, such as the Status and Legal information."
+  },
+  "add-liquids": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-1",
+        "text": "<p>Press the Compartment cover to open it and then pull out the Auto dispensers.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-2",
+        "text": "<p>Turn the Auto dispenser cap counterclockwise to open it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-3",
+        "text": "<p>Add an appropriate amount of detergent to the Auto dispenser. Then, replace the cap and turn it clockwise to close it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-4",
+        "text": "<p>Turn the Flex auto dispenser cap counterclockwise to open it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-5",
+        "text": "<p>Add an appropriate amount of detergent (general detergent or specialty detergent) or softener to the Flex auto dispenser. Then, replace the cap and turn it clockwise to close it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-6",
+        "text": "<p>Push the Auto dispensers back into their positions and then close the compartment cover.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "34-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Add liquids",
+    "topic_note": "The type of detergent you use depends on the type of fabric, color, wash temperature, and degree of soiling. Using \"low suds\" HE laundry detergent, designed for automatic washers, is recommended. "
+  },
+  "bixby": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 359,
+          "top": 239,
+          "width": 303
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-2",
+        "text": "<p>Swipe to and tap <strong>Bixby </strong>to open<strong> </strong>the <strong>Bixby</strong> app. \n\nIf the app is not in the Favorites bar, tap the <strong>Apps</strong> icon to open the Apps screen.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 51,
+          "left": 231,
+          "top": 235,
+          "width": 430
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-3",
+        "text": "<p>Tap <strong>Voice wake-up</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 174,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-4",
+        "text": "<p>Tap the <strong>switch</strong> to turn Voice wake-up on or off. You can also select the Wake-up phrase to make Bixby start listening. When you're done, tap <strong>Back</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 46,
+          "left": 229,
+          "top": 331,
+          "width": 431
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-5",
+        "text": "<p>Tap <strong>Bixby feedback</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 179,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-6",
+        "text": "<p>Tap the <strong>switch</strong> to turn Sound feedback on or off. You can adjust your preference for Voice response by choosing Always or Only with the wake-up phrase. When you're finished, tap <strong>Back</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-7",
+        "text": "<p>Say the Wake-up phrase to make Bixby start listening. For this example, say \"Hi, Bixby.\"</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 451,
+          "top": 357,
+          "width": 115
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If you are not signed into your Samsung account and this is your first time using Bixby, tap <strong>Sign in,</strong> and then select your desired method to sign in. Follow the prompts to access your account.</p>",
+        "preset": "preset5",
+        "src": "8-8",
+        "text": "<p>Review the information, and then tap <strong>More</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 450,
+          "top": 357,
+          "width": 116
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-9",
+        "text": "<p>Tap <strong>Start</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 327,
+          "top": 360,
+          "width": 231
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-10",
+        "text": "<p>Select the voice style, and then tap <strong>Continue</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: To learn more about how to use Bixby, go to <strong>Settings</strong> &gt; <strong>Bixby</strong> &gt; <strong>Discover Bixby</strong>.</p>",
+        "preset": "preset5",
+        "src": "8-11",
+        "text": "<p>Bixby is now set up.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "8-12",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Bixby",
+    "topic_note": "<p><strong>Note</strong>: To learn more about Bixby, visit the <strong>Bixby Support page</strong>.</p>"
+  },
+  "calibrate-the-washer": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 222,
+          "top": 205,
+          "width": 127
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 362,
+          "top": 282,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-3",
+        "text": "<p>Swipe to and tap <strong>Calibration</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 38,
+          "left": 379,
+          "top": 333,
+          "width": 129
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-4",
+        "text": "<p>Tap <strong>Start Calibration</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-5",
+        "text": "<p>The device will begin calibrating.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 40,
+          "left": 418,
+          "top": 353,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-6",
+        "text": "<p>Tap <strong>OK</strong> when the calibration process is complete.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "37-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Calibrate the Washer",
+    "topic_note": "Calibration ensures accurate weight detection by the Laundry Combo. Make sure the drum is empty before running the calibration."
+  },
+  "change-brightness": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "16-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 52,
+          "left": 362,
+          "top": 310,
+          "width": 300
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "16-2",
+        "text": "<p>Swipe to and tap <strong>Display</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 439,
+          "top": 197,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "16-3",
+        "text": "<p>Adjust the <strong>slider</strong> to change the Brightness.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "16-4",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Change Brightness"
+  },
+  "change-font-size": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "17-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 363,
+          "top": 310,
+          "width": 295
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "17-2",
+        "text": "<p>Swipe to and tap <strong>Display</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 231,
+          "top": 248,
+          "width": 428
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "17-3",
+        "text": "<p>Tap <strong>Font size</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 342,
+          "top": 355,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "17-4",
+        "text": "<p>Adjust the <strong>slider</strong> to set the Font size.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "17-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Change Font Size"
+  },
+  "change-the-language": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 606,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "19-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 51,
+          "left": 365,
+          "top": 333,
+          "width": 297
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "19-2",
+        "text": "<p>Swipe to and tap <strong>Language</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 228,
+          "top": 219,
+          "width": 433
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "19-3",
+        "text": "<p>Select your preferred language.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 409,
+          "top": 310,
+          "width": 68
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "19-4",
+        "text": "<p>Tap <strong>Apply</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "19-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Change the Language"
+  },
+  "check-for-a-software-update": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "21-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 56,
+          "left": 364,
+          "top": 186,
+          "width": 296
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "21-2",
+        "text": "<p>Swipe to and tap <strong>Software update</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 54,
+          "left": 228,
+          "top": 174,
+          "width": 433
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "21-3",
+        "text": "<p>Tap <strong>Download and install</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If an update is available, follow the on-screen instructions.</p>",
+        "preset": "preset5",
+        "src": "21-4",
+        "text": "<p>The device will check for software updates.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 38,
+          "left": 396,
+          "top": 360,
+          "width": 93
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "21-5",
+        "text": "<p>Tap <strong>Download</strong> to install the software update.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "21-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Check for a Software Update",
+    "topic_note": "You can download and install the latest version of the software.\n\nThe download begins automatically when the Laundry Combo is connected\nto Wi-Fi.\n"
+  },
+  "child-lock": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "14-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 70,
+          "left": 358,
+          "top": 289,
+          "width": 302
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "14-2",
+        "text": "<p>Tap <strong>Lock</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 38,
+          "left": 412,
+          "top": 334,
+          "width": 61
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "14-3",
+        "text": "<p>Tap <strong>Lock</strong> again.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: When enabled, the touch screen and door will be locked for safety.</p>",
+        "preset": "preset5",
+        "src": "14-4",
+        "text": "<p>The device is now locked.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 44,
+          "left": 502,
+          "top": 321,
+          "width": 78
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: The door will not open after a wash cycle when the Lock is enabled.</p>",
+        "preset": "preset5",
+        "src": "14-5",
+        "text": "<p>To disable the Lock, tap anywhere on the screen. Press and hold <strong>Unlock</strong> for 3 seconds to unlock the device.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "14-6",
+        "text": "Done."
+      }
+    ],
+    "title": "Child Lock",
+    "topic_note": "This childproof feature locks the device door and control panel to prevent children from accidentally changing the settings."
+  },
+  "clean-the-lint-filter": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset0",
+        "src": "31-1",
+        "text": "<p>Press the right side of the Lint filter cover to open it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Caution</strong>: When cleaning or removing the lint filter, do not shake or tap on the filter. Doing so can damage the filter.</p>",
+        "preset": "preset0",
+        "src": "31-2",
+        "text": "<p>Pull out the lint filter and make sure not to remove the rubber seal on the lint filter. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Caution</strong>: Opening the outer and inner filters carelessly and with excessive force can damage the filters.</p>",
+        "preset": "preset0",
+        "src": "31-3",
+        "text": "<p>Open the outer filter, and then carefully remove the inner filter. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Caution</strong>: Inserting the filter while it is wet may cause mold, unpleasant odors, or result in less efficient drying.</p>",
+        "preset": "preset0",
+        "src": "31-4",
+        "text": "<p>Remove the lint on both the inner and outer filters. Then, wash the filters in running water and completely dry the filters in a shaded area. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset0",
+        "src": "31-5",
+        "text": "<p>Place the inner filter into the outer filter in the correct direction.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset0",
+        "src": "31-6",
+        "text": "<p>Insert the assembled lint filter back into place.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset0",
+        "src": "31-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Clean the Lint filter",
+    "topic_note": "It is important to clean the lint filter after each dry cycle. Failure to do so may result in reduction of the drying performance."
+  },
+  "clean-the-pump": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 127,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "38-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 224,
+          "top": 205,
+          "width": 125
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "38-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 59,
+          "left": 364,
+          "top": 278,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "38-3",
+        "text": "<p>Tap <strong>Pump clean</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 38,
+          "left": 385,
+          "top": 347,
+          "width": 115
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Clean the pump when you change the detergent or when the dispenser is empty to prevent blockages. You can clean both the Auto and Flex auto dispensers or select a specific dispenser.</p>",
+        "preset": "preset5",
+        "src": "38-4",
+        "text": "<p>Fill the dispensers with water up to the max fill line, and then tap <strong>Start cleaning</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "38-5",
+        "text": "<p>The pump cleaning process takes 19 minutes.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 418,
+          "top": 353,
+          "width": 51
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: When the pump cleaning process is complete, the water remaining in the dispenser(s) will drain automatically.</p>",
+        "preset": "preset5",
+        "src": "38-6",
+        "text": "<p>Tap <strong>OK</strong> when the process is complete. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "38-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Clean the Pump",
+    "topic_note": "Use this function to clean detergent or softener residue buildup in the pump. "
+  },
+  "complete-reset": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 124,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 365,
+          "top": 288,
+          "width": 296
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-2",
+        "text": "<p>Swipe to and tap <strong>Reset</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 54,
+          "left": 226,
+          "top": 227,
+          "width": 435
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-3",
+        "text": "<p>Tap <strong>Reset all settings</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 400,
+          "top": 352,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-4",
+        "text": "<p>Tap <strong>Reset</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 400,
+          "top": 352,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-5",
+        "text": "<p>Tap <strong>Reset</strong> again.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 416,
+          "top": 286,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-6",
+        "text": "<p>Tap <strong>OK</strong> to reset.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "23-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Complete reset",
+    "topic_note": "Your Laundry Combo will be reset to factory settings. This will reset all of your settings, including network settings and personal data.\n "
+  },
+  "connect-to-smartthings": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 127,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "4-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 50,
+          "left": 362,
+          "top": 235,
+          "width": 297
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "4-2",
+        "text": "<p>Tap <strong>Connections</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 231,
+          "top": 226,
+          "width": 421
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "4-3",
+        "text": "<p>Tap <strong>Easy connection</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 33,
+          "left": 385,
+          "top": 312,
+          "width": 136
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If you don't have the SmartThings app, download and install the app from the <strong>Google Play Store</strong>, and then sign in. Scan the QR code again to connect the device to your app.</p>",
+        "preset": false,
+        "src": "4-4",
+        "text": "<p>Scan the QR code with your phone.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Make sure your phone or tablet is near your Laundry Combo so they can connect.</p>",
+        "preset": false,
+        "src": "4-5",
+        "text": "<p>Your phone will search for and register your Laundry Combo. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 426,
+          "top": 445,
+          "width": 54
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": false,
+        "src": "4-6",
+        "text": "<p>Wait for the registration to finish, and then edit the Location and Device name for the Laundry Combo if desired. Tap <strong>Done</strong> on your phone.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 412,
+          "top": 290,
+          "width": 53
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "4-7",
+        "text": "<p>You are now connected. Tap <strong>OK</strong> on your Laundry Combo.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset0",
+        "src": "4-8",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Connect to SmartThings"
+  },
+  "connect-to-wi-fi": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 123,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "3-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 47,
+          "left": 359,
+          "top": 235,
+          "width": 300
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "3-2",
+        "text": "<p>Tap <strong>Connections</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 230,
+          "top": 174,
+          "width": 369
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If Wi-Fi is turned off, tap the <strong>switch</strong> to turn it on.</p>",
+        "preset": "preset5",
+        "src": "3-3",
+        "text": "<p>Tap <strong>Wi-Fi</strong>. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 227,
+          "top": 258,
+          "width": 430
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "3-4",
+        "text": "<p>Select your network from the list.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 399,
+          "top": 253,
+          "width": 80
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "3-5",
+        "text": "<p>Enter your network's password if prompted, and then tap <strong>Connect</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "3-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Connect to Wi-Fi"
+  },
+  "first-time-setup": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 601,
+          "top": 366,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-1",
+        "text": "<p>Select your country or region and tap <strong>Next</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 601,
+          "top": 366,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-2",
+        "text": "<p>Select your time zone and tap <strong>Next</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 601,
+          "top": 366,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Once you select a language, the language selection screen will not reappear. You can change the language from the Settings menu. On the Home screen, tap <strong>Settings</strong> &gt; <strong>General</strong> &gt; <strong>Language</strong> to change the language.</p>",
+        "preset": "preset5",
+        "src": "1-3",
+        "text": "<p>Select your language and tap <strong>Next</strong>. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 497,
+          "top": 179,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: This step is optional; you may tap <strong>Skip</strong>. However, we recommend connecting your Bespoke AI Laundry Combo to the internet in order to take full advantage of its functions.</p>",
+        "preset": "preset5",
+        "src": "1-4",
+        "text": "<p>Next, connect to your Wi-Fi network by selecting your network from the list.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 511,
+          "top": 207,
+          "width": 70
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-5",
+        "text": "<p>Enter your network's password if prompted, and then tap <strong>Connect</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 601,
+          "top": 366,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-6",
+        "text": "<p>Next, agree to the Terms of Service by selecting <strong>I have read and agree to the above</strong>. Tap <strong>Next</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 460,
+          "top": 152,
+          "width": 206
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: You can also tap <strong>Create account</strong>, <strong>Find ID</strong>, <strong>Sign in with Google</strong>, or <strong>Sign in with QR code</strong>. You can tap <strong>Skip</strong> to add your account later in the Settings menu.</p>",
+        "preset": "preset5",
+        "src": "1-7",
+        "text": "<p>There are different ways to sign in to your account. For this example, tap <strong>Email or mobile number </strong>to manually input your information. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 464,
+          "top": 222,
+          "width": 196
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-8",
+        "text": "<p>Enter your email address and tap <strong>Next</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 464,
+          "top": 226,
+          "width": 196
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-9",
+        "text": "<p>Enter your password, and then tap <strong>Sign in</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 598,
+          "top": 371,
+          "width": 78
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-10",
+        "text": "<p>Enter the code you received on your existing device, and then tap <strong>OK</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 601,
+          "top": 366,
+          "width": 62
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-11",
+        "text": "<p>Review the information about SmartThings, and then tap <strong>Next</strong> to finish the setup.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 221,
+          "top": 363,
+          "width": 83
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-12",
+        "text": "<p>Your Laundry Combo is all set! To view the tutorial on how to use your Laundry Combo, tap <strong>Next</strong>. For this example, tap <strong>Skip tutorial</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "1-13",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "First Time Setup"
+  },
+  "high-contrast": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 600,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "6-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 47,
+          "left": 401,
+          "top": 184,
+          "width": 260
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "6-2",
+        "text": "<p>Swipe to and tap <strong>Accessibility</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 230,
+          "top": 222,
+          "width": 428
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "6-3",
+        "text": "<p>Tap <strong>Visibility enhancements</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 83,
+          "left": 477,
+          "top": 179,
+          "width": 88
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "6-4",
+        "text": "<p>Tap <strong>High contrast</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "6-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "High Contrast",
+    "topic_note": "Change the High contrast and Text size settings to enhance your visibility."
+  },
+  "how-to-restart": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "24-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 54,
+          "left": 359,
+          "top": 290,
+          "width": 304
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "24-2",
+        "text": "<p>Swipe to and tap <strong>Reset</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 229,
+          "top": 276,
+          "width": 433
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "24-3",
+        "text": "<p>Tap <strong>Restart</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 405,
+          "top": 355,
+          "width": 76
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "24-4",
+        "text": "<p>Tap <strong>Restart</strong> again.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "24-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "How to restart"
+  },
+  "internet": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "down",
+          "height": 120,
+          "left": 420,
+          "rotate": 180,
+          "top": 303,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "12-1",
+        "text": "<p>From the Home screen, swipe up from the bottom of the screen to open the App dock.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 209,
+          "top": 371,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "12-2",
+        "text": "<p>Open the <strong>Internet</strong> app. If the app is not in the App dock, tap the <strong>Apps</strong> icon to open the Apps screen. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 63,
+          "left": 419,
+          "top": 258,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "12-3",
+        "text": "<p>Tap the <strong>Internet</strong> app.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 30,
+          "left": 366,
+          "top": 170,
+          "width": 138
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "12-4",
+        "text": "<p>Tap the <strong>Address bar</strong> to search for a new web address.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "12-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Internet"
+  },
+  "manage-auto-open-door": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "27-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 225,
+          "top": 207,
+          "width": 113
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "27-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 62,
+          "left": 361,
+          "top": 176,
+          "width": 241
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "27-3",
+        "text": "<p>Swipe to and tap <strong>Auto Open Door</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 278,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If you have a lot of laundry, small and light items may fall to the floor when the door opens automatically. Auto Open Door doesn't work when Lock is enabled. The door will not open at the end of cycle if you have enabled the Stay Connect function in the SmartThings app.</p>",
+        "preset": "preset5",
+        "src": "27-4",
+        "text": "<p>Auto Open Door is on by default. Tap the <strong>switch</strong> to turn it off or on if needed. You can set the Laundry Combo door to open automatically when the washer turns on or your cycle ends. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "27-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage Auto Open Door",
+    "topic_note": "Set the Laundry Combo door to open automatically when the washer turns on or your cycle ends."
+  },
+  "manage-samsung-account": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 48,
+          "left": 358,
+          "top": 176,
+          "width": 296
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-2",
+        "text": "<p>Tap <strong>Samsung account</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 456,
+          "top": 173,
+          "width": 200
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: You can also tap <strong>Create account</strong>, <strong>Find ID</strong>, <strong>Sign in with Google</strong>, or <strong>Sign in with QR code</strong>.</p>",
+        "preset": "preset5",
+        "src": "2-3",
+        "text": "<p>There are different ways to sign in to your account. For this example, tap <strong>Email or mobile number </strong>to manually input your information.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 28,
+          "left": 602,
+          "top": 374,
+          "width": 67
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-4",
+        "text": "<p>Enter your email address and tap <strong>Next</strong> or <strong>Enter</strong> on the keyboard.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 28,
+          "left": 602,
+          "top": 374,
+          "width": 67
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-5",
+        "text": "<p>Enter your password, and then tap <strong>Sign in </strong>or <strong>Enter </strong>on the keyboard.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 56,
+          "left": 360,
+          "top": 172,
+          "width": 299
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-6",
+        "text": "<p>To log out of your Samsung account from the Settings menu, tap <strong>Samsung account</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 340,
+          "top": 299,
+          "width": 198
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-7",
+        "text": "<p>Tap <strong>Logout</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 34,
+          "left": 499,
+          "top": 293,
+          "width": 77
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Your Samsung account and most of its data will be removed from the device.</p>",
+        "preset": "preset5",
+        "src": "2-8",
+        "text": "<p>Tap <strong>Sign Out</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "2-9",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage Samsung Account"
+  },
+  "manage-sounds": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 52,
+          "left": 366,
+          "top": 364,
+          "width": 297
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-2",
+        "text": "<p>Tap <strong>Sounds</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 230,
+          "top": 172,
+          "width": 430
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-3",
+        "text": "<p>Tap <strong>Sound mode</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 208,
+          "top": 129,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Even if you set the sound mode to Mute, alert sounds will still activate for safety reasons.</p>",
+        "preset": "preset5",
+        "src": "15-4",
+        "text": "<p>Select the desired sound mode, and then tap <strong>Back</strong>. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 56,
+          "left": 232,
+          "top": 223,
+          "width": 429
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-5",
+        "text": "<p>Tap <strong>Sound theme</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 207,
+          "top": 128,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-6",
+        "text": "<p>Select the desired sound theme, and then tap <strong>Back</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 47,
+          "left": 232,
+          "top": 273,
+          "width": 426
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-7",
+        "text": "<p>Tap <strong>Volume</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 205,
+          "top": 129,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Sound mode will automatically change to Voice if you adjust the volume while the Sound mode is set to Mute.</p>",
+        "preset": "preset5",
+        "src": "15-8",
+        "text": "<p>Adjust the <strong>slider</strong> to set the Voice, Tone, and Media volume, and then tap <strong>Back</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 59,
+          "left": 228,
+          "top": 313,
+          "width": 426
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-9",
+        "text": "<p>Tap <strong>Voice style</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 638,
+          "top": 127,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-10",
+        "text": "<p>Select the desired Voice style, and then tap the <strong>Home</strong> icon to return to the Home screen.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "15-11",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage Sounds",
+    "topic_note": "You can set the Sound mode, Sound theme, Volume, and Voice style."
+  },
+  "manage-the-auto-dispenser": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Caution</strong></p><ul><li><p>Do not operate the Laundry Combo without the dispensers in the detergent drawer. A water leak may cause electric shock or injury.</p></li><li><p>Do not use the following types of detergent in the drawer: tablet, capsule, ball, or net types.</p></li><li><p>Do not use gel-type or viscous detergent/softener in the detergent drawer as they may not flow well. Read the detergent/softener manufacturer's instructions before using them in the Laundry Combo.</p></li><li><p>Do not carry around the dispenser when it has been removed from the detergent drawer. Put the dispenser back in place. Otherwise, the dispenser may shake and cause the contents to spill.</p></li><li><p>Empty the dispensers in the detergent drawer before moving the Laundry Hub to prevent any content from spilling on the floor.</p></li><li><p>Do not use chlorine bleach, which may damage the laundry.</p></li></ul>",
+        "preset": "preset5",
+        "src": "35-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 223,
+          "top": 206,
+          "width": 123
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "35-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 54,
+          "left": 363,
+          "top": 233,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "35-3",
+        "text": "<p>Swipe to and tap <strong>Auto dispensers</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 201,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: For Auto dispensers, you can only select General detergent. Use liquid detergent only. Do not put powdered detergent or softener into the Auto dispenser compartment.</p>",
+        "preset": "preset5",
+        "src": "35-4",
+        "text": "<p>Tap the <strong>switch</strong> to turn the Auto dispenser on or off. Set the detergent concentration level and amount of detergent dispensed. This mode automatically adds a sufficient amount of detergent to your wash. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 103,
+          "left": 534,
+          "top": 291,
+          "width": 128
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "35-5",
+        "text": "<p>Tap <strong>Concentration</strong> and select the detergent concentration level: 1x, 2x, and 3x.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 102,
+          "left": 537,
+          "top": 311,
+          "width": 124
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "35-6",
+        "text": "<p>Tap <strong>Amount</strong> and select the amount of detergent to be dispensed: Low, Medium, or High.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "35-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage the Auto Dispenser",
+    "topic_note": "<p>Auto dispensers make laundry easier by dispensing a preset amount of detergent without having to pour it in each time. This is also more economical because the exact amount is dispensed each time, allowing for less detergent waste.</p>"
+  },
+  "manage-the-flex-auto-dispenser": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Caution</strong></p><ul><li><p>Do not operate the Laundry Combo without the dispensers in the detergent drawer. A water leak may cause electric shock or injury.</p></li><li><p>Do not use the following types of detergent in the drawer: tablet, capsule, ball, or net types.</p></li><li><p>Do not use gel-type or viscous detergent/softener in the detergent drawer as they may not flow well. Read the detergent/softener manufacturer's instructions before using them in the Laundry Combo.</p></li><li><p>Do not carry around the dispenser when it has been removed from the detergent drawer. Put the dispenser back in place. Otherwise, the dispenser may shake and cause the contents to spill.</p></li><li><p>Empty the dispensers in the detergent drawer before moving the Laundry Hub to prevent any content from spilling on the floor.</p></li><li><p>Do not use chlorine bleach, which may damage the laundry.</p></li></ul>",
+        "preset": "preset5",
+        "src": "36-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 224,
+          "top": 205,
+          "width": 126
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 359,
+          "top": 233,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-3",
+        "text": "<p>Swipe to and tap <strong>Auto dispensers</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 197,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: For the Flex auto dispenser, you can set this dispenser to dispense detergent (general detergent or specialty detergent) or fabric softener. Use only neutral detergent in this dispenser when you set the detergent type to specialty detergent. Do not use powdered detergent.</p>",
+        "preset": "preset5",
+        "src": "36-4",
+        "text": "<p>Swipe to and tap the <strong>switch</strong> to turn the Flex auto dispenser on or off. Set the detergent type, concentration level, and amount of detergent dispensed. This mode automatically adds a sufficient amount of detergent to your wash. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 102,
+          "left": 477,
+          "top": 236,
+          "width": 186
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-5",
+        "text": "<p>Tap <strong>Detergent type</strong> and select the detergent type: Softener, General detergent, and Specialty detergent.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 101,
+          "left": 534,
+          "top": 288,
+          "width": 128
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-6",
+        "text": "<p>Tap <strong>Concentration</strong> and select the detergent concentration level: 1x, 2x, and 3x.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 99,
+          "left": 537,
+          "top": 281,
+          "width": 124
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-7",
+        "text": "<p>Tap <strong>Amount</strong> and select the amount of detergent to be dispensed: Low, Medium, and High.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "36-8",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage the Flex Auto Dispenser",
+    "topic_note": "<p>You can set the dispenser to dispense detergent (general detergent or specialty detergent) or fabric softener.</p>"
+  },
+  "manage-your-cycles": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 225,
+          "top": 206,
+          "width": 123
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 359,
+          "top": 267,
+          "width": 296
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-3",
+        "text": "<p>Swipe to and tap <strong>My cycles</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: You can only edit personal cycles when the Laundry Combo is not operating. You can also edit the My cycles option in the SmartThings app.</p>",
+        "preset": "preset5",
+        "src": "33-4",
+        "text": "<p>You can edit the list of cycles that appear on the screen. Select the cycles you use most frequently. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 639,
+          "top": 128,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-5",
+        "text": "<p>To view the selected cycles, tap <strong>Home</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 32,
+          "left": 331,
+          "top": 341,
+          "width": 84
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-6",
+        "text": "<p>Tap <strong>More cycles</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "33-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Manage your cycles",
+    "topic_note": "Add or remove cycles to create a personalized cycle list."
+  },
+  "perform-a-self-diagnosis": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 608,
+          "top": 128,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 231,
+          "top": 210,
+          "width": 113
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 53,
+          "left": 371,
+          "top": 342,
+          "width": 297
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-3",
+        "text": "<p>Swipe to and tap <strong>Self diagnosis</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 45,
+          "left": 366,
+          "top": 351,
+          "width": 158
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-4",
+        "text": "<p>Tap <strong>Start self diagnosis</strong> to begin.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 766,
+          "top": 471,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If the Laundry Combo detects an error, an information code and solution will be displayed on the LCD panel.</p>",
+        "preset": "preset5",
+        "src": "26-5",
+        "text": "<p>Your Laundry Combo will run a self diagnosis to check for any problems.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 45,
+          "left": 414,
+          "top": 354,
+          "width": 59
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-6",
+        "text": "<p>Tap <strong>OK</strong> to finish.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "26-7",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Perform a Self Diagnosis",
+    "topic_note": "Perform a self diagnosis to check if there are any problems with your device."
+  },
+  "remove-wrinkles": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 32,
+          "left": 330,
+          "top": 341,
+          "width": 86
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "30-1",
+        "text": "<p>From the Home screen, tap <strong>More cycles</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 228,
+          "top": 167,
+          "width": 212
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "30-2",
+        "text": "<p>Select the desired cycle. For this example, tap <strong>Normal</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 43,
+          "left": 224,
+          "top": 229,
+          "width": 43
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: To run a wash-only cycle, tap the <strong>Dryer</strong> icon to turn it off.</p>",
+        "preset": "preset5",
+        "src": "30-3",
+        "text": "<p>To run a dry-only cycle, tap the <strong>Washer</strong> icon to turn it off. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 52,
+          "left": 358,
+          "top": 290,
+          "width": 105
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Not all cycles have additional functions available.</p>",
+        "preset": "preset5",
+        "src": "30-4",
+        "text": "<p>Tap <strong>Wrinkle Prevent</strong> to turn it on.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 45,
+          "left": 612,
+          "top": 345,
+          "width": 45
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "30-5",
+        "text": "<p>Tap the <strong>Start</strong> icon to start the operation.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "30-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Remove Wrinkles"
+  },
+  "resetting-network-settings": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "22-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 58,
+          "left": 363,
+          "top": 286,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "22-2",
+        "text": "<p>Swipe to and tap <strong>Reset</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 52,
+          "left": 228,
+          "top": 177,
+          "width": 432
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "22-3",
+        "text": "<p>Tap <strong>Reset network settings</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 406,
+          "top": 353,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "22-4",
+        "text": "<p>Tap <strong>Reset</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 403,
+          "top": 352,
+          "width": 73
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: All network settings will be reset. This action can't be undone.</p>",
+        "preset": "preset5",
+        "src": "22-5",
+        "text": "<p>Tap <strong>Reset</strong> again. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "22-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Resetting Network settings",
+    "topic_note": "This will reset all network settings, including Wi-Fi, Easy connection, and Bluetooth."
+  },
+  "ring": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "down",
+          "height": 120,
+          "left": 429,
+          "rotate": 180,
+          "top": 299,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "9-1",
+        "text": "<p>From the Home screen, swipe up from the bottom of the screen to open the App dock.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 524,
+          "top": 365,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "",
+        "preset": "preset5",
+        "src": "9-2",
+        "text": "<p>Open the <strong>Ring</strong> app. If the app is not in the App dock, tap the <strong>Apps</strong> icon to open the Apps screen. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 28,
+          "left": 599,
+          "top": 373,
+          "width": 68
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: You may be asked to enter the verification code sent to your email address or to your phone. Follow the prompts to enter the code.</p>",
+        "preset": "preset5",
+        "src": "9-3",
+        "text": "<p>Sign in to your Ring account by entering your email address and password, and then tap <strong>Sign in</strong> or <strong>Go</strong> on the keyboard. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 29,
+          "left": 281,
+          "top": 365,
+          "width": 140
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "9-4",
+        "text": "<p>Tap <strong>Authorize</strong> to give Samsung permission to access your Ring account.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "9-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Ring"
+  },
+  "run-a-drying-cycle": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 33,
+          "left": 331,
+          "top": 340,
+          "width": 84
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "29-1",
+        "text": "<p>From the Home screen, tap <strong>More cycles</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 40,
+          "left": 228,
+          "top": 165,
+          "width": 211
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "29-2",
+        "text": "<p>Select the desired cycle. For this example, tap <strong>Normal</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 44,
+          "left": 223,
+          "top": 228,
+          "width": 44
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: To run a wash-only cycle, tap the <strong>Dryer</strong> icon to turn it off.</p>",
+        "preset": "preset5",
+        "src": "29-3",
+        "text": "<p>To run a dry-only cycle, tap the <strong>Washer</strong> icon to turn it off.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Not all cycles have additional functions available.</p>",
+        "preset": "preset5",
+        "src": "29-4",
+        "text": "<p>You can change the default cycle options. Tap <strong>Dryness</strong>,<strong> Dry Time</strong>,<strong> Dry Prep</strong>, or<strong> Wrinkle Prevent </strong>to change the default cycle options. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 46,
+          "left": 613,
+          "top": 345,
+          "width": 44
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "29-5",
+        "text": "<p>Tap the <strong>Start</strong> icon to start the operation.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "29-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Run a Drying Cycle"
+  },
+  "run-a-washing-cycle": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 31,
+          "left": 332,
+          "top": 341,
+          "width": 83
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "32-1",
+        "text": "<p>From the Home screen, tap <strong>More cycles</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 39,
+          "left": 229,
+          "top": 166,
+          "width": 210
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "32-2",
+        "text": "<p>Select the desired cycle. For this example, tap <strong>Normal</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 45,
+          "left": 223,
+          "top": 294,
+          "width": 45
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: To run a dry-only cycle, tap the <strong>Washer</strong> icon to turn it off.</p>",
+        "preset": "preset5",
+        "src": "32-3",
+        "text": "<p>To run a wash-only cycle, tap the <strong>Dryer</strong> icon to turn it off.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Not all cycles have additional functions available.</p>",
+        "preset": "preset5",
+        "src": "32-4",
+        "text": "<p>You can change the default cycle options. Tap <strong>Temp.</strong>, <strong>Spin</strong>, <strong>Soil</strong>, <strong>Detergent</strong>, <strong>Softener</strong>, <strong>Extra Rinse</strong>, or <strong>Bubble Soak</strong> to change the default cycle options. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 45,
+          "left": 613,
+          "top": 346,
+          "width": 45
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "32-5",
+        "text": "<p>Tap the <strong>Start</strong> icon to start the operation.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "32-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Run a Washing cycle"
+  },
+  "screen-reader": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "5-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 47,
+          "left": 401,
+          "top": 184,
+          "width": 260
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "5-2",
+        "text": "<p>Swipe to and tap <strong>Accessibility</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 230,
+          "top": 175,
+          "width": 429
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "5-3",
+        "text": "<p>Tap <strong>Screen reader</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 405,
+          "top": 353,
+          "width": 76
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: Screen Reader stays on even when you restart the device. You can stop it temporarily using the Accessibility button in the top left corner of the Home screen, or stop it completely by tapping the <strong>Turn off</strong> button below.</p>",
+        "preset": "preset5",
+        "src": "5-4",
+        "text": "<p>Tap <strong>Turn on</strong>. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "5-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Screen reader",
+    "topic_note": "Enable this feature to receive voice feedback from your\nLaundry Combo.\n"
+  },
+  "self-clean": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "down",
+          "height": 120,
+          "left": 404,
+          "rotate": 90,
+          "top": 203,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "13-1",
+        "text": "<p>From the Home screen, swipe <strong>left</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 37,
+          "left": 232,
+          "top": 171,
+          "width": 210
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "13-2",
+        "text": "<p>Swipe to and tap <strong>Product Care</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 40,
+          "left": 292,
+          "top": 336,
+          "width": 80
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: If there is residue in the drum, add liquid chlorine bleach to the MAX line in the Manual bleach compartment before starting the Self Clean+ cycle. Do not add liquid chlorine bleach to the other compartments when starting Self Clean+ cycle. Do not exceed the max line. Do not use or mix any other detergent or chemicals during the Self Clean+ cycle. Run a Rinse+Spin cycle after the Self Clean+ cycle to help remove any remaining residue.</p>",
+        "preset": "preset5",
+        "src": "13-3",
+        "text": "<p>Under Self Clean+, tap <strong>Clean now</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 51,
+          "left": 618,
+          "top": 347,
+          "width": 51
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "13-4",
+        "text": "<p>Tap the <strong>Start</strong> icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "13-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Self Clean+",
+    "topic_note": "Certain usage and environmental conditions may cause some residue or odor to build up in the drum. To prevent this buildup or odor and to keep the drum fresh and clean, run the Self Clean+ cycle at least once a month or every 40 cycles."
+  },
+  "text-size": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 47,
+          "left": 361,
+          "top": 184,
+          "width": 300
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-2",
+        "text": "<p>Swipe to and tap <strong>Accessibility</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 41,
+          "left": 231,
+          "top": 221,
+          "width": 431
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-3",
+        "text": "<p>Tap <strong>Visibility enhancements</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 44,
+          "left": 231,
+          "top": 266,
+          "width": 425
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-4",
+        "text": "<p>Tap <strong>Font size</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 341,
+          "top": 354,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-5",
+        "text": "<p>Adjust the <strong>slider</strong> to set the font size.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "7-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Text Size",
+    "topic_note": "Change the High contrast and Text size settings to enhance your visibility."
+  },
+  "timer": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "down",
+          "height": 120,
+          "left": 418,
+          "rotate": 180,
+          "top": 303,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "10-1",
+        "text": "<p>From the Home screen, swipe up from the bottom of the screen to open the App dock.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 363,
+          "top": 365,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "",
+        "preset": "preset5",
+        "src": "10-2",
+        "text": "<p>Open the <strong>Timer</strong> app. If the app is not in the App dock, tap the <strong>Apps</strong> icon to open the Apps screen. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 384,
+          "top": 127,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "10-3",
+        "text": "<p>Tap the <strong>+</strong> icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 514,
+          "top": 350,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "10-4",
+        "text": "<p>Set the timer, and then tap <strong>OK</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 388,
+          "top": 204,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "10-5",
+        "text": "<p>Tap the <strong>Start</strong> icon to start the timer, or tap <strong>X</strong> to delete it.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "10-6",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Timer"
+  },
+  "update-date-and-time": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 52,
+          "left": 359,
+          "top": 233,
+          "width": 298
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-2",
+        "text": "<p>Swipe to and tap <strong>Date and time</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 179,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: When Automatic date and time is turned off, some features may not be available in the SmartThings app. Tap <strong>OK</strong> to continue.</p>",
+        "preset": "preset5",
+        "src": "20-3",
+        "text": "<p>Automatic date and time is set by default. To set the date and time manually, tap the <strong>switch</strong> to turn off Automatic date and time. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 231,
+          "top": 224,
+          "width": 431
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-4",
+        "text": "<p>Tap <strong>Set date</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 38,
+          "left": 515,
+          "top": 347,
+          "width": 53
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-5",
+        "text": "<p>Set the date and then tap <strong>Done</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 54,
+          "left": 233,
+          "top": 276,
+          "width": 428
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-6",
+        "text": "<p>Tap <strong>Set time</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 514,
+          "top": 349,
+          "width": 57
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-7",
+        "text": "<p>Set the time and then tap <strong>Done</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 55,
+          "left": 230,
+          "top": 334,
+          "width": 429
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-8",
+        "text": "<p>Tap <strong>Select time zone</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 51,
+          "left": 230,
+          "top": 177,
+          "width": 432
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-9",
+        "text": "<p>Tap <strong>Region</strong>.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-10",
+        "text": "<p>Select your region. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "next",
+          "height": 36,
+          "left": 812,
+          "top": 501,
+          "width": 74
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-11",
+        "text": "<p>If your region has different time zones, select your time zone.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 207,
+          "top": 129,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "20-12",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Update Date and Time"
+  },
+  "use-ai-pattern": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 601,
+          "top": 125,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "39-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 227,
+          "top": 207,
+          "width": 117
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "39-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 68,
+          "left": 362,
+          "top": 245,
+          "width": 300
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: The default setting is set to On. When you turn off the feature, all saved data is reset.</p>",
+        "preset": "preset5",
+        "src": "39-3",
+        "text": "<p>Swipe to and tap <strong>AI pattern</strong> to disable or enable the feature. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "39-4",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Use AI pattern",
+    "topic_note": "Get recommended cycles depending on your usage patterns, the weather, and the seasons."
+  },
+  "use-the-drum-light": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 605,
+          "top": 126,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "25-1",
+        "text": "<p>From the Home screen, tap the <strong>Settings </strong>icon.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 35,
+          "left": 220,
+          "top": 207,
+          "width": 132
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "25-2",
+        "text": "<p>Tap the <strong>Washer</strong> tab.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 609,
+          "top": 179,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "25-3",
+        "text": "<p>Swipe to and tap <strong>Drum light</strong> to turn the interior lights on or off.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "25-4",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Use the Drum Light"
+  },
+  "weather": {
+    "steps": [
+      {
+        "gesture": {
+          "gesture_type": "down",
+          "height": 120,
+          "left": 419,
+          "rotate": 180,
+          "top": 293,
+          "width": 50
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "11-1",
+        "text": "<p>From the Home screen, swipe up from the bottom of the screen to open the App dock.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 470,
+          "top": 365,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "",
+        "preset": "preset5",
+        "src": "11-2",
+        "text": "<p>Open the <strong>Weather</strong> app. If the app is not in the App dock, tap the <strong>Apps</strong> icon to open the Apps screen. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 30,
+          "left": 220,
+          "top": 170,
+          "width": 437
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "11-3",
+        "text": "<p>Tap the <strong>Search </strong>bar.</p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "rectangle",
+          "height": 36,
+          "left": 213,
+          "top": 202,
+          "width": 460
+        },
+        "model": "washer-and-dryer",
+        "note": "<p><strong>Note</strong>: To add more locations, just tap the <strong>+</strong> icon.</p>",
+        "preset": "preset5",
+        "src": "11-4",
+        "text": "<p>Enter the city or zip code, and then tap the location in the search results. </p>"
+      },
+      {
+        "gesture": {
+          "gesture_type": "round",
+          "height": 41,
+          "left": 284,
+          "top": 56,
+          "width": 41
+        },
+        "model": "washer-and-dryer",
+        "note": "<p></p>",
+        "preset": "preset5",
+        "src": "11-5",
+        "text": "<p>Done.</p>"
+      }
+    ],
+    "title": "Weather"
+  }
+}

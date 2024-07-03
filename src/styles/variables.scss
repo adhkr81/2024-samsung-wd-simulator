@@ -1,0 +1,77 @@
+//  Colors
+$white: #ffffff;
+$black: #000000;
+$gray-000: #f7f7f7;
+$gray-100: #eeeeee;
+$gray-200: #dddddd;
+$gray-300: #bbbbbb;
+$gray-400: #aaaaaa;
+$gray-500: #8f8f8f;
+$gray-600: #757575;
+$gray-700: #555555;
+$gray-800: #313131;
+$gray-900: #1c1c1c;
+$samsung-skyblue: #2189ff;
+$samsung-skyblue-light: #68aeff;
+$samsung-skyblue-dark: #006bea;
+
+// Old samsung color variables
+// $samsung-navy-blue: #0B278F;
+// $samsung-light-blue: #20A2FF;
+
+//  Shadows
+$shadow-01: 0px 1px 3px rgba(0, 0, 0, 0.2);
+$shadow-02: 0px 4px 10px -2px rgba(0, 0, 0, 0.2);
+
+//  Font Family
+$samsung__font-family: "SamsungOne", arial, sans-serif;
+
+//  Layout
+$width__nav__how-tos--mobile: 308px;
+$width__nav__main--mobile: 208px;
+
+//  Navigation
+$nav__bg-color: $gray-000;
+$nav__link__bg-color: $gray-200;
+$nav__link__bg-color--active: $samsung-skyblue;
+$nav__link__bg-color--hover: $samsung-skyblue-light;
+$nav__link__color--hover: $gray-000;
+$nav__link__color--active: $gray-000;
+$nav__link__border: 1px solid $gray-300;
+$nav__link__theme-toggle__bg-color: $gray-100;
+
+$nav__width--desktop: 100%;
+$nav__width--mobile: 208px;
+$nav__width--mobile--how-tos: 308px;
+
+$model-select-input__color: $gray-200;
+$model-select-dropdown__bg-color: $samsung-skyblue;
+$model-select-dropdown__color: $white;
+$model-select-dropdown__color--active: rgba(32, 162, 255, 0.3);
+$model-select-dropdown__box-shadow: 17px 34px 15px rgba(0, 0, 0, 0.02), 9px 19px 13px rgba(0, 0, 0, 0.08),
+	4px 8px 9px rgba(0, 0, 0, 0.14), 1px 2px 5px rgba(0, 0, 0, 0.16), 0px 0px 0px rgba(0, 0, 0, 0.16);
+
+// Simulator (How-Tos)
+$how-tos__side-menu__width: 360px;
+$how-tos-steps__header__bg-color: $gray-900;
+$how-tos-steps__header__color: $white;
+$how-tos-steps__note__text-color: $gray-600;
+$how-tos-steps__bg-color: $gray-000;
+$how-tos-steps__btns__bg-color: #e2e2e2;
+$how-tos-steps__curr-steps__bg-color: #dbdbdb;
+// Landscape style
+$how-tos-steps__curr-steps__text-color--total: $gray-300;
+$how-tos-steps__curr-steps__text-color--current: $samsung-skyblue-light;
+$how-tos-steps__btns__bg-color--landscape: $gray-000;
+$how-tos-steps__btns__border-color: $gray-200;
+$how-tos-steps__btns__fill-color--disabled: $gray-200;
+$how-tos-steps__progress-bar__color: $gray-200;
+$how-tos-steps__progress-bar__color--current: $samsung-skyblue;
+
+//  Media queries sizes
+$desktop-lg: 1240px;
+$desktop-sm: 992px;
+$mobile-lg: 695px;
+$mobile-sm: 420px;
+
+$landscape-height: 420px;

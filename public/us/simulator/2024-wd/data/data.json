@@ -1,0 +1,319 @@
+{
+  "settings": {
+    "orientation": "landscape",
+    "canvas": {
+      "height": 556,
+      "width": 907
+    },
+    "initial": {
+      "mode": "guide",
+      "topic": "first-time-setup",
+      "model": "washer-and-dryer",
+      "version": "2024"
+    },
+    "siteId": "",
+    "sections": [
+      {
+        "title": "How Tos",
+        "to": "guide",
+        "openOnHover": false
+      },
+      {
+        "title": "Emulator",
+        "to": "emulator",
+        "openOnHover": false
+      }
+    ]
+  },
+  "models": {
+    "washer-and-dryer": {
+      "title": "Samsung Washer and Dryer",
+      "slug": "samsung-washer-and-dryer",
+      "order": 60,
+      "versions": ["2024", "2023"]
+    }
+  },
+  "versions": {
+    "2024": { "title": "2024", "order": 20, "slug": "2024" },
+    "2023": { "title": "2023", "order": 40, "slug": "2023" }
+  },
+  "presets": {
+    "washer-and-dryer": {
+      "bezel": {
+        "front": false,
+        "src": "we_bezel_emulator",
+        "extension": "jpg",
+        "height": 451,
+        "width": 1000,
+        "left": 0,
+        "top": 0
+      },
+      "bezel_simulator": {
+        "front": false,
+        "src": "wd_bezel",
+        "extension": "png",
+        "height": 556,
+        "width": 907,
+        "left": 0,
+        "top": 0
+      },
+      "preset0": {
+        "screen": {
+          "height": 556,
+          "left": 0,
+          "src": "homescreen",
+          "top": 0,
+          "width": 907
+        },
+        "scroll": false,
+        "transform": {}
+      },
+      "preset1": {
+        "screen": {
+          "height": 222,
+          "width": 382,
+          "left": 304,
+          "src": "homescreen",
+          "top": 112
+        },
+        "scroll": false,
+        "transform": {}
+      },
+      "preset2": {
+        "screen": {
+          "height": 222,
+          "width": 382,
+          "left": 304,
+          "src": "homescreen",
+          "top": 112
+        },
+        "scroll": {
+          "left": 420,
+          "top": 143,
+          "height": 191,
+          "width": 254,
+          "borderRadius": 0
+        },
+        "transform": {}
+      },
+      "preset3": {
+        "screen": {
+          "height": 222,
+          "width": 382,
+          "left": 304,
+          "src": "homescreen",
+          "top": 112
+        },
+        "scroll": {
+          "left": 319,
+          "top": 170,
+          "height": 161,
+          "width": 364,
+          "borderRadius": 0
+        },
+        "transform": {}
+      },
+      "preset4": {
+        "screen": {
+          "height": 222,
+          "width": 382,
+          "left": 304,
+          "src": "homescreen",
+          "top": 112
+        },
+        "scroll": {
+          "left": 319,
+          "top": 166,
+          "height": 150,
+          "width": 348,
+          "borderRadius": 0
+        },
+        "transform": {}
+      },
+      "preset5": {
+        "screen": {
+          "borderRadius": 0,
+          "height": 277,
+          "width": 469,
+          "left": 212,
+          "src": "homescreen",
+          "top": 135
+        },
+        "scroll": false,
+        "transform": {}
+      }
+    }
+  },
+  "screens": {
+    "2024": {}
+  },
+  "emulator": {
+    "washer-and-dryer": {
+      "2024": {
+        "initial": "homescreen",
+        "preload": []
+      }
+    }
+  },
+  "guide": {
+    "washer-and-dryer": {
+      "2024": {
+        "initial": "first-time-setup",
+        "map": {
+          "Setup": [
+            { "title": "First Time Setup", "url": "first-time-setup" },
+            { "title": "Manage Samsung Account", "url": "manage-samsung-account" }
+          ],
+          "Connection": [
+            { "title": "Connect to Wi-Fi", "url": "connect-to-wi-fi" },
+            { "title": "Connect to SmartThings", "url": "connect-to-smartthings" }
+          ],
+          "Accessibility": [
+            { "title": "Screen reader", "url": "screen-reader" },
+            { "title": "High Contrast", "url": "high-contrast" },
+            { "title": "Text Size", "url": "text-size" }
+          ],
+          "Features": [
+            { "title": "Bixby", "url": "bixby" },
+            { "title": "Ring", "url": "ring" },
+            { "title": "Timer", "url": "timer" },
+            { "title": "Weather", "url": "weather" },
+            { "title": "Internet", "url": "internet" },
+            { "title": "Self Clean+", "url": "self-clean" }
+          ],
+          "Settings": [
+            { "title": "Child Lock", "url": "child-lock" },
+            { "title": "Manage Sounds", "url": "manage-sounds" },
+            { "title": "Change Brightness", "url": "change-brightness" },
+            { "title": "Change Font Size", "url": "change-font-size" },
+            { "title": "Change the Language", "url": "change-the-language" },
+            { "title": "Update Date and Time", "url": "update-date-and-time" },
+            {
+              "title": "Check for a Software Update",
+              "url": "check-for-a-software-update"
+            },
+            {
+              "title": "Resetting Network settings",
+              "url": "resetting-network-settings"
+            },
+            { "title": "Complete reset", "url": "complete-reset" },
+            { "title": "How to restart", "url": "how-to-restart" },
+            { "title": "Use the Drum Light", "url": "use-the-drum-light" },
+            {
+              "title": "Perform a Self Diagnosis",
+              "url": "perform-a-self-diagnosis"
+            },
+            { "title": "Manage Auto Open Door", "url": "manage-auto-open-door" },
+            { "title": "About Device", "url": "about-device" }
+          ],
+          "Dryer": [
+            { "title": "Run a Drying Cycle", "url": "run-a-drying-cycle" },
+            { "title": "Remove Wrinkles", "url": "remove-wrinkles" },
+            { "title": "Clean the Lint filter", "url": "clean-the-lint-filter" }
+          ],
+          "Washer": [
+            { "title": "Run a Washing cycle", "url": "run-a-washing-cycle" },
+            { "title": "Manage your cycles", "url": "manage-your-cycles" },
+            { "title": "Add liquids", "url": "add-liquids" },
+            {
+              "title": "Manage the Auto Dispenser",
+              "url": "manage-the-auto-dispenser"
+            },
+            {
+              "title": "Manage the Flex Auto Dispenser",
+              "url": "manage-the-flex-auto-dispenser"
+            },
+            { "title": "Calibrate the Washer", "url": "calibrate-the-washer" },
+            { "title": "Clean the Pump", "url": "clean-the-pump" },
+            { "title": "Use AI pattern", "url": "use-ai-pattern" }
+          ]
+        },
+        "topic": {}
+      }
+    }
+  },
+  "troubleshooting": {
+    "washer-and-dryer": {
+      "2024": {
+        "initial": "Unable to use apps from Samsung TV Smart Hub Home",
+        "map": {
+          "Troubleshooting Guide": [
+            {
+              "title": "Unable to use apps from Samsung TV Smart Hub Home",
+              "url": "unable-to-use-apps-from-samsung-tv-smart-hub-home"
+            },
+            {
+              "title": "The screen is flashing or has become dark",
+              "url": "the-screen-is-flashing-or-has-become-dark"
+            },
+            {
+              "title": "The picture is not bright, or not clear",
+              "url": "the-picture-is-not-bright-or-not-clear"
+            },
+            {
+              "title": "The TV automatically turns off by itself",
+              "url": "the-tv-automatically-turns-off-by-itself"
+            },
+            {
+              "title": "Unable to find a Channel",
+              "url": "unable-to-find-a-channel"
+            },
+            {
+              "title": "There is no sound or the sound is too low at maximum volume.",
+              "url": "there-is-no-sound-or-the-sound-is-too-low-at-maximum-volume"
+            },
+            {
+              "title": "No sound from soundbar connected using HDMI (eARC/ARC)",
+              "url": "no-sound-from-soundbar-connected-using-hdmi-earc-arc"
+            },
+            {
+              "title": "No sound from soundbar connected using Bluetooth",
+              "url": "no-sound-from-soundbar-connected-using-bluetooth"
+            },
+            {
+              "title": "TV audibly describes each time a function is applied",
+              "url": "tv-audibly-describes-each-time-a-function-is-applied"
+            },
+            {
+              "title": "MultiView runs when mirroring the screen on mobile.",
+              "url": "multiview-runs-when-mirroring-the-screen-on-mobile"
+            },
+            {
+              "title": "The remote control does not work",
+              "url": "the-remote-control-does-not-work"
+            },
+            {
+              "title": "TV is slow or not operating correctly",
+              "url": "tv-is-slow-or-not-operating-correctly"
+            },
+            {
+              "title": "How to use SmartThings App as a remote control",
+              "url": "how-to-use-smartthings-app-as-a-remote-control"
+            },
+            {
+              "title": "Choosing the startup home screen",
+              "url": "choosing-the-startup-home-screen"
+            },
+            {
+              "title": "Unable to turn off the Frame TV",
+              "url": "unable-to-turn-off-the-frame-tv"
+            },
+            {
+              "title": "The Frame TV turns on automatically",
+              "url": "the-frame-tv-turns-on-automatically"
+            },
+            {
+              "title": "Channel does not change",
+              "url": "channel-does-not-change"
+            },
+            {
+              "title": "TV Plus is not working",
+              "url": "tv-plus-is-not-working"
+            }
+          ]
+        },
+        "topic": {}
+      }
+    }
+  }
+}

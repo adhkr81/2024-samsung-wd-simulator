@@ -1,0 +1,760 @@
+@import "../../styles/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+div[data-layout="portrait"] {
+  .steps {
+    &__container {
+      margin-right: 0;
+      flex: 2;
+      height: inherit;
+      box-sizing: border-box;
+      max-height: inherit;
+    }
+  }
+}
+
+.steps {
+  &__container {
+    width: 100%;
+    max-width: 376px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $how-tos-steps__bg-color;
+    position: relative;
+    font-family: "SamsungOne";
+  }
+
+  &__header {
+    transition: all 600ms ease;
+
+    h2 {
+      margin: 0;
+      background-color: $how-tos-steps__header__bg-color;
+      padding: 16px 20px;
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  &__topic_note {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &__content {
+    display: flex !important;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__instruction {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    opacity: 1;
+    transition: all 600ms ease;
+    padding-bottom: 100px;
+
+    & p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &__curr-step-num {
+    width: 26px;
+    line-height: 1.5;
+  }
+
+  &__text-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start !important;
+
+    p {
+      line-height: 1.5;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    // padding-bottom: 100px;
+  }
+
+  &__note {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+
+    &__text {
+      color: $how-tos-steps__note__text-color;
+    }
+  }
+
+  &__btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: $how-tos-steps__curr-steps__bg-color;
+    margin-top: 0px;
+
+    button {
+      border: none;
+      flex-grow: 1;
+      max-width: 88px;
+      background-color: $how-tos-steps__btns__bg-color;
+      cursor: pointer;
+      padding: 17px 0;
+      transition: all 250ms ease;
+      font-family: "SamsungOne";
+
+      &.retry-btn {
+        background-color: black;
+        color: $white;
+
+        &:hover {
+          background-color: $samsung-skyblue;
+          color: $white;
+          cursor: pointer;
+        }
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+
+      &:hover {
+        background-color: $samsung-skyblue;
+        color: $white;
+      }
+
+      &:disabled {
+        &:hover {
+          background-color: $how-tos-steps__btns__bg-color;
+          color: #1010104d;
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  &__curr-step {
+    max-width: 200px;
+    width: 100%;
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SamsungOne";
+
+    p {
+      font-size: 14px;
+      transition: color 250ms ease;
+
+      &.disabled-curr-num {
+        color: rgba(16, 16, 16, 0.3);
+      }
+    }
+  }
+
+  &__container.survey-open {
+    .steps__header {
+      background-color: $gray-300;
+    }
+
+    // .steps__instruction {
+    //   opacity: 0;
+    // }
+
+    // .steps__btns {
+    //   button:hover {
+    //     background-color: $how-tos-steps__btns__bg-color;
+    //     cursor: default;
+    //   }
+    // }
+  }
+}
+
+.steps__progress-bar {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: $how-tos-steps__progress-bar__color;
+  z-index: 1;
+
+  &__current {
+    height: 1px;
+    background-color: $how-tos-steps__progress-bar__color--current;
+    transition: width 250ms ease-in;
+  }
+}
+
+.steps__survey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 18px;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  font-family: "SamsungOne";
+  transition: 0.6s ease;
+
+  &__input-header {
+    @media screen and (max-width: 960px) {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    height: 355px;
+  }
+
+  &__header {
+    background-color: $samsung-skyblue;
+    width: 200px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    z-index: 2;
+    h2 {
+      background-color: $samsung-skyblue;
+      margin: 0;
+    }
+
+    &_overlay {
+      pointer-events: none;
+      content: "";
+      width: calc(100% + 36px);
+      height: 140px;
+      position: absolute;
+      z-index: 1;
+      left: -18px;
+      right: 0;
+      top: -87px;
+      margin: 0 auto;
+
+      background: rgb(247, 247, 247);
+      background: -moz-linear-gradient(
+        0deg,
+        rgba(247, 247, 247, 1) 40%,
+        rgba(247, 247, 247, 0) 70%
+      );
+      background: -webkit-linear-gradient(
+        0deg,
+        rgba(247, 247, 247, 1) 40%,
+        rgba(247, 247, 247, 0) 70%
+      );
+      background: linear-gradient(
+        0deg,
+        rgba(247, 247, 247, 1) 40%,
+        rgba(247, 247, 247, 0) 70%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7f7f7",endColorstr="#f7f7f7",GradientType=1);
+    }
+
+    &:hover {
+      background-color: $nav__link__bg-color--hover;
+    }
+
+    h2 {
+      color: $white;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 12px 0;
+      text-align: center;
+    }
+  }
+
+  &__feedback-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 47px;
+  }
+
+  &__btn {
+    display: flex;
+
+    // button:hover,
+    button.active {
+      background-color: $samsung-skyblue;
+      border: 0.5px solid $samsung-skyblue-light;
+
+      svg path {
+        fill: $white;
+        transition: all 150ms ease-in-out;
+      }
+    }
+
+    &--agree,
+    &--disagree {
+      display: flex;
+      padding: 8px;
+      border: #b9b9b9 0.5px solid;
+      background-color: #f2f2f2;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 150ms ease-in-out;
+
+      &:first-child {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+
+    > section {
+      margin-bottom: 24px !important;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+
+      &:first-of-type {
+        align-items: center;
+        margin-bottom: 14px;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    span {
+      font-size: 12px;
+      font-weight: 700;
+      padding-left: 16px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      padding: 0 16px;
+
+      textarea {
+        width: 100%;
+        border: #b9b9b9 1px solid;
+        height: 70px;
+        margin: 12px 0;
+        padding: 6px;
+        resize: none;
+        font-family: $samsung__font-family;
+        line-height: 1.5;
+
+        &:focus {
+          outline: 2px solid $samsung-skyblue;
+        }
+      }
+
+      input[type="submit"] {
+        border-radius: 50px;
+        background-color: $black;
+        color: $white;
+        padding: 8px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+
+        &:disabled {
+          background-color: $gray-300;
+        }
+      }
+    }
+  }
+
+  &--mobile {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1.5px);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all 500ms ease;
+
+    &__active {
+      opacity: 1;
+      z-index: 5;
+      position: absolute;
+      width: 100%;
+      background-color: #d9d9d9;
+      bottom: 100%;
+      transition: all 500ms ease;
+      height: 338px;
+      max-height: 100vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    &__wrapper {
+      width: 100%;
+      //   display: flex;
+      // padding: 0 16px;
+      //   justify-content: center;
+    }
+
+    &__bg-overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      right: 9px;
+      top: 9px;
+    }
+
+    .steps__survey {
+      &__content {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 6px;
+        position: relative;
+      }
+
+      &__feedback-header {
+        color: $samsung-skyblue;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__submitted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 212px;
+
+    &--icon {
+      border: 2px solid black;
+      display: inline-block;
+      border-radius: 99px;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+
+      svg {
+        path {
+          fill: black;
+        }
+      }
+    }
+
+    &--text {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $desktop-lg) {
+  .steps {
+    &__container {
+      max-width: 100%;
+      max-height: 250px;
+      margin-right: 0;
+      z-index: 2;
+    }
+
+    &__instruction {
+      padding-bottom: 24px;
+    }
+  }
+
+  .steps__survey {
+    &__feedback-header {
+      background-color: #2189ff;
+      color: white;
+      width: 100%;
+      height: 47px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &__content {
+      background-color: #d9d9d9;
+    }
+
+    &__content {
+      span {
+        font-weight: 700;
+        width: 100%;
+        padding-left: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 550px) and (max-width: $desktop-lg) {
+  .steps {
+    &__container {
+      max-height: 90px;
+      // flex-direction: row;
+      &[data-mobile="true"] {
+        flex-direction: row;
+      }
+    }
+
+    &__content {
+      width: 100%;
+    }
+
+    &__curr-step {
+      height: 100%;
+      max-width: 90px;
+      padding: 0;
+      font-weight: 700;
+      position: sticky;
+      top: 0;
+
+      .curr-num {
+        font-size: 14px;
+        color: $how-tos-steps__curr-steps__text-color--current;
+      }
+
+      .steps-length {
+        color: $how-tos-steps__curr-steps__text-color--total;
+        font-size: 10px;
+      }
+    }
+
+    &__instruction {
+      flex-direction: row;
+      padding: 14px;
+    }
+
+    &__text {
+      font-size: 14px;
+
+      &-container {
+        justify-content: flex-start !important;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    &__note {
+      &__text {
+        font-size: 11px;
+        margin-top: 4px;
+
+        > * {
+          font-size: 11px;
+        }
+
+        p {
+          display: inline;
+        }
+      }
+    }
+
+    &__chev-btns {
+      display: flex;
+
+      button {
+        border: none;
+        width: 90px;
+        height: 90px;
+        background-color: $how-tos-steps__btns__bg-color--landscape;
+
+        &:first-child {
+          border-left: 1px solid $how-tos-steps__btns__border-color;
+          border-right: 1px solid $how-tos-steps__btns__border-color;
+        }
+
+        svg path {
+          transition: all 150ms ease-in-out;
+        }
+
+        &:disabled {
+          svg path {
+            fill: $how-tos-steps__btns__fill-color--disabled;
+          }
+        }
+
+        &:nth-child(2) {
+          transform: rotate(180deg);
+
+          &.retry-btn {
+            transform: rotate(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  div[data-layout="portrait"] {
+    .steps {
+      &__container {
+        max-height: 90px;
+        min-height: 90px;
+        flex-direction: row;
+      }
+
+      &__survey__input-header {
+        font-size: 16px;
+      }
+
+      &__survey__feedback-header {
+        font-size: 16px;
+      }
+
+      &__content {
+        min-height: 100% !important;
+        width: 100%;
+      }
+
+      &__curr-step {
+        height: 100%;
+        max-width: 54px;
+        padding: 0;
+        font-weight: 700;
+        position: sticky;
+        top: 0;
+
+        .curr-num {
+          font-size: 14px;
+          color: $how-tos-steps__curr-steps__text-color--current;
+        }
+
+        .steps-length {
+          color: $how-tos-steps__curr-steps__text-color--total;
+          font-size: 10px;
+        }
+      }
+
+      &__instruction {
+        min-height: 100% !important;
+        flex-direction: row;
+        padding: 18px 20px;
+      }
+
+      &__text {
+        font-size: 14px;
+
+        &-container {
+          min-height: 100% !important;
+          justify-content: flex-start !important;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      &__note {
+        &__text {
+          font-size: 11px;
+          margin-top: 4px;
+
+          > * {
+            font-size: 11px;
+          }
+
+          p {
+            display: inline;
+          }
+        }
+      }
+
+      &__chev-btns {
+        display: flex;
+
+        button {
+          border: none;
+          width: 54px;
+          height: 90px;
+          background-color: $how-tos-steps__btns__bg-color--landscape;
+
+          &:first-child {
+            border-left: 1px solid $how-tos-steps__btns__border-color;
+            border-right: 1px solid $how-tos-steps__btns__border-color;
+          }
+
+          svg path {
+            transition: all 150ms ease-in-out;
+          }
+
+          &:disabled {
+            svg path {
+              fill: $how-tos-steps__btns__fill-color--disabled;
+            }
+          }
+
+          &:nth-child(2) {
+            transform: rotate(180deg);
+
+            &.retry-btn {
+              transform: rotate(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.openSurvey {
+  transform: translateY(0);
+}
+
+.closeSurvey {
+  transform: translateY(calc(100% - 41px));
+}

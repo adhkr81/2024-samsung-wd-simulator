@@ -1,0 +1,3300 @@
+{
+    "data": {
+      "meta": {
+        "seoTitle": "",
+        "seoDescription": "",
+        "analyticsRef": "",
+        "breakpoints": { "lg": "1350px", "md": "1100px" },
+        "layout": "Horizontal",
+        "initial": "0",
+        "language": "en",
+        "agentRefferers": [],
+        "seoDesc": "",
+        "agentSections": ["emulator"],
+        "editors": ["soohan@sjdesignstudio.com"],
+        "customerSections": ["emulator"],
+        "path": "",
+        "title": "Copy of undefined"
+      },
+      "alternate": {
+        "dict": ["Default"],
+        "display": { "Default": 0 },
+        "items": {
+          "0": {
+            "transform": "translateX(0px) translateY(0px) scale(1)",
+            "defaultPreset": 0,
+            "devicePresets": [0, 1, 2, 3]
+          }
+        }
+      },
+      "device": { "canvasW": "1000px", "canvasH": "451px" },
+      "bezels": [
+        {
+          "image": "images/bezel/we_bezel_emulator.jpg",
+          "top": 0,
+          "left": 0,
+          "w": 1000,
+          "h": 451,
+          "behindAll": true
+        }
+      ],
+      "screenPlacements": [
+        {
+          "image": "images/screens/homescreen.jpg",
+          "top": 112,
+          "left": 304,
+          "w": 382,
+          "h": 222
+        },
+        {
+          "image": "images/screens/Setting_Washer_Mycycles-1.jpg",
+          "top": 112,
+          "left": 305,
+          "w": 379,
+          "h": 219
+        }
+      ],
+      "screenIcons": { "Preset 1": [] },
+      "scrollPlacements": [
+        { "image": "", "top": 143, "left": 420, "h": 191, "w": 254, "borderRadius": "0px" },
+        { "image": "", "top": 170, "left": 313, "h": 161, "w": 364, "borderRadius": "0px" },
+        { "image": "", "top": 166, "left": 319, "h": 150, "w": 348, "borderRadius": "0px" },
+        { "image": "", "top": 143, "left": 319, "h": 191, "w": 348, "borderRadius": "0px" }
+      ],
+      "presets": [
+        { "bezel": 0, "screenPlacements": 0, "icons": null, "scrollPlacements": null },
+        { "bezel": 0, "screenPlacements": 0, "icons": null, "scrollPlacements": 0 },
+        { "bezel": 0, "screenPlacements": 0, "icons": null, "scrollPlacements": 2 },
+        { "bezel": 0, "screenPlacements": 0, "icons": null, "scrollPlacements": 3 }
+      ],
+      "presetNames": [
+        "Preset 1",
+        "Scrolling 1",
+        "Scrolling FullW YesDesc",
+        "Scrolling FullW NoDesc"
+      ],
+      "overview": {
+        "topSolutions": { "title": "Top Solutions", "desc": "", "solutions": [] },
+        "infoList": {
+          "title": "Device Simulator Guide",
+          "items": [
+            {
+              "title": "Device Overview",
+              "ul": [
+                "Select a part of the device to learn more.",
+                "Links to useful articles related to that part of the device will appear.",
+                "Click <strong> 'Read More'</strong> to view the complete article."
+              ],
+              "props": {
+                "styles": {
+                  "listStyleType": "circle",
+                  "fontFamily": "SamsungOneLatinWeb-400",
+                  "fontSize": "14px",
+                  "width": "100%",
+                  "marginTop": "0",
+                  "boxSizing": "border-box"
+                }
+              }
+            },
+            {
+              "title": "How-To Guides",
+              "ul": [
+                "Select a category and topic to view the device simulator.",
+                "It will guide you on how to use the device to complete the task."
+              ],
+              "props": {
+                "styles": {
+                  "listStyleType": "circle",
+                  "fontFamily": "SamsungOneLatinWeb-400",
+                  "fontSize": "14px",
+                  "width": "100%",
+                  "marginTop": "0",
+                  "boxSizing": "border-box"
+                }
+              }
+            }
+          ]
+        },
+        "linkTitle": "Device Overview",
+        "linkURL": "/overview/front",
+        "icon": { "file": "answericon.png" },
+        "helpOverlay": null,
+        "initial": "front",
+        "routes": {
+          "front": {
+            "device": null,
+            "icons": [null, null, null],
+            "linkURL": "/overview/front",
+            "buttons": [],
+            "buttonStyling": 0
+          }
+        }
+      },
+      "screens": {
+        "images/screens/homescreen.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HW8AM27PRXV78BTCMPSCSA5S",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWE4JAJ86Q31BYD0T1JH3FAW",
+              "height": "28px",
+              "width": "382px",
+              "top": "318px",
+              "left": "302px",
+              "target": "images/screens/Homescreen_AppDock-1.jpg"
+            },
+            {
+              "id": "01HWE4MN0CBZJ2XQK33MPJ5NNE",
+              "height": "28px",
+              "width": "72px",
+              "top": "277px",
+              "left": "402px",
+              "target": "images/screens/Homescreen_MoreCycle_statusBar.jpg"
+            },
+            {
+              "id": "01HWE4TXFYH84QF52VS7X3ET1Y",
+              "height": "179px",
+              "width": "28px",
+              "top": "138px",
+              "left": "670px",
+              "target": "images/screens/Homescreen-2.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen_AppDock-1.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWE60TRF7S4RHHG6PRBRJYY3",
+              "height": "28px",
+              "width": "28px",
+              "top": "301px",
+              "left": "433px",
+              "target": "images/screens/Timer.jpg"
+            },
+            {
+              "id": "01HWE60TRFEGNBJW8S6PCV460Z",
+              "height": "28px",
+              "width": "28px",
+              "top": "301px",
+              "left": "477px",
+              "target": "images/screens/AppDocks_Bixby.jpg"
+            },
+            {
+              "id": "01HWE60TRFMVZXCH8MGXF1MWQ1",
+              "height": "28px",
+              "width": "28px",
+              "top": "301px",
+              "left": "521px",
+              "target": "images/screens/Weather.jpg"
+            },
+            {
+              "id": "01HWE60TRG3EAEQR5WNC1ZYAMX",
+              "height": "28px",
+              "width": "28px",
+              "top": "301px",
+              "left": "565px",
+              "target": "images/screens/Ring.jpg"
+            },
+            {
+              "id": "01HWE61K3WP1A9JVV07PTCFWF7",
+              "height": "28px",
+              "width": "28px",
+              "top": "306px",
+              "left": "308px",
+              "target": "images/screens/Homescreen_AppDock-2.jpg"
+            },
+            {
+              "id": "01HWR0V8DANC8AJXG8N7QA56PM",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR0V8DAZMDJX94N29DJX4FM",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen_AppDock-2.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWE63CNA6EBXNYKYQ9T4A0M9",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWE642FMR12DQ8HB8524D32J",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_SamsungAccount.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNP0D99JN5HNF2MW4FGS0WZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "650px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNP0D997Y1CGK8MFGRQ5AYT",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "301px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Washer_Mycycles_statusBar.jpg": {
+          "preset": 2,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNHNTSG4VE03AWWRVFM0EME",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNHZWWMNV9GJAZPQ8C3PJNY",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Setting_Washer_Mycycles_scroll.jpg",
+            "height": null,
+            "buttons": []
+          }
+        },
+        "images/screens/Setting_Washer_Mycycles-1.jpg": {
+          "preset": 2,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [],
+          "scrolling": { "screen": null, "height": null, "buttons": [] }
+        },
+        "images/screens/Settings_General_statusBar.jpg": {
+          "preset": 1,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNMSY9NHEF2H3SN4CQR6M8P",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNMX1BD3QD64MTJHS0MGKC8",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNMXRREH881P4DQNKV22W7E",
+              "height": "28px",
+              "width": "103px",
+              "top": "170px",
+              "left": "314px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Settings_General_scroll.jpg",
+            "height": null,
+            "buttons": [
+              {
+                "id": "01HWNNEE3E1GD5GDXGF8MQYY7S",
+                "height": "39px",
+                "width": "245px",
+                "top": "1px",
+                "left": "5px",
+                "target": "images/screens/Settings_SamsungAccount.jpg"
+              },
+              {
+                "id": "01HWNNG6D4T006PG6YCSHKN24X",
+                "height": "41px",
+                "width": "245px",
+                "top": "47px",
+                "left": "5px",
+                "target": "images/screens/Settings_Connections.jpg"
+              },
+              {
+                "id": "01HWNNG6D5VPQRM2HJW4RYQD02",
+                "height": "48px",
+                "width": "245px",
+                "top": "96px",
+                "left": "5px",
+                "target": "images/screens/Settings_Lock.jpg"
+              },
+              {
+                "id": "01HWNNG6D5BKHQT8WFFS42KA1H",
+                "height": "39px",
+                "width": "245px",
+                "top": "153px",
+                "left": "5px",
+                "target": "images/screens/Setting_Sounds.jpg"
+              },
+              {
+                "id": "01HWNNJ5J2WK10JZQV7HNVXTSB",
+                "height": "51px",
+                "width": "245px",
+                "top": "200px",
+                "left": "5px",
+                "target": "images/screens/Setting_Notifications.jpg"
+              },
+              {
+                "id": "01HWNNJ5J2KJMJQ9001SEPT3MF",
+                "height": "38px",
+                "width": "245px",
+                "top": "258px",
+                "left": "5px",
+                "target": "images/screens/Setting_Display.jpg"
+              },
+              {
+                "id": "01HWNNJ5J23ZFN7QN6ZVSA8Q56",
+                "height": "39px",
+                "width": "245px",
+                "top": "304px",
+                "left": "5px",
+                "target": "images/screens/Setting_Avatar.jpg"
+              },
+              {
+                "id": "01HWNNKWBF9YHTER995S4Q1DVJ",
+                "height": "40px",
+                "width": "245px",
+                "top": "350px",
+                "left": "5px",
+                "target": "images/screens/Setting_Bixby_statusBar.jpg"
+              },
+              {
+                "id": "01HWNNKWBF5XF03WGMCSQW3KN1",
+                "height": "40px",
+                "width": "245px",
+                "top": "441px",
+                "left": "5px",
+                "target": "images/screens/Setting_Language.jpg"
+              },
+              {
+                "id": "01HWNNKWBFRC3PNQGE2674R5VB",
+                "height": "41px",
+                "width": "245px",
+                "top": "488px",
+                "left": "5px",
+                "target": "images/screens/Setting_DateandTime.jpg"
+              },
+              {
+                "id": "01HWNNQX7GGA90CGSGD4GFS20T",
+                "height": "39px",
+                "width": "245px",
+                "top": "536px",
+                "left": "5px",
+                "target": "images/screens/Settings_LiquidUnits.jpg"
+              },
+              {
+                "id": "01HWNNQX7G58XY6S8VHVHZBRD3",
+                "height": "39px",
+                "width": "245px",
+                "top": "582px",
+                "left": "5px",
+                "target": "images/screens/Setting_Accessibility.jpg"
+              },
+              {
+                "id": "01HWNNQX7GR8FBSJ67D5CHV87K",
+                "height": "37px",
+                "width": "245px",
+                "top": "631px",
+                "left": "5px",
+                "target": "images/screens/Setting_SoftwareUpdate.jpg"
+              },
+              {
+                "id": "01HWNNQX7GC8H2VN0AKDBM073W",
+                "height": "39px",
+                "width": "245px",
+                "top": "670px",
+                "left": "5px",
+                "target": "images/screens/Setting_Support.jpg"
+              },
+              {
+                "id": "01HWNNTDBQ08W6X8GKDYDMQ7QT",
+                "height": "39px",
+                "width": "245px",
+                "top": "711px",
+                "left": "5px",
+                "target": "images/screens/Setting_Reset.jpg"
+              },
+              {
+                "id": "01HWNNTDBQHEPBFXCQHNYZ95KE",
+                "height": "40px",
+                "width": "245px",
+                "top": "753px",
+                "left": "5px",
+                "target": "images/screens/Setting_AboutDevice.jpg"
+              }
+            ]
+          }
+        },
+        "images/screens/Setting_Washer_statusBar.jpg": {
+          "preset": 1,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNN7H84SA20CJ6HYYS8DXNF",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNN7H855PNKP00TDBC85PD7",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNN9R169NWAH3W4W9E6FMB5",
+              "height": "28px",
+              "width": "103px",
+              "top": "143px",
+              "left": "314px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Setting_Washer_scroll.jpg",
+            "height": null,
+            "buttons": [
+              {
+                "id": "01HWNYF2BARHYVHBS04TBK9WKS",
+                "height": "37px",
+                "width": "243px",
+                "top": "50px",
+                "left": "6px",
+                "target": "images/screens/Setting_Washer_AutoDispenser_statusBar.jpg"
+              },
+              {
+                "id": "01HWNYF2BAETH3Y3W9CPDQ469H",
+                "height": "39px",
+                "width": "243px",
+                "top": "92px",
+                "left": "6px",
+                "target": "images/screens/Setting_Washer_PumpClean.jpg"
+              },
+              {
+                "id": "01HWNYHYSMS9BD0N8CH9S2GR2M",
+                "height": "41px",
+                "width": "243px",
+                "top": "245px",
+                "left": "6px",
+                "target": "images/screens/Setting_Washer_Mycycles_statusBar.jpg"
+              },
+              {
+                "id": "01HWNYHYSMWG92DZKD32CHY55W",
+                "height": "41px",
+                "width": "243px",
+                "top": "291px",
+                "left": "6px",
+                "target": "images/screens/Setting_Washer_Calibration.jpg"
+              },
+              {
+                "id": "01HWNYHYSM96FPTP8P8FPR0HFK",
+                "height": "43px",
+                "width": "243px",
+                "top": "337px",
+                "left": "6px",
+                "target": "images/screens/Setting_Washer_SelfDiagnosis.jpg"
+              }
+            ]
+          }
+        },
+        "images/screens/Settings_Connections.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNP6M8K7HCXJKP7JNQDCPDZ",
+              "height": "39px",
+              "width": "302px",
+              "top": "146px",
+              "left": "319px",
+              "target": "images/screens/Settings_Connection_WiFi.jpg"
+            },
+            {
+              "id": "01HWNP7P1XWQB403Z5Z2QTN5CY",
+              "height": "38px",
+              "width": "349px",
+              "top": "187px",
+              "left": "319px",
+              "target": "images/screens/Settings_Connection_EasyConnection.jpg"
+            },
+            {
+              "id": "01HWNP7P1YRA7735D0M7ENS8YN",
+              "height": "31px",
+              "width": "349px",
+              "top": "227px",
+              "left": "319px",
+              "target": "images/screens/Settings_Connection_Bluetooth.jpg"
+            },
+            {
+              "id": "01HWNPK0RQPEJVFKVA3VMK0TGX",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNPK0RQB45Y9FBJ5G80PB40",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_Connection_WiFi.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNPMJE1SH8YMQJ8XQ9JEEPY",
+              "height": "28px",
+              "width": "28px",
+              "left": "653.5px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNPMJE2KP5ZDAWK7E2P24QY",
+              "height": "28px",
+              "width": "28px",
+              "left": "303.5px",
+              "top": "109.5px",
+              "target": "images/screens/Settings_Connections.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_Connection_EasyConnection.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNPNZWJWDJ81JJNQR3WQR08",
+              "height": "28px",
+              "width": "28px",
+              "left": "653.5px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNPNZWJ22G9RD7WHYJN91SF",
+              "height": "28px",
+              "width": "28px",
+              "left": "303.5px",
+              "top": "109.5px",
+              "target": "images/screens/Settings_Connections.jpg"
+            },
+            {
+              "id": "01HWNPPAPKDY1ZNHYTW22ARFR0",
+              "height": "28px",
+              "width": "28px",
+              "left": "626.5px",
+              "top": "108.5px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_Connection_Bluetooth.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNPRNW4BP4AXSMMNYAYPDXE",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "653.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNPRNW494Q5B8JRK2F624Z6",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.5px",
+              "left": "303.5px",
+              "target": "images/screens/Settings_Connections.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_Lock.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNPV6Y7Z50WV9X007ZTJM5V",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "653.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNPV6Y7XASEH6JGCYCZR507",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.5px",
+              "left": "303.5px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen_DispenserCare.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQ1DTKE1M3VXZXQ3GXVNNV",
+              "height": "28px",
+              "width": "28px",
+              "left": "303.5px",
+              "top": "109.5px",
+              "target": "images/screens/Homescreen-2.jpg"
+            },
+            {
+              "id": "01HWNQ1DTKBQM60G04F3QJ0WC2",
+              "height": "28px",
+              "width": "28px",
+              "left": "626.5px",
+              "top": "108.5px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNQ1DTKRG8RDFPKK85ZKPBA",
+              "height": "28px",
+              "width": "28px",
+              "left": "653.5px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Sounds.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQ7S9RV4K9FBZM5D1XZSPB",
+              "height": "37px",
+              "width": "351px",
+              "top": "147px",
+              "left": "317px",
+              "target": "images/screens/Setting_Sounds_Soundmode.jpg"
+            },
+            {
+              "id": "01HWNQ9NV726F12RYCFYAN3F1X",
+              "height": "37px",
+              "width": "351px",
+              "top": "185px",
+              "left": "317px",
+              "target": "images/screens/Setting_Sounds_Soundtheme.jpg"
+            },
+            {
+              "id": "01HWNQ9NV7X4KYZ48TV2A8BHHH",
+              "height": "37px",
+              "width": "351px",
+              "top": "223px",
+              "left": "317px",
+              "target": "images/screens/Setting_Sounds_Volume.jpg"
+            },
+            {
+              "id": "01HWNQ9NV72J02VX3GZ37W4CV8",
+              "height": "37px",
+              "width": "351px",
+              "top": "261px",
+              "left": "317px",
+              "target": "images/screens/Setting_Sounds_Voicestyle.jpg"
+            },
+            {
+              "id": "01HWNQEVVKP963566J6C3B0NRW",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQEVVKCJGX4V7NBV9VEXRD",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Sounds_Volume.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQJ8KKN5NW4N6DF6NM5WR8",
+              "height": "28px",
+              "width": "28px",
+              "top": "107.5px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQJ8KMHQH419DNNDMK487E",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "303px",
+              "target": "images/screens/Setting_Sounds.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Sounds_Voicestyle.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQJES1A0DPGMV10S8CQQ4Q",
+              "height": "28px",
+              "width": "28px",
+              "top": "107.5px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQJES1WPTBP4TE5QPHWC8E",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "303px",
+              "target": "images/screens/Setting_Sounds.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Sounds_Soundmode.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQFWM5C9SDJ5P57SZNF2YR",
+              "height": "28px",
+              "width": "28px",
+              "left": "655px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQFWM557YFN4TK814FVATW",
+              "height": "28px",
+              "width": "28px",
+              "left": "303px",
+              "top": "109.5px",
+              "target": "images/screens/Setting_Sounds.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Sounds_Soundtheme.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQHZYVQBMTSW4ZA7Z045J7",
+              "height": "28px",
+              "width": "28px",
+              "top": "107.5px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQHZYW5HXRWZ2K0H0JHKN3",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "303px",
+              "target": "images/screens/Setting_Sounds.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Notifications.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQRPHZ22GBATQ8NCH97WDD",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQRPJ05J5HJN3M7V1R5VDZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNQV67R7EQ0M4PYJCY7MMQ2",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Notifications-2.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNQRWNZRHGHYZ1CXHK6MWEM",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNQRWNZJPCNGK1QDVXN55NB",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627.5px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNQSEF0EV0H8MKSJBKWWTQR",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Display_FontSize.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNV4Y09B01PJ5P69QND1Y2E",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "655px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNV4Y09QPAM23W2QN2V66DQ",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "305px",
+              "target": "images/screens/Setting_Display.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Display.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNV28A5P3PQ1SA8B7T4QFS3",
+              "height": "31px",
+              "width": "351px",
+              "top": "204px",
+              "left": "318px",
+              "target": "images/screens/Setting_Display_FontSize.jpg"
+            },
+            {
+              "id": "01HWNV4530N8MEA32RWNZFBK8Y",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNV4530SXEDGWDNHAY4859G",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.25px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Avatar.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNV7B5SDB60PP1ZJSVRKC4Y",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNV7B5T1XNX4VTS87GVSGDT",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Bixby-feedback.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZT65JBJ6VET2C5VEABVYR",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZT65K9VVV3SKVBDASCMG7",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZT65KH8EEATW90Q9S6KX8",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Voice-wake-up.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZR0W90X1SGH6NV8CNEFY3",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZR0W9CX50MZRFS7XCCX11",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZR0W9DBJN7725APCR4Q41",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Talk-to-Bixby-without-wake-up.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZV5T6826A2W0P3J5PX9BX",
+              "height": "28px",
+              "width": "28px",
+              "top": "110px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZV5T6M0SKH2M962ZB5BQN",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZV5T6EP5555PWW10HEXJP",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Privacy.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZZB0R93H72E1HTZM4TCVM",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZZB0RFH4R91EYEHM2SE3H",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZZB0RVE4D5XJG1ZZ21YGP",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_About-Bixby.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR014DJW2G1EW763BEX978Z",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWR014DKN72G0K7BER8WNA4N",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR014DK9GFTCW1E11P6YQ08",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Personalization.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZYNAY6DQR5BAPCP1P395V",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZYNAYXMXVNKZQG101T4EB",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZYNAY6A7C1A9HF7G1RNKE",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Leave-Bixby.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR006WJS8EY0V1BSJTX6ZE1",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR006WJ9J9QRY357Y99SRAK",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Preferred-services.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZWB4G5419FKPPF7Y67JFP",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZWB4GMCJCBFHHJCHEDVK1",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZWB4G2GZFNP1QZNFCR9DN",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Unlink-device.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZXN2H4KJ4JJZW65ZM3FFR",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZXN2HA65PJTNJ00ENZ35Z",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Discover-Bixby.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZN154CRBS2P7FSHX7PFSZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZN154KR9VQZWFFXK426B3",
+              "height": "28px",
+              "width": "28px",
+              "top": "107.81px",
+              "left": "627.09px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZN154KAGDRENWYKBCSMQ0",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654.03px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_Language-and-voice-style.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQZRXH6G02WR14RV8EYESZQ",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Bixby_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZRXH6F3BR961M19MXKQDS",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQZRXH6QJEFR1CA0ZS1SHPC",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Bixby_statusBar.jpg": {
+          "preset": 3,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQS72S7TWYN7DDRHGGS8ZNX",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQS72S78A9CAY6MCM44DK3G",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQS72S8J3JNCT72NSZY43AW",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "653.5px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Setting_Bixby_scroll.jpg",
+            "height": null,
+            "buttons": [
+              {
+                "id": "01HWQSAG5P2SJZ0BM5S5KJR6XT",
+                "height": "35px",
+                "width": "319px",
+                "top": "8px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Discover-Bixby.jpg"
+              },
+              {
+                "id": "01HWQSCFN98DNEXWRHSYPN4QC0",
+                "height": "35px",
+                "width": "319px",
+                "top": "51px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Voice-wake-up.jpg"
+              },
+              {
+                "id": "01HWQSCFNBMPWS3S55PXNVRZMY",
+                "height": "35px",
+                "width": "319px",
+                "top": "87px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Language-and-voice-style.jpg"
+              },
+              {
+                "id": "01HWQSCFNBRY00N6ER7THRAV76",
+                "height": "30px",
+                "width": "319px",
+                "top": "123px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Bixby-feedback.jpg"
+              },
+              {
+                "id": "01HWQSCFNB3ZV2Z35JKWHCXPE3",
+                "height": "34px",
+                "width": "319px",
+                "top": "154px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Talk-to-Bixby-without-wake-up.jpg"
+              },
+              {
+                "id": "01HWQT17V6X27ZB9VF3KNFK7TK",
+                "height": "30px",
+                "width": "319px",
+                "top": "189px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Preferred-services.jpg"
+              },
+              {
+                "id": "01HWQT17V6ETBJ4WB3Z61Q3NFM",
+                "height": "30px",
+                "width": "319px",
+                "top": "220px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Unlink-device.jpg"
+              },
+              {
+                "id": "01HWQT17V68PR09GX9EF0JX30E",
+                "height": "30px",
+                "width": "319px",
+                "top": "252px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Personalization.jpg"
+              },
+              {
+                "id": "01HWQT17V6H7Z2GV4TCHS5C4F8",
+                "height": "30px",
+                "width": "319px",
+                "top": "284px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Privacy.jpg"
+              },
+              {
+                "id": "01HWQT17V6C2F1FZTBCXEMW5F5",
+                "height": "30px",
+                "width": "319px",
+                "top": "316px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_Leave-Bixby.jpg"
+              },
+              {
+                "id": "01HWQT17V6X5GRN4RXN1GEYT0Y",
+                "height": "30px",
+                "width": "319px",
+                "top": "348px",
+                "left": "13px",
+                "target": "images/screens/Setting_Bixby_About-Bixby.jpg"
+              }
+            ]
+          }
+        },
+        "images/screens/Setting_Language.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNX0APA53KYGFY5T5EE3PNZ",
+              "height": "28px",
+              "width": "28px",
+              "left": "654px",
+              "top": "109px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNX0APB869SVS4T4JHQ5FA7",
+              "height": "28px",
+              "width": "28px",
+              "left": "304px",
+              "top": "110px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_DateandTime.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNX4XEAVTJSGFNBD22NW814",
+              "height": "38px",
+              "width": "351px",
+              "top": "192px",
+              "left": "318px",
+              "target": "images/screens/Setting_DateandTime_Select-time-zone.jpg"
+            },
+            {
+              "id": "01HWNX6954S9TWWQD1S468AED5",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNX6954ZDRXDCEXAG0SF6PW",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.25px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_DateandTime_Select-time-zone.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNX6X2S8M5XA9XMYW2RVYPH",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNX6X2T3CDHXFQFV5EVWE9F",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_DateandTime.jpg"
+            }
+          ]
+        },
+        "images/screens/Settings_LiquidUnits.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNX9N1B6M67MYQ445ZS5QC6",
+              "height": "28px",
+              "width": "28px",
+              "left": "654px",
+              "top": "109px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNX9N1BPZ4DEY3A16GTFJ7A",
+              "height": "28px",
+              "width": "28px",
+              "left": "304px",
+              "top": "110px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Accessibility_Visibility-enhancements.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXJWMET2Y3H1WXP9FQXYEB",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXJWME3FP4DT0Y5PM7CQ9M",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Accessibility.jpg"
+            },
+            {
+              "id": "01HWNXKFVRJ30GYQAM1TA8HXSN",
+              "height": "31px",
+              "width": "351px",
+              "top": "220px",
+              "left": "318px",
+              "target": "images/screens/Setting_Accessibility_Visibility-enhancements_Font-size.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Accessibility_Visibility-enhancements_Font-size.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXMK45W5AHA28VCMZ4QR4A",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXMK45JFJPWJ1Y03AZVJAD",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Accessibility_Visibility-enhancements.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Accessibility.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXF06RC2R765S9NY9BQH9P",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXF06RFM43KGMJMY8TMYSB",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNXFDX6PY3ZKX34GSXGZZEG",
+              "height": "29px",
+              "width": "350px",
+              "top": "146px",
+              "left": "318px",
+              "target": "images/screens/Setting_Accessibility_Screen-reader.jpg"
+            },
+            {
+              "id": "01HWNXGW2WNAEVTFAC4FE0ZT1S",
+              "height": "29px",
+              "width": "350px",
+              "top": "183px",
+              "left": "318px",
+              "target": "images/screens/Setting_Accessibility_Visibility-enhancements.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Accessibility_Screen-reader.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXHJCK35JNSHYCZ0G9Q1TM",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXHJCKH1NEF1DTV2WD910T",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Accessibility.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_SoftwareUpdate_Download-and-install.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXV79SS5VVJRYZRZYB46P7",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXV79SH6ZH0P0W36KMVE40",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_SoftwareUpdate.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_SoftwareUpdate.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXSBA8SPH4J6MB7AMQWHPD",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXSBA82BTS3SS14K95N4WK",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.25px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNXSCFN1MWFF96NSNRS6MRZ",
+              "height": "40px",
+              "width": "349px",
+              "top": "145px",
+              "left": "319px",
+              "target": "images/screens/Setting_SoftwareUpdate_Download-and-install.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Support_Watch-tutorial-again.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY0NEBXS2FWP2QKJPXFQ9Y",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY0NECB9B2FG1CSZY26ETQ",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Support.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Support_Remote-support.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY1JH0WG9TT04BCYQBE7D7",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY1JH1AP11RBETK65MXZBZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Support.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Support.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNXY9Z359AQ0AS1VR0NYAPJ",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNXY9Z3B08703S9X24W3ECF",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNXYNXQXGQNBM71604CME27",
+              "height": "37px",
+              "width": "350px",
+              "top": "147px",
+              "left": "318px",
+              "target": "images/screens/Setting_Support_Watch-tutorial-again.jpg"
+            },
+            {
+              "id": "01HWNY076ZPY94H54CXGBKXHBB",
+              "height": "37px",
+              "width": "350px",
+              "top": "188px",
+              "left": "318px",
+              "target": "images/screens/Setting_Support_Remote-support.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Reset_Restart.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY99EZMYAZAH60Z7PX4CGG",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY99EZDNZZW3WW1066SRY3",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Reset.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Reset_Reset-all-settings.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY8HHE84X4N2QFRH6V0STZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY8HHF058K4Y0Z159S48GB",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Reset.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Reset_Reset-network-settings.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY73HV2611CPVPHN3DCXME",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.75px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY73HVAYPKQ5TBVGAY9NTD",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Setting_Reset.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Reset.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNY4PTMG6GACA46NHCZ57DM",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNY4PTMDPFQMZVZTJNMRBYX",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "304px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWNY50WMF91CWWDBMQAZZZHJ",
+              "height": "38px",
+              "width": "350px",
+              "top": "147px",
+              "left": "318px",
+              "target": "images/screens/Setting_Reset_Reset-network-settings.jpg"
+            },
+            {
+              "id": "01HWNY6N9GT779E2CJ2TGQ6J20",
+              "height": "38px",
+              "width": "350px",
+              "top": "188px",
+              "left": "318px",
+              "target": "images/screens/Setting_Reset_Reset-all-settings.jpg"
+            },
+            {
+              "id": "01HWNY6N9GFNQZNGRTRH246SP0",
+              "height": "38px",
+              "width": "350px",
+              "top": "229px",
+              "left": "318px",
+              "target": "images/screens/Setting_Reset_Restart.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_AboutDevice.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNYBCT2Q55C52S4HHZ60JDB",
+              "height": "28px",
+              "width": "28px",
+              "left": "654px",
+              "top": "109px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNYBCT25WTAW9YQDPJ2R4R2",
+              "height": "28px",
+              "width": "28px",
+              "left": "304px",
+              "top": "110px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Washer_PumpClean.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNYVC1590PWF703NQE9EGQW",
+              "height": "28px",
+              "width": "28px",
+              "left": "654px",
+              "top": "109.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNYVC1541976PJG02K4A2XF",
+              "height": "28px",
+              "width": "28px",
+              "left": "304px",
+              "top": "110.5px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Washer_Calibration.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNZ5N981HF5GH01G477A3F4",
+              "height": "28px",
+              "width": "28px",
+              "left": "654px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNZ5N98BN6EEPF8TE1KD5H0",
+              "height": "28px",
+              "width": "28px",
+              "left": "304px",
+              "top": "109.5px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Setting_Washer_SelfDiagnosis.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWNZ7BTAKEJAWBZW2DGAQ2N6",
+              "height": "28px",
+              "width": "28px",
+              "left": "655px",
+              "top": "108.5px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWNZ7BTBDY54XF4NPHQ7H4D9",
+              "height": "28px",
+              "width": "28px",
+              "left": "305px",
+              "top": "109.5px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen_MoreCycle_statusBar.jpg": {
+          "preset": 3,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWQS1578NFCK0CX9ZW8C2WTA",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "303px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWQS1578AVPQVWPKKNF3PD90",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "626px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWQS1578029DGZSJ9MT8JK64",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "653px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Homescreen_MoreCycle_scroll.jpg",
+            "height": null,
+            "buttons": []
+          }
+        },
+        "images/screens/Setting_Washer_AutoDispenser_statusBar.jpg": {
+          "preset": 3,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR08C2WCVW78TT4EASP1JD9",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWR08C2XCW55QG608WEEBX2Z",
+              "height": "28px",
+              "width": "28px",
+              "top": "110px",
+              "left": "304px",
+              "target": "images/screens/Setting_Washer_statusBar.jpg"
+            }
+          ],
+          "scrolling": {
+            "screen": "images/scrolling/Setting_Washer_AutoDispenser_scroll.jpg",
+            "height": null,
+            "buttons": []
+          }
+        },
+        "images/screens/AppDocks_Bixby.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR10H78X3QW3AG4NGPRFT6G",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR10H79CDXN23FZJ6DH98T8",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Timer.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR0VKZ5QNQ7Y9RYFZTTPK84",
+              "height": "28px",
+              "width": "28px",
+              "left": "624px",
+              "top": "107px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR0VKZ5ZWE3PB6MKFBPM54R",
+              "height": "28px",
+              "width": "28px",
+              "left": "651px",
+              "top": "107px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWR0XGS4P03QA2Y6HE144654",
+              "height": "28px",
+              "width": "28px",
+              "left": "301px",
+              "top": "109px",
+              "target": "images/screens/Homescreen_AppDock-1.jpg"
+            }
+          ]
+        },
+        "images/screens/Weather.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR11399TH8A09MW8YPY0DFZ",
+              "height": "28px",
+              "width": "28px",
+              "top": "107px",
+              "left": "624px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR1139933V3TMWRF9Y8EXR5",
+              "height": "28px",
+              "width": "28px",
+              "top": "109px",
+              "left": "301px",
+              "target": "images/screens/Homescreen_AppDock-1.jpg"
+            },
+            {
+              "id": "01HWR11399H8YVY9HQYVFQ74DC",
+              "height": "28px",
+              "width": "28px",
+              "top": "107px",
+              "left": "651px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Ring.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR11K7P1TPZJGFGSDGKWM8M",
+              "height": "28px",
+              "width": "28px",
+              "left": "629.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR11K7P9D2MGX3QVBRGD3W4",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "305px",
+              "target": "images/screens/Homescreen_AppDock-1.jpg"
+            },
+            {
+              "id": "01HWR11K7P3Y5WW8GTJJSK6CYQ",
+              "height": "28px",
+              "width": "28px",
+              "left": "656.5px",
+              "top": "108px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen-3.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": []
+        },
+        "images/screens/Homescreen-4.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR3R09GED7A87ACJN3KBVHF",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR3R09GSFJTKYDMMY5YB6NH",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWR44J7MVNVC47JGJJ5842VV",
+              "height": "28px",
+              "width": "164px",
+              "top": "141px",
+              "left": "322px",
+              "target": "images/screens/Monthly_energy_usage.jpg"
+            },
+            {
+              "id": "01HWR45YN70ZHHCBWY5EXZR9M3",
+              "height": "28px",
+              "width": "164px",
+              "top": "141px",
+              "left": "501px",
+              "target": "images/screens/Monthly_water_usage.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen-2.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR3KTAFMXDFWGH9ACRBMG4K",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR3KTAGZTXJQF2H5YJDZGXY",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "654px",
+              "target": "images/screens/homescreen.jpg"
+            },
+            {
+              "id": "01HWR3MWWWVRMTS5C0BDCYDNQA",
+              "height": "179px",
+              "width": "28px",
+              "top": "138px",
+              "left": "670px",
+              "target": "images/screens/Homescreen-4.jpg"
+            },
+            {
+              "id": "01HWR3RN74MM0D817G0Q8EJ6S6",
+              "height": "28px",
+              "width": "164px",
+              "top": "140px",
+              "left": "309px",
+              "target": "images/screens/Homescreen_DispenserCare.jpg"
+            },
+            {
+              "id": "01HWR3T9B54C6JG8CFFRPBZXC1",
+              "height": "28px",
+              "width": "164px",
+              "top": "140px",
+              "left": "489px",
+              "target": "images/screens/Homescreen_Product_care.jpg"
+            }
+          ]
+        },
+        "images/screens/Homescreen_Product_care.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR42PA829KMTAPHQAE6T05W",
+              "height": "28px",
+              "width": "28px",
+              "top": "109.5px",
+              "left": "303.5px",
+              "target": "images/screens/Homescreen-2.jpg"
+            },
+            {
+              "id": "01HWR42PA87D1V5H5GT8H2121P",
+              "height": "28px",
+              "width": "28px",
+              "left": "627.5px",
+              "top": "108px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR42PA89AXV6AK48QRM3TDC",
+              "height": "28px",
+              "width": "28px",
+              "left": "654.5px",
+              "top": "109px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Monthly_energy_usage.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR48KH9F6P1MQ6PV5DPC052",
+              "height": "28px",
+              "width": "28px",
+              "top": "110px",
+              "left": "303px",
+              "target": "images/screens/Homescreen-4.jpg"
+            },
+            {
+              "id": "01HWR48KH9F136B4ZRHNJJ2GBC",
+              "height": "28px",
+              "width": "28px",
+              "top": "108px",
+              "left": "627px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR48KH9RPY755M1NTPGGZKQ",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.5px",
+              "left": "653.5px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        },
+        "images/screens/Monthly_water_usage.jpg": {
+          "preset": 0,
+          "iconSet": null,
+          "swipes": [],
+          "buttons": [
+            {
+              "id": "01HWR47D155EHQK1FJ3C4WK4GE",
+              "height": "28px",
+              "width": "28px",
+              "top": "110px",
+              "left": "303px",
+              "target": "images/screens/Homescreen-4.jpg"
+            },
+            {
+              "id": "01HWR47D16PZ9Z2CJJD7NJKM3R",
+              "height": "28px",
+              "width": "28px",
+              "top": "107.75px",
+              "left": "626.75px",
+              "target": "images/screens/Settings_General_statusBar.jpg"
+            },
+            {
+              "id": "01HWR47D1633GK5H4FQF430278",
+              "height": "28px",
+              "width": "28px",
+              "top": "108.25px",
+              "left": "654.25px",
+              "target": "images/screens/homescreen.jpg"
+            }
+          ]
+        }
+      },
+      "emulator": {
+        "linkTitle": "Turn On Emulator",
+        "linkURL": "/emulator",
+        "defaultPreset": null,
+        "helpOverlay": null,
+        "home": "images/screens/homescreen.jpg"
+      },
+      "simulator": {
+        "linkTitle": "How-To Guide",
+        "linkURL": false,
+        "defaultPreset": null,
+        "helpOverlay": null
+      }
+    },
+    "styles": {
+      "slide-menu": {
+        "container": { "padding": "20px 0 0 0", "justifyContent": "center" }
+      },
+      "buttons": {
+        "overview": [
+          {
+            "backgroundColor": "rgba(77,207,255,1)",
+            "border": "1px solid rgba(255,255,255,1)",
+            "borderRadius": "50%"
+          }
+        ],
+        "emulator": {
+          "backgroundColor": "rgba(255,255,255,0)",
+          "border": "2px solid rgba(77,207,255,1)",
+          "borderRadius": "8px"
+        },
+        "simulator": {
+          "backgroundColor": "rgba(32,32,255,0.6)",
+          "border": "1px solid rgba(255,255,255,0)",
+          "borderRadius": "50%"
+        }
+      },
+      "accordian": {
+        "accordian-1": {
+          "prefix": {},
+          "append": { "title": "+" },
+          "container": { "height": "200px" },
+          "outerdiv": {},
+          "titlediv": {
+            "backgroundColor": "#eeeeee",
+            "height": "50px",
+            "margin": "5px 0px",
+            "display": "flex",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "cursor": "pointer"
+          },
+          "title": {
+            "padding": "0 20px",
+            "fontSize": "16px",
+            "fontFamily": "SamsungOneLatinWeb-700"
+          },
+          "innerdiv": { "boxSizing": "border-box", "paddingLeft": "20px" },
+          "innertitle": {
+            "fontFamily": "SamsungOne-400",
+            "fontSize": "14px",
+            "cursor": "pointer",
+            "color": "black",
+            "textDecoration": "none",
+            "margin": "5px 0"
+          },
+          "activeLink": { "color": "rgb(32, 162, 255)" }
+        },
+        "accordian-2": {
+          "prefix": {},
+          "append": {},
+          "container": { "height": "100px" },
+          "outerdiv": {},
+          "titlediv": {},
+          "title": {
+            "padding": "0 20px",
+            "fontSize": "14px",
+            "fontFamily": "SamsungSharpSans-Bold",
+            "cursor": "pointer",
+            "margin": "8px 0"
+          },
+          "innerdiv": {},
+          "innertitle": {
+            "fontFamily": "SamsungOne-400",
+            "fontSize": "14px",
+            "margin": "2px 28px",
+            "cursor": "pointer",
+            "color": "black",
+            "textDecoration": "none"
+          },
+          "activeLink": { "color": "rgb(32, 162, 255)" }
+        }
+      },
+      "horizontal-rule": {
+        "hr-1": { "width": "100%", "border": "1px solid rgb(221, 221, 221)" }
+      },
+      "route-link": {
+        "route-link-1": {
+          "container": {
+            "display": "flex",
+            "justifyContent": "flex-start",
+            "margin": "8px 0"
+          },
+          "link": {
+            "textDecoration": "none",
+            "color": "black",
+            "fontSize": "18px",
+            "fontFamily": "SamsungOne-400",
+            "padding": "0 8px",
+            "margin": "5px 0"
+          },
+          "activeLink": { "color": "rgb(32, 162, 255)" }
+        },
+        "route-link-2": {
+          "container": { "display": "flex", "justifyContent": "flex-start" },
+          "link": {
+            "textDecoration": "none",
+            "color": "black",
+            "fontSize": "20px",
+            "fontFamily": "SamsungSharpSans-Bold",
+            "padding": "0 19px",
+            "margin": "5px 0"
+          },
+          "activeLink": { "color": "rgb(32, 162, 255)" }
+        }
+      },
+      "article-list": {
+        "icon-height": "36px",
+        "title": {
+          "fontSize": "1.4em",
+          "fontFamily": "SamsungSharpSans-Bold",
+          "marginTop": "0",
+          "marginBottom": "10px"
+        },
+        "desc": { "fontFamily": "SamsungOne-400", "margin": "0px" },
+        "sol-title": {
+          "fontFamily": "SamsungOne-400",
+          "fontWeight": "700",
+          "fontSize": "18px",
+          "margin": "0"
+        },
+        "sol-desc": { "fontFamily": "SamsungOneLatinWeb-400", "marginBlockStart": "0.7em" },
+        "sol-url": {
+          "fontFamily": "SamsungOneLatinWeb-400",
+          "color": "#999999",
+          "textDecoration": "none",
+          "fontSize": "12px"
+        }
+      },
+      "step-list": {
+        "title": { "fontFamily": "SamsungSharpSans-Bold", "fontSize": "1.5em" },
+        "titleNote": {
+          "fontFamily": "SamsungOneLatinWeb-400",
+          "fontStyle": "italic",
+          "fontSize": "0.9em"
+        },
+        "ol": {
+          "padding": "0 1em",
+          "fontFamily": "SamsungOneLatinWeb-400",
+          "fontSize": "15px"
+        },
+        "li": { "cursor": "pointer" },
+        "step": { "fontFamily": "SamsungOneLatinWeb-400", "fontSize": "15px" },
+        "stepNote": { "fontFamily": "SamsungOneLatinWeb-400", "fontSize": "15px" },
+        "activeStep": {
+          "color": "rgb(32, 162, 255)",
+          "fontSize": "18px",
+          "fontFamily": "SamsungOneLatinWeb-700"
+        },
+        "bold": { "fontFamily": "SamsungOneLatinWeb-700" }
+      },
+      "bottom-content": {
+        "icon-height": "30px",
+        "title": {
+          "fontSize": "1.4em",
+          "fontFamily": "SamsungSharpSans-Bold",
+          "marginTop": "0",
+          "marginBottom": "10px"
+        },
+        "inner": { "flexDirection": "column", "padding": "0.5em 30px 8em" },
+        "desc": { "fontFamily": "SamsungOne-400", "margin": "0px" },
+        "sol-title": {
+          "fontFamily": "SamsungOne-400",
+          "fontWeight": "700",
+          "fontSize": "18px",
+          "margin": "0"
+        },
+        "sol-desc": { "fontFamily": "SamsungOneLatinWeb-400" },
+        "sol-url": {
+          "fontFamily": "SamsungOneLatinWeb-400",
+          "color": "#999999",
+          "textDecoration": "none",
+          "fontSize": "12px"
+        },
+        "outer-closed": {
+          "width": "100%",
+          "backgroundColor": "#eeeeee",
+          "borderRadius": "20px 20px 0 0",
+          "boxShadow": "rgb(0 0 0 / 10%) 0px -4px 10px 0px",
+          "position": "absolute",
+          "bottom": "0px",
+          "zIndex": "50",
+          "left": "0px",
+          "height": "100px",
+          "transition": "0.3s ease-in-out",
+          "display": "block",
+          "overflowY": "hidden",
+          "overflowX": "hidden"
+        },
+        "outer-open": {
+          "height": "450px",
+          "transition": "0.3s ease-in-out",
+          "overflowY": "scroll"
+        },
+        "title-closed": {
+          "textAlign": "center",
+          "fontFamily": "SamsungSharpSans-Bold",
+          "fontSize": "20px"
+        },
+        "title-open": { "textAlign": "left" }
+      },
+      "bottom-content-2": {
+        "outer-closed": {
+          "width": "100%",
+          "backgroundColor": "#eeeeee",
+          "position": "absolute",
+          "bottom": "0px",
+          "zIndex": "50",
+          "left": "0px",
+          "height": "100px",
+          "transition": "0.3s ease-in-out",
+          "justifyContent": "center",
+          "overflowY": "hidden",
+          "alignItems": "center"
+        },
+        "steps": {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "width": "80%",
+          "textAlign": "center",
+          "margin": "10px",
+          "fontFamily": "SamsungOneLatinWeb-400",
+          "fontSize": "0.8rem"
+        }
+      }
+    },
+    "config": {
+      "variants": [
+        {
+          "lg": {
+            "rows": [
+              {
+                "isHidden": ["agent", "customer"],
+                "styles": {
+                  "width": "100%",
+                  "height": "72px",
+                  "flex": "none",
+                  "display": "fixed"
+                },
+                "cols": [
+                  {
+                    "styles": {
+                      "width": "100%",
+                      "height": "72px",
+                      "backgroundColor": "#fff"
+                    },
+                    "classes": ["cc"],
+                    "comps": [
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "Header",
+                        "route": "",
+                        "props": {},
+                        "isHidden": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "styles": {
+                  "height": "calc(100% - 135px)",
+                  "width": "100%",
+                  "maxWidth": "1350px",
+                  "maxHeight": "640px",
+                  "padding": "5px 25px",
+                  "boxSizing": "border-box",
+                  "marginTop": "30px"
+                },
+                "cols": [
+                  {
+                    "styles": { "flex": 1, "height:": "100%" },
+                    "classes": ["sc"],
+                    "comps": [
+                      {
+                        "styles": { "width": "100%", "marginBottom": "10px" },
+                        "element": "SearchBar",
+                        "route": "",
+                        "props": {},
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "display": "block", "width": "100%" },
+                        "element": "RouteLink",
+                        "route": "",
+                        "props": { "path": ["overview"], "style": "route-link-1" },
+                        "isHidden": ["agent", "customer"]
+                      },
+                      {
+                        "styles": { "display": "block", "width": "100%" },
+                        "element": "RouteLink",
+                        "route": "",
+                        "props": { "path": ["emulator"], "style": "route-link-1" },
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "display": "block", "width": "100%" },
+                        "element": "HorizontalRule",
+                        "route": "",
+                        "props": { "style": "hr-1" },
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "display": "block", "width": "100%" },
+                        "element": "RouteLink",
+                        "route": "",
+                        "props": { "path": ["simulator"], "style": "route-link-1" },
+                        "isHidden": ["agent", "customer"]
+                      },
+                      {
+                        "styles": {
+                          "width": "100%",
+                          "overflowY": "scroll",
+                          "boxSizing": "border-box",
+                          "flex": 1
+                        },
+                        "element": "Accordian",
+                        "route": "",
+                        "props": {
+                          "path": ["simulator", "categories"],
+                          "style": "accordian-1"
+                        },
+                        "isHidden": ["agent", "customer"]
+                      }
+                    ]
+                  },
+                  {
+                    "styles": {
+                      "backgroundColor": "#fff",
+                      "maxHeight": "640px",
+                      "flex": 1,
+                      "position": "relative"
+                    },
+                    "classes": ["cc", "device-container"],
+                    "comps": [
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "id": "device-wrapper",
+                        "route": "overview",
+                        "element": "Device",
+                        "props": { "type": "overview" },
+                        "isHidden": ["agent", "customer"]
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "emulator",
+                        "element": "Device",
+                        "props": { "type": "emulator" },
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "simulator",
+                        "element": "Device",
+                        "props": { "type": "simulator" },
+                        "isHidden": ["agent", "customer"]
+                      }
+                    ]
+                  },
+                  {
+                    "styles": {
+                      "display": "flex",
+                      "maxWidth": "36px",
+                      "marginRight": "4px"
+                    },
+                    "classes": ["ss"],
+                    "comps": [
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "OverlayIcons",
+                        "route": "emulator",
+                        "props": {},
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "OverlayIcons",
+                        "route": "simulator",
+                        "props": {},
+                        "isHidden": ["agent", "customer"]
+                      }
+                    ]
+                  },
+                  {
+                    "styles": { "overflowY": "scroll", "flex": 1 },
+                    "classes": ["ss"],
+                    "comps": [
+                      {
+                        "isHidden": ["agent", "customer"],
+                        "styles": {},
+                        "element": "InfoList",
+                        "route": "overview",
+                        "props": {
+                          "path": ["overview", "infoList"],
+                          "style": "article-list",
+                          "styles": {
+                            "fontSize": "18px",
+                            "fontFamily": "SamsungOne-400",
+                            "margin": "6px 0",
+                            "fontWeight": "700"
+                          }
+                        }
+                      },
+                      {
+                        "styles": { "paddingRight": "18px" },
+                        "element": "ArticleList",
+                        "route": "overview",
+                        "props": { "style": "article-list" },
+                        "isHidden": ["agent", "customer"]
+                      },
+                      {
+                        "id": "steps-menu",
+                        "styles": {
+                          "backgroundColor": "#eee",
+                          "height": "100%",
+                          "width": "100%",
+                          "overflowY": "scroll",
+                          "boxSizing": "border-box",
+                          "padding": "1em 2em 1em 2.5em",
+                          "flexDirection": "column",
+                          "borderRadius": "4px"
+                        },
+                        "route": "simulator",
+                        "element": "OrderedList",
+                        "props": {
+                          "style": "step-list",
+                          "stepList": true,
+                          "path": ["simulator", "categories"]
+                        },
+                        "isHidden": ["agent", "customer"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "md": {
+            "rows": [
+              {
+                "classes": ["tablet-header"],
+                "styles": {
+                  "width": "100%",
+                  "height": "72px",
+                  "flex": "none",
+                  "display": "fixed"
+                },
+                "cols": [
+                  {
+                    "styles": {
+                      "width": "100%",
+                      "height": "72px",
+                      "backgroundColor": "#fff"
+                    },
+                    "classes": ["cc"],
+                    "comps": [
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "Header",
+                        "route": "",
+                        "props": {},
+                        "isHidden": []
+                      }
+                    ]
+                  }
+                ],
+                "isHidden": ["agent", "customer"]
+              },
+              {
+                "styles": {
+                  "maxWidth": "1100px",
+                  "height": "calc(100% - 135px)",
+                  "maxHeight": "640px",
+                  "padding": "5px 25px",
+                  "boxSizing": "border-box",
+                  "marginTop": "30px"
+                },
+                "classes": ["tablet-row"],
+                "cols": [
+                  {
+                    "styles": {
+                      "flex": 1,
+                      "height:": "100%",
+                      "backgroundColor": "#ffffff"
+                    },
+                    "classes": ["sc", "device-container"],
+                    "comps": [
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "overview",
+                        "element": "Device",
+                        "props": { "type": "overview" },
+                        "isHidden": ["agent", "customer"]
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "emulator",
+                        "element": "Device",
+                        "props": { "type": "emulator" },
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "isHidden": ["agent", "customer"],
+                        "route": "simulator",
+                        "element": "Device",
+                        "props": { "type": "simulator" }
+                      }
+                    ]
+                  },
+                  {
+                    "styles": {
+                      "display": "flex",
+                      "maxWidth": "36px",
+                      "marginTop": "10px",
+                      "marginRight": "4px"
+                    },
+                    "classes": ["ss"],
+                    "comps": [
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "OverlayIcons",
+                        "route": "emulator",
+                        "props": {},
+                        "isHidden": []
+                      },
+                      {
+                        "styles": { "width": "100%" },
+                        "element": "OverlayIcons",
+                        "route": "simulator",
+                        "props": {},
+                        "isHidden": ["agent", "customer"]
+                      }
+                    ]
+                  },
+                  {
+                    "styles": {
+                      "backgroundColor": "#ffffff",
+                      "overflowY": "scroll",
+                      "flex": 1,
+                      "boxSizing": "border-box"
+                    },
+                    "classes": ["ss"],
+                    "comps": [
+                      {
+                        "isHidden": ["agent", "customer"],
+                        "styles": {},
+                        "element": "InfoList",
+                        "route": "overview",
+                        "props": {
+                          "path": ["overview", "infoList"],
+                          "style": "article-list",
+                          "styles": {
+                            "fontSize": "18px",
+                            "fontFamily": "SamsungOne-400",
+                            "margin": "6px 0",
+                            "fontWeight": "700"
+                          }
+                        }
+                      },
+                      {
+                        "styles": { "marginTop": "10px", "boxSizing": "border-box" },
+                        "element": "ArticleList",
+                        "route": "overview",
+                        "isHidden": ["agent", "customer"],
+                        "props": { "style": "article-list" }
+                      },
+                      {
+                        "styles": {
+                          "backgroundColor": "#eeeeee",
+                          "height": "100%",
+                          "width": "100%",
+                          "overflowY": "scroll",
+                          "padding": "1em 2em 1em 2.5em",
+                          "flexDirection": "column",
+                          "marginTop": "10px",
+                          "boxSizing": "border-box",
+                          "maxWidth": "500px"
+                        },
+                        "route": "simulator",
+                        "element": "OrderedList",
+                        "isHidden": ["agent", "customer"],
+                        "props": {
+                          "style": "step-list",
+                          "stepList": true,
+                          "path": ["simulator", "categories"]
+                        }
+                      },
+                      { "styles": {}, "route": "", "element": "MenuButton", "isHidden": [] }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cols": [
+                  {
+                    "comps": [
+                      {
+                        "id": "slide-menu",
+                        "classes": ["hidden-menu", "ss"],
+                        "styles": {
+                          "backgroundColor": "#ffffff",
+                          "height": "100%",
+                          "width": "400px",
+                          "position": "absolute",
+                          "zIndex": "99",
+                          "top": "0",
+                          "overflow": "hidden"
+                        },
+                        "route": "",
+                        "element": "SlideMenu",
+                        "isHidden": [],
+                        "props": {
+                          "style": "slide-menu",
+                          "menuComps": [
+                            {
+                              "styles": {
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto",
+                                "position": "absolute",
+                                "top": "30px"
+                              },
+                              "element": "SearchBar",
+                              "route": "",
+                              "props": {},
+                              "isHidden": []
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "isHidden": ["agent", "customer"],
+                              "props": { "path": ["overview"], "style": "route-link-2" }
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "isHidden": [],
+                              "props": { "path": ["emulator"], "style": "route-link-2" }
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "isHidden": ["agent", "customer"],
+                              "props": {
+                                "path": ["simulator"],
+                                "style": "route-link-2",
+                                "accordianControl": "mobile-accordian"
+                              }
+                            },
+                            {
+                              "id": "mobile-accordian",
+                              "styles": {
+                                "display": "none",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "Accordian",
+                              "route": "",
+                              "isHidden": ["agent", "customer"],
+                              "props": {
+                                "path": ["simulator", "categories"],
+                                "style": "accordian-2"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "sm": {
+            "rows": [
+              {
+                "styles": { "width": "100%", "height": "calc(100% - 100px)" },
+                "cols": [
+                  {
+                    "styles": { "height": "100%" },
+                    "classes": ["cc"],
+                    "comps": [
+                      {
+                        "styles": {
+                          "height": "100%",
+                          "width": "100%",
+                          "position": "relative"
+                        },
+                        "isHidden": ["agent", "customer"],
+                        "route": "overview",
+                        "element": "Device",
+                        "props": { "type": "overview" }
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "emulator",
+                        "isHidden": [],
+                        "element": "Device",
+                        "props": { "type": "emulator" }
+                      },
+                      {
+                        "styles": { "justifySelf": "center", "position": "relative" },
+                        "route": "simulator",
+                        "isHidden": ["agent", "customer"],
+                        "element": "Device",
+                        "props": { "type": "simulator" }
+                      }
+                    ]
+                  }
+                ],
+                "isHidden": ["agent", "customer"]
+              },
+              {
+                "styles": { "width": "100%", "maxHeight": "100px" },
+                "cols": [
+                  {
+                    "styles": { "width": "100%", "height": "100%" },
+                    "comps": [
+                      {
+                        "id": "slide-menu",
+                        "classes": ["hidden-menu", "ss"],
+                        "styles": {
+                          "backgroundColor": "blue",
+                          "height": "100%",
+                          "width": "400px",
+                          "position": "absolute",
+                          "zIndex": "99",
+                          "top": "0",
+                          "overflow": "hidden"
+                        },
+                        "route": "",
+                        "isHidden": [],
+                        "element": "SlideMenu",
+                        "props": {
+                          "style": "slide-menu",
+                          "menuComps": [
+                            {
+                              "styles": {
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto",
+                                "position": "absolute",
+                                "top": "30px"
+                              },
+                              "element": "SearchBar",
+                              "route": "",
+                              "props": {},
+                              "isHidden": []
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "props": { "path": ["overview"], "style": "route-link-2" },
+                              "isHidden": ["agent", "customer"]
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "props": { "path": ["emulator"], "style": "route-link-2" },
+                              "isHidden": []
+                            },
+                            {
+                              "styles": {
+                                "display": "block",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "element": "RouteLink",
+                              "route": "",
+                              "props": {
+                                "path": ["simulator"],
+                                "style": "route-link-2",
+                                "accordianControl": "mobile-accordian"
+                              },
+                              "isHidden": ["agent", "customer"]
+                            },
+                            {
+                              "id": "mobile-accordian",
+                              "styles": {
+                                "display": "none",
+                                "width": "90%",
+                                "padding": "0 5%",
+                                "height": "auto"
+                              },
+                              "isHidden": ["agent", "customer"],
+                              "element": "Accordian",
+                              "route": "",
+                              "props": {
+                                "path": ["simulator", "categories"],
+                                "style": "accordian-2"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "route": "overview",
+                        "isHidden": ["agent", "customer"],
+                        "element": "BottomContent",
+                        "props": {
+                          "opens": true,
+                          "style": "bottom-content",
+                          "noTitle": "Device Simulator Guide",
+                          "openedComps": [
+                            {
+                              "isHidden": ["agent"],
+                              "styles": {},
+                              "element": "InfoList",
+                              "route": "overview",
+                              "props": {
+                                "path": ["overview", "infoList"],
+                                "style": "article-list",
+                                "styles": {
+                                  "fontSize": "18px",
+                                  "fontFamily": "SamsungOne-400",
+                                  "margin": "6px 0",
+                                  "fontWeight": "700"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "isHidden": ["agent", "customer"],
+                        "route": "simulator",
+                        "element": "BottomContent",
+                        "props": { "style": "bottom-content-2" }
+                      },
+                      {
+                        "isHidden": [],
+                        "styles": { "width": 0 },
+                        "route": "",
+                        "element": "MenuButton"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
