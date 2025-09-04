@@ -396,7 +396,7 @@ div[data-layout="portrait"] {
         cursor: pointer;
 
         &:disabled {
-          background-color: $gray-300;
+          background-color: $gray-200;
         }
       }
     }
@@ -420,11 +420,11 @@ div[data-layout="portrait"] {
       z-index: 5;
       position: absolute;
       width: 100%;
-      background-color: #d9d9d9;
+      background-color: $white;
       bottom: 100%;
       transition: all 500ms ease;
-      height: 338px;
-      max-height: 100vh;
+      //height: 100px;
+      max-height: 200px;
       overflow-y: auto;
       overflow-x: hidden;
     }
@@ -500,6 +500,145 @@ div[data-layout="portrait"] {
     }
   }
 }
+
+.steps__new__survey {
+  background-color: $white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding: 12px 32px;
+    
+  }
+
+
+  &__header {
+    h2 {
+      color: $gray-900;
+      font-family: $samsung__font-family;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 0;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 8px; 
+
+    button {
+      border-radius: 99px;
+      padding: 8px 16px;
+      border: 1px solid $gray-900;
+      background-color: $white;
+      color: $gray-900;
+      text-align: center;
+      /* Body 1 Bold */
+      font-family: $samsung__font-family;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 115%; /* 16.1px */
+    }
+
+    button:hover { 
+      background-color: $samsung-skyblue;
+      color: $white;
+      border: 1px solid $samsung-skyblue;
+      cursor: pointer;
+    }
+  }
+
+  &__thankyou {
+    padding: 12px 32px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    p {
+      color: $gray-900;
+      font-family: $samsung__font-family;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    align-items: unset !important;
+    width: 100%;
+    height: 100%;
+    padding: 24px 32px;
+    gap: 16px;
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 16px;
+
+      textarea {
+        width: 100%;
+        height: 70px;
+        padding: 6px;
+        resize: none; 
+        font-family: $samsung__font-family;
+        line-height: 1.5;
+        border-radius: 8px;
+        border: 1px solid $gray-200;
+
+        &:focus {
+          outline: 2px solid $samsung-skyblue;
+        }
+      }
+
+      input[type="submit"] {
+        border-radius: 99px;
+        padding: 8px 16px;
+        color: $white;
+        border: unset;
+        background-color: $black;
+
+
+        &:disabled {
+          background-color: $gray-200;
+          border: transparent;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__input-header {
+    color: $gray-900;
+    font-family: $samsung__font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+
 
 @media screen and (max-width: $desktop-lg) {
   .steps {
@@ -629,7 +768,7 @@ div[data-layout="portrait"] {
         }
 
         &:nth-child(2) {
-          transform: rotate(180deg);
+          transform: scaleX(-1);
 
           &.retry-btn {
             transform: rotate(0);
