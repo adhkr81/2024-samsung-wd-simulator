@@ -26,6 +26,15 @@ div[data-layout="portrait"] {
     background-color: $how-tos-steps__bg-color;
     position: relative;
     font-family: "SamsungOne";
+
+    // Allow container to expand for survey in landscape mode
+    &[data-landscape-survey="true"] {
+      height: auto;
+      min-height: fit-content;
+      max-height: none;
+      overflow: visible;
+      display: block;
+    }
   }
 
   &__header {
@@ -403,8 +412,8 @@ div[data-layout="portrait"] {
   }
 
   &--mobile {
-    position: absolute;
-    bottom: -100%;
+    // position: absolute;
+    // bottom: -100%;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(1.5px);
@@ -418,15 +427,35 @@ div[data-layout="portrait"] {
     &__active {
       opacity: 1;
       z-index: 5;
-      position: absolute;
+      // position: absolute;
       width: 100%;
       background-color: $white;
-      bottom: 100%;
+      // bottom: 100%;
       transition: all 500ms ease;
       //height: 100px;
       max-height: 200px;
       overflow-y: auto;
       overflow-x: hidden;
+      padding-bottom: 10px; // Add padding to prevent cutoff
+
+      // Remove max-height constraint when comment input appears (mobile only)
+      &[data-has-feedback="true"]:not([data-landscape="true"]) {
+        max-height: none;
+        height: auto;
+        min-height: fit-content;
+        overflow-y: visible; // Allow content to expand fully
+      }
+
+      // Allow full height in landscape mode to show comment input
+      &[data-landscape="true"] {
+        max-height: none;
+        height: auto;
+        overflow-y: visible;
+        overflow-x: hidden;
+        min-height: fit-content;
+        position: relative;
+        padding-bottom: 0; // No extra padding needed in landscape
+      }
     }
 
     &__wrapper {
@@ -434,6 +463,12 @@ div[data-layout="portrait"] {
       //   display: flex;
       // padding: 0 16px;
       //   justify-content: center;
+
+      // Ensure wrapper doesn't constrain height in landscape
+      &[data-landscape="true"] {
+        height: auto;
+        min-height: fit-content;
+      }
     }
 
     &__bg-overlay {
@@ -515,11 +550,52 @@ div[data-layout="portrait"] {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     padding: 12px 32px;
-    
-  }
+    transition: background-color 500ms ease-in-out;
 
+    // IF WE WANT TO BE BLUE ONLY ON LAST STEP
+    // &[data-last-step="true"] {
+      background-color: #6db0ff;
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          -45deg,
+          transparent 0%,
+          transparent 35%,
+          rgba(255, 255, 255, 0.4) 50%,
+          transparent 65%,
+          transparent 100%
+        );
+        animation: shine 4s infinite ease-in-out;
+        z-index: 0;
+        pointer-events: none;
+      }
+
+      > * {
+        position: relative;
+        z-index: 1;
+      }
+
+      .steps__new__survey__header h2 {
+        color: white;
+      }
+
+      .steps__new__survey__buttons button {
+        border: 1px solid white;
+        color: white;
+        background-color: #6db0ff;
+      }
+    // }
+  }
 
   &__header {
     h2 {
@@ -530,12 +606,13 @@ div[data-layout="portrait"] {
       font-weight: 700;
       line-height: normal;
       padding: 0;
+      transition: color 500ms ease-in-out;
     }
   }
 
   &__buttons {
     display: flex;
-    gap: 8px; 
+    gap: 8px;
 
     button {
       border-radius: 99px;
@@ -550,9 +627,10 @@ div[data-layout="portrait"] {
       font-style: normal;
       font-weight: 700;
       line-height: 115%; /* 16.1px */
+      transition: border-color 500ms ease-in-out, color 500ms ease-in-out, background-color 500ms ease-in-out;
     }
 
-    button:hover { 
+    button:hover {
       background-color: $samsung-skyblue;
       color: $white;
       border: 1px solid $samsung-skyblue;
@@ -562,7 +640,7 @@ div[data-layout="portrait"] {
 
   &__thankyou {
     padding: 12px 32px;
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -586,7 +664,7 @@ div[data-layout="portrait"] {
     height: 100%;
     padding: 24px 32px;
     gap: 16px;
-    
+
     form {
       display: flex;
       flex-direction: column;
@@ -597,7 +675,7 @@ div[data-layout="portrait"] {
         width: 100%;
         height: 70px;
         padding: 6px;
-        resize: none; 
+        resize: none;
         font-family: $samsung__font-family;
         line-height: 1.5;
         border-radius: 8px;
@@ -614,7 +692,6 @@ div[data-layout="portrait"] {
         color: $white;
         border: unset;
         background-color: $black;
-
 
         &:disabled {
           background-color: $gray-200;
@@ -637,8 +714,6 @@ div[data-layout="portrait"] {
     line-height: normal;
   }
 }
-
-
 
 @media screen and (max-width: $desktop-lg) {
   .steps {
@@ -896,4 +971,16 @@ div[data-layout="portrait"] {
 
 .closeSurvey {
   transform: translateY(calc(100% - 41px));
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  25% {
+    left: 100%
+  }
+  100% {
+    left: 100%;
+  }
 }

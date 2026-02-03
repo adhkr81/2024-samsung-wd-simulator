@@ -64,9 +64,7 @@ export default function GuideSteps({ orientation }) {
   const surveyOpen = useSelector((state) => state.navigation.surveyOpen);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    console.log("feedback", feedback);
-  }, [feedback]);
+  const isLastStep = currStep === steps.length - 1;
 
   const currStepText = (
     <div
@@ -115,7 +113,6 @@ export default function GuideSteps({ orientation }) {
       if (rootElement) {
         // In landscape mode, check if survey should be shown
         if (landscape) {
-          const isLastStep = currStep === steps.length - 1;
           const showSurveyInstead = isLastStep && !submitted;
 
           // If survey is not shown in landscape, set height to 0
@@ -207,7 +204,6 @@ export default function GuideSteps({ orientation }) {
   ]);
 
   if (landscape) {
-    const isLastStep = currStep === steps.length - 1;
     const showSurveyInstead = isLastStep && !submitted;
 
     return (
@@ -237,6 +233,7 @@ export default function GuideSteps({ orientation }) {
               submitted={submitted}
               setSubmitted={setSubmitted}
               topic={topic}
+              isLastStep={isLastStep}
             />
           </div>
         ) : (
@@ -248,12 +245,44 @@ export default function GuideSteps({ orientation }) {
             >
               <div
                 className={styles["steps__instruction"]}
+                tabIndex={0}
+                role="region"
+                aria-label="Step instructions"
                 onWheel={(e) => e.stopPropagation()}
                 onTouchStart={(e) => {
                   e.stopPropagation();
                 }}
                 onTouchMove={(e) => {
                   e.stopPropagation();
+                }}
+                onKeyDown={(e) => {
+                  const scrollAmount = 50; // pixels to scroll per key press
+                  switch (e.key) {
+                    case 'ArrowDown':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop += scrollAmount;
+                      break;
+                    case 'ArrowUp':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop -= scrollAmount;
+                      break;
+                    case 'PageDown':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop += e.currentTarget.clientHeight;
+                      break;
+                    case 'PageUp':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop -= e.currentTarget.clientHeight;
+                      break;
+                    case 'Home':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop = 0;
+                      break;
+                    case 'End':
+                      e.preventDefault();
+                      e.currentTarget.scrollTop = e.currentTarget.scrollHeight;
+                      break;
+                  }
                 }}
               >
                 {orientation === "portrait" ? null : currStepText}
@@ -312,7 +341,41 @@ export default function GuideSteps({ orientation }) {
             <h2>{topic.title}</h2>
           </div>
           <section className={styles["steps__content"]}>
-            <div className={styles["steps__instruction"]}>
+            <div 
+              className={styles["steps__instruction"]}
+              tabIndex={0}
+              role="region"
+              aria-label="Step instructions"
+              onKeyDown={(e) => {
+                const scrollAmount = 50; // pixels to scroll per key press
+                switch (e.key) {
+                  case 'ArrowDown':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop += scrollAmount;
+                    break;
+                  case 'ArrowUp':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop -= scrollAmount;
+                    break;
+                  case 'PageDown':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop += e.currentTarget.clientHeight;
+                    break;
+                  case 'PageUp':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop -= e.currentTarget.clientHeight;
+                    break;
+                  case 'Home':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop = 0;
+                    break;
+                  case 'End':
+                    e.preventDefault();
+                    e.currentTarget.scrollTop = e.currentTarget.scrollHeight;
+                    break;
+                }
+              }}
+            >
               {topic.topic_note && currStep === 0 ? (
                 <div
                   className={styles["steps__topic_note"]}
@@ -361,6 +424,7 @@ export default function GuideSteps({ orientation }) {
                 submitted={submitted}
                 setSubmitted={setSubmitted}
                 topic={topic}
+                isLastStep={isLastStep}
               />
             )}
           </section>
@@ -386,6 +450,7 @@ export default function GuideSteps({ orientation }) {
             submitted={submitted}
             setSubmitted={setSubmitted}
             topic={topic}
+            isLastStep={isLastStep}
           />
         )}
       </>
@@ -529,6 +594,7 @@ function SimulatorSurvey({
   submitted,
   setSubmitted,
   topic,
+  isLastStep,
 }) {
   //const ref = useClickOutside(() => surveyOpen && dispatch(setSurveyOpen(false)));
   const [comment, setComment] = useState("");
@@ -655,17 +721,30 @@ function SimulatorSurvey({
           className={styles["steps__survey--mobile__wrapper"]}
           data-landscape={landscape}
         >
-          {!feedback ? (
-            <div className={styles["steps__new__survey__content"]}>
+          {submitted ? (
+            <div
+              className={styles["steps__new__survey__thankyou"]}
+              style={{ justifyContent: "center" }}
+            >
+              <p>Thank you for your feedback!</p>
+            </div>
+          ) : !feedback ? (
+            <div className={styles["steps__new__survey__content"]} data-last-step={isLastStep}>
               <div className={styles["steps__new__survey__header"]}>
                 <h2>
-                  {uitext?.text_survey_title || "Was this content helpful?"}
+                {uitext?.text_survey_title || "Was this content helpful?"}
                 </h2>
               </div>
               <div className={styles["steps__new__survey__buttons"]}>
                 <button
                   className={styles["steps__new__survey__buttons__yes"]}
                   onClick={() => {
+                    // Immediately submit "agree" survey when Yes is clicked
+                    window._paq.push([
+                      "trackEvent",
+                      `${route.model}-Survey-${route.topic}`,
+                      "Helpful?: agree",
+                    ]);
                     setFeedback("agree");
                   }}
                 >
@@ -680,13 +759,6 @@ function SimulatorSurvey({
                   No
                 </button>
               </div>
-            </div>
-          ) : submitted ? (
-            <div
-              className={styles["steps__new__survey__thankyou"]}
-              style={{ justifyContent: "center" }}
-            >
-              <p>Thank you for your feedback!</p>
             </div>
           ) : (
             <section
@@ -706,16 +778,19 @@ function SimulatorSurvey({
                 onSubmit={(e) => {
                   e.preventDefault();
                   if (feedback || comment) {
+                    // If feedback is "agree", send another "agree" survey with comment
+                    // If feedback is "disagree", send "disagree" survey with comment
+                    const surveyData = feedback === "agree" 
+                      ? `Helpful?: agree ${comment ? `Comment: ${comment}` : ""}`
+                      : `Helpful?: ${feedback} ${comment ? `Comment: ${comment}` : ""}`;
+                    
                     window._paq.push([
                       "trackEvent",
                       `${route.model}-Survey-${route.topic}`,
-                      `${feedback ? "Helpful?: " + feedback + " " : ""}${
-                        comment ? `Comment: ${comment}` : ""
-                      }`,
+                      surveyData,
                     ]);
-                    resetSurvey();
-                    setFeedback("agree");
                     setSubmitted(true);
+                    resetSurvey();
                   }
                 }}
                 style={{ gap: "8px" }}
@@ -738,8 +813,15 @@ function SimulatorSurvey({
   } else {
     return (
       <div className={styles["steps__new__survey"]}>
-        {!feedback ? (
-          <div className={styles["steps__new__survey__content"]}>
+        {submitted ? (
+          <div className={styles["steps__new__survey__thankyou"]}>
+            <p>Thank you for your feedback!</p>
+          </div>
+        ) : !feedback ? (
+          <div 
+            className={styles["steps__new__survey__content"]}
+            data-last-step={isLastStep}
+          >
             <div className={styles["steps__new__survey__header"]}>
               <h2>
                 {uitext?.text_survey_title || "Was this content helpful?"}
@@ -749,6 +831,12 @@ function SimulatorSurvey({
               <button
                 className={styles["steps__new__survey__buttons__yes"]}
                 onClick={() => {
+                  // Immediately submit "agree" survey when Yes is clicked
+                  window._paq.push([
+                    "trackEvent",
+                    `${route.model}-Survey-${route.topic}`,
+                    "Helpful?: agree",
+                  ]);
                   setFeedback("agree");
                 }}
               >
@@ -764,10 +852,6 @@ function SimulatorSurvey({
               </button>
             </div>
           </div>
-        ) : submitted ? (
-          <div className={styles["steps__new__survey__thankyou"]}>
-            <p>Thank you for your feedback!</p>
-          </div>
         ) : (
           <section className={styles["steps__new__survey__input"]}>
             <span className={styles["steps__new__survey__input-header"]}>
@@ -780,16 +864,19 @@ function SimulatorSurvey({
               onSubmit={(e) => {
                 e.preventDefault();
                 if (feedback || comment) {
+                  // If feedback is "agree", send another "agree" survey with comment
+                  // If feedback is "disagree", send "disagree" survey with comment
+                  const surveyData = feedback === "agree" 
+                    ? `Helpful?: agree ${comment ? `Comment: ${comment}` : ""}`
+                    : `Helpful?: ${feedback} ${comment ? `Comment: ${comment}` : ""}`;
+                  
                   window._paq.push([
                     "trackEvent",
                     `${route.model}-Survey-${route.topic}`,
-                    `${feedback ? "Helpful?: " + feedback + " " : ""}${
-                      comment ? `Comment: ${comment}` : ""
-                    }`,
+                    surveyData,
                   ]);
-                  resetSurvey();
-                  setFeedback("agree");
                   setSubmitted(true);
+                  resetSurvey();
                 }
               }}
             >
